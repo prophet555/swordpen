@@ -1,0 +1,254 @@
+[
+  {
+    "id": "beg-001",
+    "word": "brave",
+    "definition": "Ready to face and deal with danger or pain; showing courage.",
+    "synonyms": ["courageous", "bold", "fearless", "valiant"],
+    "exampleSentences": [
+      "The brave knight protected the village from the dragon.",
+      "She was brave enough to speak in front of the whole school."
+    ],
+    "difficulty": "beginner",
+    "categories": ["essay", "journal"],
+    "partOfSpeech": "adjective",
+    "tip": "Think of a superhero — they are always brave!"
+  },
+  {
+    "id": "beg-002",
+    "word": "discover",
+    "definition": "To find or learn something for the first time.",
+    "synonyms": ["find", "uncover", "reveal", "detect"],
+    "exampleSentences": [
+      "The explorer went on a journey to discover new lands.",
+      "I discovered a hidden path in the forest behind our house."
+    ],
+    "difficulty": "beginner",
+    "categories": ["essay", "report"],
+    "partOfSpeech": "verb",
+    "tip": "Dis-COVER means to take the cover off something hidden!"
+  },
+  {
+    "id": "beg-003",
+    "word": "enormous",
+    "definition": "Very large in size, quantity, or extent.",
+    "synonyms": ["huge", "massive", "gigantic", "immense"],
+    "exampleSentences": [
+      "The elephant was enormous compared to the tiny mouse.",
+      "We saw an enormous rainbow stretching across the sky."
+    ],
+    "difficulty": "beginner",
+    "categories": ["essay", "journal", "report"],
+    "partOfSpeech": "adjective",
+    "tip": "E-NOR-MOUS — it's so big it needs a big word!"
+  },
+  {
+    "id": "beg-004",
+    "word": "grateful",
+    "definition": "Feeling or showing thanks for something.",
+    "synonyms": ["thankful", "appreciative", "pleased"],
+    "exampleSentences": [
+      "I am grateful for my wonderful family.",
+      "The lost puppy looked grateful when we gave it food and water."
+    ],
+    "difficulty": "beginner",
+    "categories": ["journal", "speech"],
+    "partOfSpeech": "adjective",
+    "tip": "GRATE-ful — a great feeling of being thankful!"
+  },
+  {
+    "id": "beg-005",
+    "word": "important",
+    "definition": "Having great value or significance.",
+    "synonyms": ["significant", "essential", "vital", "crucial"],
+    "exampleSentences": [
+      "It is important to brush your teeth every day.",
+      "The teacher shared an important message about kindness."
+    ],
+    "difficulty": "beginner",
+    "categories": ["essay", "report", "speech"],
+    "partOfSpeech": "adjective",
+    "tip": "If something is important, it IMPORTS meaning into your life!"
+  },
+  {
+    "id": "beg-006",
+    "word": "journey",
+    "definition": "A long trip from one place to another.",
+    "synonyms": ["trip", "voyage", "adventure", "expedition"],
+    "exampleSentences": [
+      "The family set out on a journey across the country.",
+      "Learning to read is a wonderful journey."
+    ],
+    "difficulty": "beginner",
+    "categories": ["essay", "journal"],
+    "partOfSpeech": "noun",
+    "tip": "Every journey starts with a single step!"
+  },
+  {
+    "id": "beg-007",
+    "word": "explain",
+    "definition": "To make something clear and easy to understand.",
+    "synonyms": ["describe", "clarify", "illustrate", "demonstrate"],
+    "exampleSentences": [
+      "Can you explain how to solve this math problem?",
+      "The scientist explained why the sky is blue."
+    ],
+    "difficulty": "beginner",
+    "categories": ["essay", "report", "speech"],
+    "partOfSpeech": "verb",
+    "tip": "When you explain, you make the plain truth clear!"
+  },
+  {
+    "id": "beg-008",
+    "word": "create",
+    "definition": "To make or bring something new into existence.",
+    "synonyms": ["make", "build", "produce", "design"],
+    "exampleSentences": [
+      "Artists create beautiful paintings with colors and brushes.",
+      "We worked together to create a poster for the science fair."
+    ],
+    "difficulty": "beginner",
+    "categories": ["essay", "journal", "report"],
+    "partOfSpeech": "verb",
+    "tip": "When you CREATE, you make something GREAT!"
+  },
+  {
+    "id": "beg-009",
+    "word": "peaceful",
+    "definition": "Free from noise, worry, or conflict; calm and quiet.",
+    "synonyms": ["calm", "tranquil", "serene", "quiet"],
+    "exampleSentences": [
+      "The peaceful lake reflected the mountains like a mirror.",
+      "After the storm, the night became peaceful and still."
+    ],
+    "difficulty": "beginner",
+    "categories": ["essay", "journal"],
+    "partOfSpeech": "adjective",
+    "tip": "Peace-FULL means full of peace!"
+  },
+  {
+    "id": "beg-010",
+    "word": "improve",
+    "definition": "To make something better than it was before.",
+    "synonyms": ["enhance", "upgrade", "strengthen", "develop"],
+    "exampleSentences": [
+      "Practice helps you improve your handwriting.",
+      "The town improved the park by adding new swings and slides."
+    ],
+    "difficulty": "beginner",
+    "categories": ["essay", "report", "speech"],
+    "partOfSpeech": "verb",
+    "tip": "IM-PROVE — prove that you can do better!"
+  },
+  {
+    "id": "beg-011",
+    "word": "brilliant",
+    "definition": "Very bright, clever, or impressive.",
+    "synonyms": ["bright", "clever", "smart", "dazzling"],
+    "exampleSentences": [
+      "She had a brilliant idea for the school project.",
+      "The brilliant stars lit up the night sky."
+    ],
+    "difficulty": "beginner",
+    "categories": ["essay", "journal"],
+    "partOfSpeech": "adjective",
+    "tip": "Brilliant things shine bright like a diamond!"
+  },
+  {
+    "id": "beg-012",
+    "word": "believe",
+    "definition": "To feel sure that something is true or real.",
+    "synonyms": ["trust", "accept", "have faith"],
+    "exampleSentences": [
+      "I believe we can finish this puzzle together.",
+      "Do you believe that practice makes perfect?"
+    ],
+    "difficulty": "beginner",
+    "categories": ["essay", "speech", "journal"],
+    "partOfSpeech": "verb",
+    "tip": "BE-LIEVE — you have to BE something to achieve!"
+  },
+  {
+    "id": "beg-013",
+    "word": "observe",
+    "definition": "To watch something carefully and closely.",
+    "synonyms": ["watch", "notice", "examine", "study"],
+    "exampleSentences": [
+      "Scientists observe animals in their natural habitats.",
+      "I like to observe the clouds and imagine shapes."
+    ],
+    "difficulty": "beginner",
+    "categories": ["report", "essay"],
+    "partOfSpeech": "verb",
+    "tip": "Good writers OBSERVE the world around them!"
+  },
+  {
+    "id": "beg-014",
+    "word": "amazing",
+    "definition": "Causing great surprise or wonder; wonderful.",
+    "synonyms": ["wonderful", "incredible", "astonishing", "remarkable"],
+    "exampleSentences": [
+      "The magician performed an amazing trick.",
+      "It was amazing to see dolphins swimming alongside our boat."
+    ],
+    "difficulty": "beginner",
+    "categories": ["essay", "journal", "speech"],
+    "partOfSpeech": "adjective",
+    "tip": "Something amazing puts you in A MAZE of wonder!"
+  },
+  {
+    "id": "beg-015",
+    "word": "determined",
+    "definition": "Having made a firm decision and not willing to give up.",
+    "synonyms": ["resolved", "persistent", "dedicated", "committed"],
+    "exampleSentences": [
+      "The determined climber reached the top of the mountain.",
+      "She was determined to learn how to ride a bicycle."
+    ],
+    "difficulty": "beginner",
+    "categories": ["essay", "journal", "speech"],
+    "partOfSpeech": "adjective",
+    "tip": "When you're determined, nothing can stop you!"
+  },
+  {
+    "id": "beg-016",
+    "word": "suggest",
+    "definition": "To put forward an idea for others to think about.",
+    "synonyms": ["propose", "recommend", "advise", "offer"],
+    "exampleSentences": [
+      "I suggest we go to the library after school.",
+      "The teacher suggested reading the book before the test."
+    ],
+    "difficulty": "beginner",
+    "categories": ["essay", "report", "speech"],
+    "partOfSpeech": "verb",
+    "tip": "When you suggest, you JEST (offer) an idea!"
+  },
+  {
+    "id": "beg-017",
+    "word": "adventure",
+    "definition": "An exciting or unusual experience or activity.",
+    "synonyms": ["quest", "expedition", "escapade", "journey"],
+    "exampleSentences": [
+      "Reading books takes you on incredible adventures.",
+      "Going camping in the woods was a real adventure."
+    ],
+    "difficulty": "beginner",
+    "categories": ["essay", "journal"],
+    "partOfSpeech": "noun",
+    "tip": "Every day can be an adventure if you look for one!"
+  },
+  {
+    "id": "beg-018",
+    "word": "community",
+    "definition": "A group of people living in the same area or sharing common interests.",
+    "synonyms": ["neighborhood", "group", "society"],
+    "exampleSentences": [
+      "Our community came together to clean up the park.",
+      "The school is an important part of our community."
+    ],
+    "difficulty": "beginner",
+    "categories": ["essay", "report", "speech"],
+    "partOfSpeech": "noun",
+    "tip": "COMM-UNITY — people coming together in UNITY!"
+  }
+]

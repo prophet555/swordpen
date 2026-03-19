@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm create:*)",
+      "Bash(npx --yes create-vite@latest . -- --template react-ts)",
+      "Bash(npx create-vite@latest swordpen-temp --template react-ts)",
+      "Bash(cp -r /c/Users/mrbig/Documents/SwordPen/swordpen-temp/* /c/Users/mrbig/Documents/SwordPen/)",
+      "Bash(cp /c/Users/mrbig/Documents/SwordPen/swordpen-temp/.gitignore /c/Users/mrbig/Documents/SwordPen/)",
+      "Bash(rm -rf /c/Users/mrbig/Documents/SwordPen/swordpen-temp)",
+      "Bash(npm install:*)",
+      "Bash(npx tsc:*)",
+      "Bash(npm run:*)",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(node scripts/convert-words.mjs)",
+      "Bash(node -e \"const fs = require\\(''fs''\\); const c = fs.readFileSync\\(''C:/Users/mrbig/OneDrive - AG/informative_words.csv'', ''utf8''\\); const lines = c.split\\(/\\\\r?\\\\n/\\); console.log\\(''Lines:'', lines.length\\); console.log\\(''Line 1:'', JSON.stringify\\(lines[0]\\)\\); console.log\\(''Line 2:'', JSON.stringify\\(lines[1]\\)\\); console.log\\(''Line 22:'', JSON.stringify\\(lines[21]\\)\\);\")",
+      "Bash(python -c \":*)",
+      "Bash(python scripts/convert_words.py)",
+      "Bash(node -e \":*)",
+      "Bash(node -e \"const d = JSON.parse\\(require\\(''fs''\\).readFileSync\\(''C:/Users/mrbig/Documents/SwordPen/public/data/words-narrative.json'',''utf8''\\)\\); const w = d.find\\(x=>x.word===''clutch''\\); console.log\\(JSON.stringify\\(w,null,2\\)\\)\")",
+      "Bash(dir \"C:\\\\Users\\\\mrbig\\\\OneDrive - AG\\\\words\")",
+      "Bash(python -c \"import openpyxl; print\\(''openpyxl'', openpyxl.__version__\\)\")",
+      "Bash(pip install:*)",
+      "Bash(python -m pip install openpyxl)"
+    ]
+  }
+}

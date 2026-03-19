@@ -1,0 +1,142 @@
+[
+  {
+    "id": "int-001",
+    "word": "elaborate",
+    "definition": "To explain something in more detail; or, very detailed and complicated.",
+    "synonyms": ["expand", "detailed", "thorough", "intricate"],
+    "exampleSentences": [
+      "Could you elaborate on your answer about the water cycle?",
+      "The artist created an elaborate painting with hundreds of tiny details."
+    ],
+    "difficulty": "intermediate",
+    "categories": ["essay", "report", "speech"],
+    "partOfSpeech": "verb/adjective",
+    "tip": "When you elaborate, you LABOR to add more details!"
+  },
+  {
+    "id": "int-002",
+    "word": "consequence",
+    "definition": "A result or effect of an action or condition.",
+    "synonyms": ["result", "outcome", "effect", "aftermath"],
+    "exampleSentences": [
+      "One consequence of not studying is getting a low grade.",
+      "The report discussed the consequences of pollution on wildlife."
+    ],
+    "difficulty": "intermediate",
+    "categories": ["essay", "report"],
+    "partOfSpeech": "noun",
+    "tip": "Every action has a CONSEQUENCE that follows!"
+  },
+  {
+    "id": "int-003",
+    "word": "persuade",
+    "definition": "To convince someone to do or believe something.",
+    "synonyms": ["convince", "influence", "encourage", "sway"],
+    "exampleSentences": [
+      "She tried to persuade her parents to get a puppy.",
+      "The speaker persuaded the audience to recycle more."
+    ],
+    "difficulty": "intermediate",
+    "categories": ["essay", "speech"],
+    "partOfSpeech": "verb",
+    "tip": "Great speakers know how to PERSUADE people with words!"
+  },
+  {
+    "id": "int-004",
+    "word": "investigate",
+    "definition": "To examine or study something carefully to find out the truth.",
+    "synonyms": ["examine", "explore", "research", "probe"],
+    "exampleSentences": [
+      "The detective investigated the mystery of the missing necklace.",
+      "Scientists investigate how plants grow in different soils."
+    ],
+    "difficulty": "intermediate",
+    "categories": ["report", "essay"],
+    "partOfSpeech": "verb",
+    "tip": "InVESTigate — put on your detective VEST and look for clues!"
+  },
+  {
+    "id": "int-005",
+    "word": "significant",
+    "definition": "Important enough to have an effect or be noticed.",
+    "synonyms": ["important", "meaningful", "notable", "major"],
+    "exampleSentences": [
+      "The invention of the internet was a significant event in history.",
+      "There was a significant improvement in her test scores."
+    ],
+    "difficulty": "intermediate",
+    "categories": ["essay", "report", "speech"],
+    "partOfSpeech": "adjective",
+    "tip": "If it's SIGNIFICANT, it SIGNIFIES something big!"
+  },
+  {
+    "id": "int-006",
+    "word": "contribute",
+    "definition": "To give something (time, money, ideas) to help achieve something.",
+    "synonyms": ["give", "donate", "provide", "supply"],
+    "exampleSentences": [
+      "Everyone can contribute to making the world a better place.",
+      "She contributed her ideas to the group project."
+    ],
+    "difficulty": "intermediate",
+    "categories": ["essay", "report", "speech"],
+    "partOfSpeech": "verb",
+    "tip": "When you CONTRIBUTE, you TRIBUTE (give) something valuable!"
+  },
+  {
+    "id": "int-007",
+    "word": "analyze",
+    "definition": "To examine something in detail to understand it better.",
+    "synonyms": ["examine", "study", "evaluate", "inspect"],
+    "exampleSentences": [
+      "The students analyzed the poem to find its hidden meaning.",
+      "Scientists analyze data to draw conclusions."
+    ],
+    "difficulty": "intermediate",
+    "categories": ["essay", "report"],
+    "partOfSpeech": "verb",
+    "tip": "When you ANALYZE, you break things apart to understand them!"
+  },
+  {
+    "id": "int-008",
+    "word": "compassion",
+    "definition": "A feeling of deep sympathy and concern for others who are suffering.",
+    "synonyms": ["empathy", "kindness", "sympathy", "caring"],
+    "exampleSentences": [
+      "She showed compassion by helping the new student feel welcome.",
+      "Leaders with compassion make the world a better place."
+    ],
+    "difficulty": "intermediate",
+    "categories": ["essay", "journal", "speech"],
+    "partOfSpeech": "noun",
+    "tip": "COM-PASSION — sharing your PASSION for caring with others!"
+  },
+  {
+    "id": "int-009",
+    "word": "furthermore",
+    "definition": "In addition to what has already been said; also.",
+    "synonyms": ["moreover", "additionally", "also", "besides"],
+    "exampleSentences": [
+      "The park is beautiful. Furthermore, it has a playground for children.",
+      "The project was completed on time. Furthermore, it was under budget."
+    ],
+    "difficulty": "intermediate",
+    "categories": ["essay", "report", "speech"],
+    "partOfSpeech": "adverb",
+    "tip": "Use FURTHERMORE to add FURTHER points to your argument!"
+  },
+  {
+    "id": "int-010",
+    "word": "resilient",
+    "definition": "Able to recover quickly from difficulties; tough and flexible.",
+    "synonyms": ["tough", "strong", "adaptable", "hardy"],
+    "exampleSentences": [
+      "The resilient plant grew back after the harsh winter.",
+      "Resilient people bounce back from setbacks stronger than before."
+    ],
+    "difficulty": "intermediate",
+    "categories": ["essay", "journal", "speech"],
+    "partOfSpeech": "adjective",
+    "tip": "Like a rubber band, resilient things bounce back!"
+  }
+]

@@ -1,0 +1,99 @@
+@import "tailwindcss";
+
+@theme {
+  /* Apple/Mac-inspired system palette */
+  --color-bg:               #F5F5F7;
+  --color-surface:          #FFFFFF;
+  --color-surface-2:        #F2F2F7;
+  --color-border:           #D1D1D6;
+  --color-border-strong:    #A8A8B3;
+
+  --color-text:             #1C1C1E;
+  --color-text-secondary:   #6B6B6B;
+  --color-text-tertiary:    #AEAEB2;
+
+  --color-accent:           #5E5CE6;
+  --color-accent-hover:     #4A48CC;
+  --color-accent-light:     #EDEDFF;
+
+  --color-success:          #34C759;
+  --color-success-light:    #D1FAE5;
+  --color-warning:          #FF9F0A;
+  --color-warning-light:    #FEF3C7;
+  --color-danger:           #FF3B30;
+  --color-danger-light:     #FFE4E1;
+
+  /* Keep legacy compat names */
+  --color-primary:          #5E5CE6;
+  --color-primary-light:    #EDEDFF;
+  --color-primary-dark:     #4A48CC;
+  --color-secondary:        #FF9F0A;
+  --color-secondary-light:  #FEF3C7;
+  --color-secondary-dark:   #D97706;
+}
+
+@layer base {
+  * {
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  html {
+    font-size: 16px;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    margin: 0;
+    font-family:
+      -apple-system,
+      BlinkMacSystemFont,
+      'SF Pro Text',
+      'SF Pro Display',
+      'Helvetica Neue',
+      'Segoe UI',
+      Arial,
+      sans-serif;
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    min-height: 100dvh;
+    line-height: 1.5;
+    font-feature-settings: "kern" 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family:
+      -apple-system,
+      BlinkMacSystemFont,
+      'SF Pro Display',
+      'Helvetica Neue',
+      'Segoe UI',
+      Arial,
+      sans-serif;
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+  }
+
+  #root {
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Smooth scrolling */
+  * {
+    scroll-behavior: smooth;
+  }
+
+  /* Better select styling */
+  select {
+    appearance: none;
+    -webkit-appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%236B6B6B' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 12px center;
+    padding-right: 36px !important;
+  }
+}

@@ -1,0 +1,2499 @@
+[
+  {
+    "id": "inf-001",
+    "word": "platforms",
+    "definition": "websites or apps where people post, share, or communicate",
+    "synonyms": [],
+    "exampleSentences": [
+      "Video platforms let people upload clips and comment on them."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "inf-002",
+    "word": "age limit",
+    "definition": "a rule saying you must be a certain age to do something",
+    "synonyms": [],
+    "exampleSentences": [
+      "There is an age limit for some movies at the cinema."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "noun phrase"
+  },
+  {
+    "id": "inf-003",
+    "word": "aimed",
+    "definition": "intended to achieve a particular goal",
+    "synonyms": [
+      "intended",
+      "directed"
+    ],
+    "exampleSentences": [
+      "The new rules are aimed at keeping students safe."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "verb/ adjective"
+  },
+  {
+    "id": "inf-004",
+    "word": "boundaries",
+    "definition": "clear limits about what is allowed or not allowed",
+    "synonyms": [
+      "limits",
+      "rules"
+    ],
+    "exampleSentences": [
+      "Our family has boundaries about phone use at dinner."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "inf-005",
+    "word": "verification",
+    "definition": "the process of checking that something is true",
+    "synonyms": [
+      "checking",
+      "confirmation"
+    ],
+    "exampleSentences": [
+      "We needed verification that the permission note was real."
+    ],
+    "difficulty": "advanced",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "inf-006",
+    "word": "sign up",
+    "definition": "to register and create an account or join something",
+    "synonyms": [
+      "register",
+      "enrol"
+    ],
+    "exampleSentences": [
+      "You must sign up before you can use the learning app."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "verb phrase"
+  },
+  {
+    "id": "inf-007",
+    "word": "scams",
+    "definition": "tricks that fool people so someone else can gain money or information",
+    "synonyms": [],
+    "exampleSentences": [
+      "Some scams pretend to be prizes but steal your details."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "inf-008",
+    "word": "enforcement",
+    "definition": "making sure a rule or law is followed",
+    "synonyms": [],
+    "exampleSentences": [
+      "Enforcement of the school rules includes consequences for bullying."
+    ],
+    "difficulty": "advanced",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "inf-009",
+    "word": "privacy",
+    "definition": "keeping your personal information and life details protected",
+    "synonyms": [],
+    "exampleSentences": [
+      "Turning off location sharing can improve your privacy."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "inf-010",
+    "word": "leaked",
+    "definition": "accidentally let out or shared when it should have stayed private",
+    "synonyms": [
+      "exposed",
+      "revealed"
+    ],
+    "exampleSentences": [
+      "The password was leaked, so everyone had to change it."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "verb/ adjective"
+  },
+  {
+    "id": "inf-011",
+    "word": "ordinary",
+    "definition": "normal or usual; not special",
+    "synonyms": [
+      "normal",
+      "usual"
+    ],
+    "exampleSentences": [
+      "It was just an ordinary school day with the same classes as usual."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "inf-012",
+    "word": "recent",
+    "definition": "happening not long ago",
+    "synonyms": [
+      "new",
+      "latest"
+    ],
+    "exampleSentences": [
+      "The most recent test we did was last week."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "inf-013",
+    "word": "wealthy",
+    "definition": "having a lot of money and possessions",
+    "synonyms": [
+      "rich",
+      "well-off"
+    ],
+    "exampleSentences": [
+      "A wealthy family donated money to build the new playground."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "inf-014",
+    "word": "crowded",
+    "definition": "full of people or things, with little space left",
+    "synonyms": [
+      "packed",
+      "full"
+    ],
+    "exampleSentences": [
+      "The train was so crowded that there were no seats left."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "inf-015",
+    "word": "charitable",
+    "definition": "kind and willing to give help, especially money or time, to people in need",
+    "synonyms": [
+      "generous",
+      "kind"
+    ],
+    "exampleSentences": [
+      "He was very charitable and often helped raise money for charity."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "inf-016",
+    "word": "major",
+    "definition": "very important or serious; large in size or effect",
+    "synonyms": [
+      "important",
+      "significant"
+    ],
+    "exampleSentences": [
+      "Starting high school is a major change in a student's life."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "inf-017",
+    "word": "gradually",
+    "definition": "slowly, over time, not all at once",
+    "synonyms": [
+      "slowly",
+      "step by step"
+    ],
+    "exampleSentences": [
+      "The rain gradually stopped, and the sky became clear."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "adverb"
+  },
+  {
+    "id": "inf-018",
+    "word": "quiet",
+    "definition": "making very little or no noise",
+    "synonyms": [
+      "silent",
+      "calm"
+    ],
+    "exampleSentences": [
+      "The library was quiet so students could focus on their work."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "inf-019",
+    "word": "available",
+    "definition": "ready to be used, taken or reached",
+    "synonyms": [
+      "ready",
+      "accessible"
+    ],
+    "exampleSentences": [
+      "Computers are available at the library for anyone to use."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "inf-020",
+    "word": "privileged",
+    "definition": "having more advantages, money or opportunities than most people",
+    "synonyms": [
+      "advantaged",
+      "fortunate"
+    ],
+    "exampleSentences": [
+      "She felt privileged to have her own room and plenty of books."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "inf-021",
+    "word": "eruption",
+    "definition": "when a volcano explodes and sends out ash, rock, and gas",
+    "synonyms": [],
+    "exampleSentences": [
+      "The eruption covered nearby towns in ash."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "inf-022",
+    "word": "aerosols",
+    "definition": "tiny particles or droplets floating in the air",
+    "synonyms": [],
+    "exampleSentences": [
+      "After the volcano, aerosols drifted high above the clouds."
+    ],
+    "difficulty": "advanced",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "inf-023",
+    "word": "pieced",
+    "definition": "put parts together to make a whole (often from clues)",
+    "synonyms": [
+      "assembled",
+      "reconstructed"
+    ],
+    "exampleSentences": [
+      "The detectives pieced the story together from small details."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "verb"
+  },
+  {
+    "id": "inf-024",
+    "word": "dimmed",
+    "definition": "made less bright or less strong (especially light)",
+    "synonyms": [],
+    "exampleSentences": [
+      "Heavy smoke dimmed the sunlight in the afternoon."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "verb"
+  },
+  {
+    "id": "inf-025",
+    "word": "harvests",
+    "definition": "the time or amount of crops collected from farms",
+    "synonyms": [],
+    "exampleSentences": [
+      "Poor weather can ruin harvests."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "inf-026",
+    "word": "scarce",
+    "definition": "hard to find because there is not much available",
+    "synonyms": [
+      "limited"
+    ],
+    "exampleSentences": [
+      "During the drought, fresh water was scarce."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "inf-027",
+    "word": "malnourished",
+    "definition": "not healthy because you have not eaten enough good food",
+    "synonyms": [],
+    "exampleSentences": [
+      "The doctor worried the child looked malnourished."
+    ],
+    "difficulty": "advanced",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "inf-028",
+    "word": "rose",
+    "definition": "went up; increased",
+    "synonyms": [],
+    "exampleSentences": [
+      "The cost of bread rose after the floods."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "verb"
+  },
+  {
+    "id": "inf-029",
+    "word": "carried",
+    "definition": "transported; moved from one place to another",
+    "synonyms": [
+      "transported"
+    ],
+    "exampleSentences": [
+      "Wind carried the ash across the sea."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "verb"
+  },
+  {
+    "id": "inf-030",
+    "word": "flare",
+    "definition": "suddenly become stronger or more intense",
+    "synonyms": [
+      "intensify"
+    ],
+    "exampleSentences": [
+      "Arguments can flare when people are stressed."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "verb"
+  },
+  {
+    "id": "inf-031",
+    "word": "murky",
+    "definition": "dark and dirty, or full of tiny pieces, so it is hard to see through",
+    "synonyms": [
+      "cloudy",
+      "dark"
+    ],
+    "exampleSentences": [
+      "After the storm, the river was murky. We could not see the bottom."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "inf-032",
+    "word": "rely",
+    "definition": "to need and trust someone or something to help you",
+    "synonyms": [
+      "depend",
+      "count on"
+    ],
+    "exampleSentences": [
+      "You can rely on your best friend to keep your secrets."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "verb"
+  },
+  {
+    "id": "inf-033",
+    "word": "sonar",
+    "definition": "a way of using sound waves to find objects underwater by sending out sounds and listening for the echoes",
+    "synonyms": [],
+    "exampleSentences": [
+      "The submarine used sonar to check if any rocks were in front of it."
+    ],
+    "difficulty": "advanced",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "inf-034",
+    "word": "echoes",
+    "definition": "sounds that bounce off surfaces and come back to your ears",
+    "synonyms": [],
+    "exampleSentences": [
+      "We shouted in the empty hall and heard our voices as echoes."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "noun plural"
+  },
+  {
+    "id": "inf-035",
+    "word": "locate",
+    "definition": "to find where something or someone is",
+    "synonyms": [
+      "find",
+      "discover"
+    ],
+    "exampleSentences": [
+      "Use the map to locate the museum in the city."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "verb"
+  },
+  {
+    "id": "inf-036",
+    "word": "obstacles",
+    "definition": "things that block your way or make it harder to move or succeed",
+    "synonyms": [
+      "barriers",
+      "blocks"
+    ],
+    "exampleSentences": [
+      "Large rocks were obstacles on the bushwalking track."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "noun plural"
+  },
+  {
+    "id": "inf-037",
+    "word": "attract",
+    "definition": "to draw or pull something or someone towards you",
+    "synonyms": [
+      "draw",
+      "lure"
+    ],
+    "exampleSentences": [
+      "Bright lights attract insects at night."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "verb"
+  },
+  {
+    "id": "inf-038",
+    "word": "coordinate",
+    "definition": "to organise people or things so that they work well together",
+    "synonyms": [
+      "organise",
+      "arrange"
+    ],
+    "exampleSentences": [
+      "We need to coordinate our times so we can meet after school."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "verb"
+  },
+  {
+    "id": "inf-039",
+    "word": "migration",
+    "definition": "the regular movement of animals or people from one place to another, often because of seasons, food or breeding",
+    "synonyms": [
+      "movement",
+      "journey"
+    ],
+    "exampleSentences": [
+      "The migration of birds happens every year when winter begins."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "inf-040",
+    "word": "interfere",
+    "definition": "to get in the way of something and stop it working properly",
+    "synonyms": [
+      "disturb",
+      "interrupt"
+    ],
+    "exampleSentences": [
+      "Loud talking can interfere with students who are trying to read."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "verb"
+  },
+  {
+    "id": "inf-041",
+    "word": "pattern",
+    "definition": "a design or arrangement that repeats, or a regular way something happens",
+    "synonyms": [],
+    "exampleSentences": [
+      "By studying the rainfall pattern, scientists can tell if dry months are usually..."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "inf-042",
+    "word": "tilted",
+    "definition": "leaning to one side instead of standing straight up and down",
+    "synonyms": [
+      "slanted",
+      "leaning"
+    ],
+    "exampleSentences": [
+      "The book was tilted on the shelf so I pushed it back into place."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "inf-043",
+    "word": "axis",
+    "definition": "an imaginary line through the middle of something that it turns around",
+    "synonyms": [
+      "centre line",
+      "pivot"
+    ],
+    "exampleSentences": [
+      "The Earth spins on its axis once every 24 hours."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "inf-044",
+    "word": "orbits",
+    "definition": "moves in a curved path around something",
+    "synonyms": [
+      "circles",
+      "revolves"
+    ],
+    "exampleSentences": [
+      "The Moon orbits the Earth."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "verb"
+  },
+  {
+    "id": "inf-045",
+    "word": "region",
+    "definition": "a large area of land that has something in common, like landforms or weather",
+    "synonyms": [
+      "area",
+      "zone",
+      "district"
+    ],
+    "exampleSentences": [
+      "This region has colder winters than the coast."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "inf-046",
+    "word": "equator",
+    "definition": "an imaginary line around the middle of the Earth, halfway between the North and South Poles",
+    "synonyms": [],
+    "exampleSentences": [
+      "Countries near the equator usually have hot weather all year."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "inf-047",
+    "word": "noticeable",
+    "definition": "easy to see, hear or recognise because it stands out",
+    "synonyms": [
+      "obvious",
+      "clear",
+      "visible"
+    ],
+    "exampleSentences": [
+      "There was a noticeable drop in temperature when the sun went behind a cloud."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "inf-048",
+    "word": "extreme",
+    "definition": "much more than usual; very great in amount or degree or strength",
+    "synonyms": [
+      "severe",
+      "intense"
+    ],
+    "exampleSentences": [
+      "The extreme cold meant the lake froze solid."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "inf-049",
+    "word": "climate",
+    "definition": "the usual pattern of weather in a place over many years",
+    "synonyms": [
+      "weather pattern",
+      "typical weather"
+    ],
+    "exampleSentences": [
+      "The town has a warm, dry climate."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "inf-050",
+    "word": "energy",
+    "definition": "the power that makes things move or work, or the strength you have to do things",
+    "synonyms": [
+      "power",
+      "strength"
+    ],
+    "exampleSentences": [
+      "After playing sport all afternoon, I had no energy left."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "inf-051",
+    "word": "designed",
+    "definition": "planned and made for a particular purpose",
+    "synonyms": [],
+    "exampleSentences": [
+      "The app was designed to help students organise homework."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "verb"
+  },
+  {
+    "id": "inf-052",
+    "word": "latency",
+    "definition": "a delay between sending data and receiving it",
+    "synonyms": [],
+    "exampleSentences": [
+      "High latency can make a video call freeze or sound choppy."
+    ],
+    "difficulty": "advanced",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "inf-053",
+    "word": "constellation",
+    "definition": "a group of satellites working together as one system",
+    "synonyms": [],
+    "exampleSentences": [
+      "A satellite constellation can provide coverage across huge areas."
+    ],
+    "difficulty": "advanced",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "inf-054",
+    "word": "remote",
+    "definition": "far away from cities or large towns",
+    "synonyms": [
+      "distant"
+    ],
+    "exampleSentences": [
+      "Some remote communities rely on planes for supplies."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "inf-055",
+    "word": "portable",
+    "definition": "easy to carry or move",
+    "synonyms": [
+      "movable"
+    ],
+    "exampleSentences": [
+      "We used a portable charger on the camping trip."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "inf-056",
+    "word": "terminal",
+    "definition": "a device used to connect to a system or network",
+    "synonyms": [],
+    "exampleSentences": [
+      "The internet terminal linked the clinic to the outside world."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "inf-057",
+    "word": "set up",
+    "definition": "to put something in place and make it ready to use",
+    "synonyms": [
+      "arrange",
+      "install"
+    ],
+    "exampleSentences": [
+      "We set up the projector before the presentation."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "verb"
+  },
+  {
+    "id": "inf-058",
+    "word": "game-changer",
+    "definition": "something that causes a major improvement or big change",
+    "synonyms": [],
+    "exampleSentences": [
+      "For the team, a new coach was a game-changer."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "inf-059",
+    "word": "debris",
+    "definition": "scattered broken pieces; waste material",
+    "synonyms": [
+      "fragments",
+      "rubble"
+    ],
+    "exampleSentences": [
+      "After the storm, debris covered the footpath."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "inf-060",
+    "word": "de-orbited",
+    "definition": "moved out of orbit so it falls back towards Earth (usually to burn up safely)",
+    "synonyms": [],
+    "exampleSentences": [
+      "Old satellites are de-orbited to reduce space junk."
+    ],
+    "difficulty": "advanced",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "verb"
+  },
+  {
+    "id": "inf-061",
+    "word": "skeleton",
+    "definition": "the set of all the bones in a human or animal that supports the body and gives it shape",
+    "synonyms": [],
+    "exampleSentences": [
+      "The X-ray showed the bones in my skeleton."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "inf-062",
+    "word": "framework",
+    "definition": "the basic structure that supports something and holds it together",
+    "synonyms": [
+      "structure"
+    ],
+    "exampleSentences": [
+      "The metal framework of the building was put up before the walls were added."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "inf-063",
+    "word": "flexible",
+    "definition": "able to bend or change shape easily without breaking",
+    "synonyms": [
+      "bendy"
+    ],
+    "exampleSentences": [
+      "Gymnasts need flexible bodies to do splits and backflips."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "inf-064",
+    "word": "strong",
+    "definition": "having a lot of power or able to hold up weight without breaking",
+    "synonyms": [
+      "powerful",
+      "tough"
+    ],
+    "exampleSentences": [
+      "Her arms were strong from carrying heavy shopping bags."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "inf-065",
+    "word": "delicate",
+    "definition": "easily damaged or broken; needing to be handled with care",
+    "synonyms": [
+      "fragile"
+    ],
+    "exampleSentences": [
+      "The glass ornament was so delicate that it broke when it was dropped."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "inf-066",
+    "word": "organs",
+    "definition": "special parts inside the body that do important jobs, like the heart, lungs and brain",
+    "synonyms": [],
+    "exampleSentences": [
+      "The doctor explained how our organs work together to keep us alive."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "noun plural"
+  },
+  {
+    "id": "inf-067",
+    "word": "cartilage",
+    "definition": "a smooth, rubbery tissue at the ends of bones that helps joints move easily",
+    "synonyms": [],
+    "exampleSentences": [
+      "There is cartilage in your nose that makes it firm but still bendy."
+    ],
+    "difficulty": "advanced",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "inf-068",
+    "word": "ligaments",
+    "definition": "strong bands of tissue that connect bones to other bones at a joint",
+    "synonyms": [],
+    "exampleSentences": [
+      "He tore one of the ligaments in his ankle while playing soccer."
+    ],
+    "difficulty": "advanced",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "noun plural"
+  },
+  {
+    "id": "inf-069",
+    "word": "marrow",
+    "definition": "the soft tissue inside some bones where new blood cells are made",
+    "synonyms": [],
+    "exampleSentences": [
+      "The doctor said the marrow in her bones was making healthy blood cells."
+    ],
+    "difficulty": "advanced",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "inf-070",
+    "word": "infection",
+    "definition": "an illness caused by germs getting into the body and making part of it sore or sick",
+    "synonyms": [
+      "illness",
+      "disease"
+    ],
+    "exampleSentences": [
+      "The cut on his knee got an infection because he didn't clean it properly."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "inf-071",
+    "word": "habitat",
+    "definition": "the natural home or place where an animal or plant usually lives",
+    "synonyms": [
+      "environment"
+    ],
+    "exampleSentences": [
+      "A rock pool is the habitat of many small crabs and sea snails."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "inf-072",
+    "word": "trenches",
+    "definition": "very deep, long, narrow parts of the ocean floor",
+    "synonyms": [
+      "depths"
+    ],
+    "exampleSentences": [
+      "Some of the world's deepest trenches are found in the Pacific Ocean."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "noun plural"
+  },
+  {
+    "id": "inf-073",
+    "word": "pressure",
+    "definition": "the force of something pushing on an area, like water or air pressing on you",
+    "synonyms": [
+      "crushing"
+    ],
+    "exampleSentences": [
+      "When you swim to the bottom of a deep pool, you can feel the water pressure on your ears."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "inf-074",
+    "word": "photosynthesis",
+    "definition": "the process where green plants use sunlight, water, and air to make their own food",
+    "synonyms": [],
+    "exampleSentences": [
+      "Without sunlight, plants cannot carry out photosynthesis properly."
+    ],
+    "difficulty": "advanced",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "inf-075",
+    "word": "bioluminescence",
+    "definition": "light made by a living thing through a special chemical reaction",
+    "synonyms": [
+      "glow"
+    ],
+    "exampleSentences": [
+      "The squid used bioluminescence to glow in the dark water."
+    ],
+    "difficulty": "advanced",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "inf-076",
+    "word": "bacteria",
+    "definition": "very tiny living things, too small to see without a microscope, that can help or harm other living things",
+    "synonyms": [],
+    "exampleSentences": [
+      "Some bacteria in soil help plants grow by breaking down dead leaves."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "noun plural"
+  },
+  {
+    "id": "inf-077",
+    "word": "pollution",
+    "definition": "harmful substances or rubbish that make air, water, or land dirty or unsafe",
+    "synonyms": [
+      "harm"
+    ],
+    "exampleSentences": [
+      "Oil spills cause serious pollution in the ocean."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "inf-078",
+    "word": "environment",
+    "definition": "all the things around a person, plant or animal, including air, water, land, and other living things",
+    "synonyms": [
+      "habitat"
+    ],
+    "exampleSentences": [
+      "Recycling is one way we can help the environment."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "inf-079",
+    "word": "predators",
+    "definition": "animals that hunt and eat other animals",
+    "synonyms": [
+      "animals"
+    ],
+    "exampleSentences": [
+      "Sharks are predators that feed on fish and seals."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "noun plural"
+  },
+  {
+    "id": "inf-080",
+    "word": "species",
+    "definition": "a group of living things of the same kind that can have young together",
+    "synonyms": [],
+    "exampleSentences": [
+      "Each species of bird has its own kind of nest."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "inf-081",
+    "word": "organisation",
+    "definition": "a group of people who work together in an ordered way for a shared purpose",
+    "synonyms": [
+      "group",
+      "association"
+    ],
+    "exampleSentences": [
+      "The charity organisation raised money to help families after the flood."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "inf-082",
+    "word": "encouraged",
+    "definition": "made someone feel more confident or more likely to do something",
+    "synonyms": [
+      "urged",
+      "supported"
+    ],
+    "exampleSentences": [
+      "My teacher encouraged me to enter the writing competition."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "verb past tense"
+  },
+  {
+    "id": "inf-083",
+    "word": "seedlings",
+    "definition": "very young plants that have just started to grow from seeds",
+    "synonyms": [
+      "young plants",
+      "sprouts"
+    ],
+    "exampleSentences": [
+      "We planted carrot seedlings in the school garden."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "noun plural"
+  },
+  {
+    "id": "inf-084",
+    "word": "restoring",
+    "definition": "fixing or bringing something back to its earlier, better condition",
+    "synonyms": [
+      "repairing",
+      "renewing"
+    ],
+    "exampleSentences": [
+      "The class is restoring the old flowered by pulling out weeds and planting new flowers."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "verb"
+  },
+  {
+    "id": "inf-085",
+    "word": "wildlife",
+    "definition": "animals and other living things that live in nature, not as pets or farm animals",
+    "synonyms": [
+      "wild animals"
+    ],
+    "exampleSentences": [
+      "We saw lots of wildlife, like kangaroos and colourful birds, on our bushwalk."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "inf-086",
+    "word": "criticised",
+    "definition": "said that something or someone was wrong or not good enough",
+    "synonyms": [
+      "blamed"
+    ],
+    "exampleSentences": [
+      "The coach criticised the team for not passing the ball."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "verb past tense"
+  },
+  {
+    "id": "inf-087",
+    "word": "determined",
+    "definition": "having a strong feeling that you will keep going and not give up",
+    "synonyms": [
+      "resolute",
+      "persistent"
+    ],
+    "exampleSentences": [
+      "She was determined to finish the long race, even when she felt tired."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "inf-088",
+    "word": "protest",
+    "definition": "an action, such as a march or meeting, where people show they strongly disagree with something",
+    "synonyms": [
+      "demonstration"
+    ],
+    "exampleSentences": [
+      "Students held a protest to ask for safer bike lanes near the school."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "inf-089",
+    "word": "transform",
+    "definition": "to change something completely, often in a good way",
+    "synonyms": [
+      "change",
+      "convert"
+    ],
+    "exampleSentences": [
+      "Planting trees can transform an empty yard into a cool, shady garden."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "verb"
+  },
+  {
+    "id": "inf-090",
+    "word": "talent",
+    "definition": "a natural ability to do something well",
+    "synonyms": [
+      "gifted"
+    ],
+    "exampleSentences": [
+      "Beethoven showed great talent for music when he was still a child."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "inf-091",
+    "word": "harsh",
+    "definition": "very strict, hard or cruel; not gentle",
+    "synonyms": [
+      "difficult"
+    ],
+    "exampleSentences": [
+      "His father's harsh training made him practise for hours every day."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "inf-092",
+    "word": "gifted",
+    "definition": "having a special natural ability; very talented",
+    "synonyms": [
+      "talent"
+    ],
+    "exampleSentences": [
+      "Everyone could see that she was a gifted pianist at the school concert."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "inf-093",
+    "word": "composer",
+    "definition": "a person who writes music",
+    "synonyms": [
+      "musician"
+    ],
+    "exampleSentences": [
+      "The composer worked for months to finish the new symphony."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "inf-094",
+    "word": "patrons",
+    "definition": "people who support artists, musicians or writers, often by paying them",
+    "synonyms": [
+      "supporters"
+    ],
+    "exampleSentences": [
+      "Beethoven's patrons gave him money so he could focus on composing."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "noun plural"
+  },
+  {
+    "id": "inf-095",
+    "word": "experiment",
+    "definition": "to try new ideas or ways of doing things to see what happens",
+    "synonyms": [],
+    "exampleSentences": [
+      "The class decided to experiment with different instruments to create a new sound."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "verb"
+  },
+  {
+    "id": "inf-096",
+    "word": "dramatic",
+    "definition": "very exciting, with strong feelings or big changes",
+    "synonyms": [
+      "bold"
+    ],
+    "exampleSentences": [
+      "The movie had a dramatic ending that surprised everyone."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "inf-097",
+    "word": "threatened",
+    "definition": "made it seem likely that something bad would happen; put something in danger",
+    "synonyms": [],
+    "exampleSentences": [
+      "The storm threatened their plans for an outdoor concert."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "verb past tense"
+  },
+  {
+    "id": "inf-098",
+    "word": "determination",
+    "definition": "the quality of not giving up, even when things are hard",
+    "synonyms": [
+      "refused to give up"
+    ],
+    "exampleSentences": [
+      "With determination, he kept practising the piano piece until he could play it perfectly."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "inf-099",
+    "word": "hardship",
+    "definition": "great difficulty or suffering in life",
+    "synonyms": [
+      "difficult time"
+    ],
+    "exampleSentences": [
+      "Losing his hearing was a major hardship, but Beethoven kept composing."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "inf-100",
+    "word": "vital",
+    "definition": "extremely important or necessary",
+    "synonyms": [
+      "essential",
+      "crucial",
+      "very important"
+    ],
+    "exampleSentences": [
+      "Drinking water is vital for staying healthy during sport."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "inf-101",
+    "word": "ecosystem",
+    "definition": "a community of living things (plants, animals, and micro-organisms) and their environment, all interacting together",
+    "synonyms": [
+      "environment",
+      "habitat"
+    ],
+    "exampleSentences": [
+      "A coral reef is an ecosystem where fish, algae and many other creatures live together."
+    ],
+    "difficulty": "advanced",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "inf-102",
+    "word": "pollination",
+    "definition": "the process of moving pollen from one flower to another so that plants can make seeds",
+    "synonyms": [],
+    "exampleSentences": [
+      "Bees help with pollination when they fly from flower to flower."
+    ],
+    "difficulty": "advanced",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "inf-103",
+    "word": "pesticide",
+    "definition": "a chemical used to kill insects or other pests that damage crops or plants",
+    "synonyms": [],
+    "exampleSentences": [
+      "The farmer chose a safer pesticide that would not harm bees."
+    ],
+    "difficulty": "advanced",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "inf-104",
+    "word": "decline",
+    "definition": "(verb): to become fewer, smaller or weaker; (noun): a steady decrease in amount or strength",
+    "synonyms": [],
+    "exampleSentences": [
+      "(verb): If we waste water, the amount in the dam will decline. (noun): Scientists noticed a decline in the number of frogs in the area."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "verb / noun"
+  },
+  {
+    "id": "inf-105",
+    "word": "variety",
+    "definition": "a range of different types of the same kind of thing",
+    "synonyms": [
+      "range",
+      "diversity"
+    ],
+    "exampleSentences": [
+      "There was a wide variety of books in the school library."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "inf-106",
+    "word": "sustainable",
+    "definition": "able to be continued for a long time without damaging the environment or using up all the resources",
+    "synonyms": [],
+    "exampleSentences": [
+      "Riding a bike instead of driving is a more sustainable way to travel."
+    ],
+    "difficulty": "advanced",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "inf-107",
+    "word": "diverse",
+    "definition": "having many different kinds or types",
+    "synonyms": [
+      "varied",
+      "mixed"
+    ],
+    "exampleSentences": [
+      "Our class is diverse, with students who have many different interests and backgrounds."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "inf-108",
+    "word": "disrupt",
+    "definition": "to interrupt or stop something from working in the normal way",
+    "synonyms": [
+      "disturb",
+      "interrupt"
+    ],
+    "exampleSentences": [
+      "Loud talking in the classroom can disrupt other students' learning."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "verb"
+  },
+  {
+    "id": "inf-109",
+    "word": "heatwave",
+    "definition": "a period of very hot weather that lasts for several days",
+    "synonyms": [],
+    "exampleSentences": [
+      "During a heatwave, people should drink more water and stay in the shade."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "inf-110",
+    "word": "prolonged",
+    "definition": "continuing for a long time",
+    "synonyms": [
+      "extended",
+      "lengthy"
+    ],
+    "exampleSentences": [
+      "A prolonged dry period can harm gardens and farms."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "inf-111",
+    "word": "evaporates",
+    "definition": "changes from liquid into gas and goes into the air",
+    "synonyms": [],
+    "exampleSentences": [
+      "After rain, puddles evaporate faster on hot days."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "verb"
+  },
+  {
+    "id": "inf-112",
+    "word": "parched",
+    "definition": "extremely dry",
+    "synonyms": [
+      "dried out"
+    ],
+    "exampleSentences": [
+      "The parched grass crunched under our shoes."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "inf-113",
+    "word": "tinder",
+    "definition": "very dry material that catches fire easily",
+    "synonyms": [],
+    "exampleSentences": [
+      "Dry leaves can act like tinder in summer."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "inf-114",
+    "word": "fuel",
+    "definition": "something that burns and keeps a fire going",
+    "synonyms": [],
+    "exampleSentences": [
+      "Wood is fuel for a campfire."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "inf-115",
+    "word": "spark",
+    "definition": "a tiny glowing piece of burning material",
+    "synonyms": [
+      "flash"
+    ],
+    "exampleSentences": [
+      "A spark from a fire can land in dry grass."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "inf-116",
+    "word": "banned",
+    "definition": "officially not allowed",
+    "synonyms": [],
+    "exampleSentences": [
+      "On very hot days, campfires can be banned."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "verb/adjective"
+  },
+  {
+    "id": "inf-117",
+    "word": "careless",
+    "definition": "not paying enough attention; not being careful",
+    "synonyms": [
+      "careful"
+    ],
+    "exampleSentences": [
+      "A careless mistake can cause accidents."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "inf-118",
+    "word": "humidity",
+    "definition": "the amount of water vapour in the air",
+    "synonyms": [
+      "moisture"
+    ],
+    "exampleSentences": [
+      "High humidity can make a hot day feel even hotter."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "inf-119",
+    "word": "lightweight",
+    "definition": "not heavy; easy to lift or carry",
+    "synonyms": [
+      "light",
+      "not heavy"
+    ],
+    "exampleSentences": [
+      "The lightweight laptop was easy for the student to bring to school each day."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "inf-120",
+    "word": "transparent",
+    "definition": "see-through; allowing you to see clearly what is on the other side",
+    "synonyms": [
+      "clear",
+      "see-through"
+    ],
+    "exampleSentences": [
+      "The teacher used a transparent folder so she could see the papers inside."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "inf-121",
+    "word": "relatively",
+    "definition": "quite or fairly, especially when compared with something else",
+    "synonyms": [
+      "fairly",
+      "quite",
+      "somewhat"
+    ],
+    "exampleSentences": [
+      "The maths test was relatively easy this term compared to the one last term."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "adverb"
+  },
+  {
+    "id": "inf-122",
+    "word": "fossil fuels",
+    "definition": "fuels such as coal, oil and gas that were formed from ancient plants and animals over millions of years",
+    "synonyms": [],
+    "exampleSentences": [
+      "Many cars still run on fossil fuels like petrol and diesel."
+    ],
+    "difficulty": "advanced",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "noun plural"
+  },
+  {
+    "id": "inf-123",
+    "word": "pollute",
+    "definition": "to make air, water or land dirty and unsafe by adding harmful substances",
+    "synonyms": [
+      "contaminate",
+      "dirty"
+    ],
+    "exampleSentences": [
+      "Throwing rubbish in the river can pollute the water and harm fish."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "verb"
+  },
+  {
+    "id": "inf-124",
+    "word": "recycled",
+    "definition": "made from materials that have been collected, processed and used again",
+    "synonyms": [],
+    "exampleSentences": [
+      "She brought a drink bottle made from recycled plastic to school."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "inf-125",
+    "word": "emissions",
+    "definition": "gases or other substances that are released into the air, often from cars, factories or power stations",
+    "synonyms": [
+      "releases",
+      "discharges"
+    ],
+    "exampleSentences": [
+      "Bus lanes can help reduce car emissions in busy cities."
+    ],
+    "difficulty": "advanced",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "noun plural"
+  },
+  {
+    "id": "inf-126",
+    "word": "durability",
+    "definition": "how well something can last a long time without breaking or wearing out",
+    "synonyms": [
+      "toughness",
+      "strength"
+    ],
+    "exampleSentences": [
+      "The durability of the new school chairs meant they often did not need to be replaced."
+    ],
+    "difficulty": "advanced",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "inf-127",
+    "word": "environmental",
+    "definition": "related to the natural world, such as air, water, soil, plants and animals",
+    "synonyms": [],
+    "exampleSentences": [
+      "The council made new rules to reduce environmental damage from rubbish."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "inf-128",
+    "word": "consumers",
+    "definition": "people who buy or use goods and services",
+    "synonyms": [
+      "customers",
+      "buyers"
+    ],
+    "exampleSentences": [
+      "Consumers can choose packaging with less plastic to help the planet."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "noun plural"
+  },
+  {
+    "id": "inf-129",
+    "word": "decade",
+    "definition": "a period of ten years",
+    "synonyms": [
+      "ten years",
+      "ten-year period"
+    ],
+    "exampleSentences": [
+      "Over the past decade, many schools have started using tablets in class."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "inf-130",
+    "word": "increasingly",
+    "definition": "more and more over time",
+    "synonyms": [
+      "decreasingly",
+      "less and less"
+    ],
+    "exampleSentences": [
+      "Students are increasingly using the internet to research their assignments."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "adverb"
+  },
+  {
+    "id": "inf-131",
+    "word": "traditional",
+    "definition": "done in the usual way, especially the way it has been done for a long time",
+    "synonyms": [
+      "conventional",
+      "classic",
+      "customary",
+      "old-fashioned"
+    ],
+    "exampleSentences": [
+      "Some parents prefer traditional lessons with a teacher at the front of the classroom."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "inf-132",
+    "word": "approaches",
+    "definition": "different ways of doing something or dealing with a problem",
+    "synonyms": [
+      "methods",
+      "strategies",
+      "techniques",
+      "ways"
+    ],
+    "exampleSentences": [
+      "Teachers use different approaches to help students understand difficult maths topics."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "noun plural"
+  },
+  {
+    "id": "inf-133",
+    "word": "flexibility",
+    "definition": "the ability to change easily; having choices about how or when something is done",
+    "synonyms": [
+      "adaptability",
+      "freedom",
+      "choice",
+      "adjustability"
+    ],
+    "exampleSentences": [
+      "Online learning offers flexibility because students can choose when to watch the lesson videos."
+    ],
+    "difficulty": "advanced",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "inf-134",
+    "word": "resources",
+    "definition": "useful materials, tools or information you use to do or learn something",
+    "synonyms": [
+      "materials",
+      "tools",
+      "supplies",
+      "references",
+      "assets"
+    ],
+    "exampleSentences": [
+      "The library and school websites are important resources for research projects."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "noun plural"
+  },
+  {
+    "id": "inf-135",
+    "word": "interaction",
+    "definition": "communication or direct involvement with other people",
+    "synonyms": [
+      "isolation",
+      "separation",
+      "silence"
+    ],
+    "exampleSentences": [
+      "Group discussions allow more interaction between students and the teacher."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "inf-136",
+    "word": "distractions",
+    "definition": "things that take your attention away from what you are trying to do",
+    "synonyms": [
+      "focus",
+      "concentration",
+      "attention"
+    ],
+    "exampleSentences": [
+      "Loud music and phone notifications can be big distractions when you are studying."
+    ],
+    "difficulty": "advanced",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "noun plural"
+  },
+  {
+    "id": "inf-137",
+    "word": "advantages",
+    "definition": "good or helpful things that make one choice better than another",
+    "synonyms": [
+      "benefits",
+      "positives",
+      "strengths",
+      "plus points",
+      "pros"
+    ],
+    "exampleSentences": [
+      "One of the advantages of online learning is being able to replay explanations."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "noun plural"
+  },
+  {
+    "id": "inf-138",
+    "word": "weaknesses",
+    "definition": "the parts of something that are not good or strong",
+    "synonyms": [
+      "faults",
+      "flaws",
+      "limitations"
+    ],
+    "exampleSentences": [
+      "Every learning method has its weaknesses as well as its strengths."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "noun plural"
+  },
+  {
+    "id": "inf-139",
+    "word": "contrast",
+    "definition": "a clear difference between two or more things when you compare them",
+    "synonyms": [
+      "difference"
+    ],
+    "exampleSentences": [
+      "There was a big contrast between the quiet library and the noisy playground."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "inf-140",
+    "word": "decorative",
+    "definition": "made or used mainly to make something look more attractive",
+    "synonyms": [
+      "ornamental",
+      "fancy"
+    ],
+    "exampleSentences": [
+      "Mum put decorative cushions on the couch to make the lounge room look nicer."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "inf-141",
+    "word": "appealing",
+    "definition": "attractive or interesting; something that people like or want",
+    "synonyms": [
+      "attractive",
+      "inviting"
+    ],
+    "exampleSentences": [
+      "The idea of finishing homework early was very appealing to the students."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "inf-142",
+    "word": "lifestyles",
+    "definition": "the different ways people live, including their habits, activities and choices",
+    "synonyms": [
+      "ways of living"
+    ],
+    "exampleSentences": [
+      "People in the countryside often have very different lifestyles from people in cities."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "noun plural"
+  },
+  {
+    "id": "inf-143",
+    "word": "insulation",
+    "definition": "material used to stop heat, sound or electricity from passing through easily",
+    "synonyms": [],
+    "exampleSentences": [
+      "Good insulation in the roof helps keep the house warm in winter."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "inf-144",
+    "word": "energy-efficient",
+    "definition": "using less energy to do the same job, so less power is wasted",
+    "synonyms": [],
+    "exampleSentences": [
+      "The school bought energy-efficient lights to save electricity and money."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "inf-145",
+    "word": "positioned",
+    "definition": "placed or put in a particular place or direction",
+    "synonyms": [
+      "placed"
+    ],
+    "exampleSentences": [
+      "The teacher positioned the desks in groups so students could work together."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "verb – past tense / past participle"
+  },
+  {
+    "id": "inf-146",
+    "word": "character",
+    "definition": "the special qualities of a person, place or thing that make it different from others",
+    "synonyms": [
+      "personality",
+      "identity"
+    ],
+    "exampleSentences": [
+      "The old library had lots of character, with its tall shelves and creaky floorboards."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "inf-147",
+    "word": "downside",
+    "definition": "the negative or disadvantageous part of something",
+    "synonyms": [
+      "disadvantage",
+      "drawback"
+    ],
+    "exampleSentences": [
+      "One downside of having a big dog is that you have to take it for long walks every day."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "report"
+    ],
+    "partOfSpeech": "noun"
+  }
+]

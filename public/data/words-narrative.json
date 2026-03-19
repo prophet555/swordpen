@@ -1,0 +1,3250 @@
+[
+  {
+    "id": "nar-001",
+    "word": "anxious",
+    "definition": "worried and nervous about what might happen",
+    "synonyms": [
+      "worried",
+      "nervous"
+    ],
+    "exampleSentences": [
+      "I felt anxious before my maths test because I really wanted to pass."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "nar-002",
+    "word": "relief",
+    "definition": "a good, relaxed feeling when a problem is over or something turns out okay",
+    "synonyms": [
+      "comfort",
+      "ease"
+    ],
+    "exampleSentences": [
+      "It was a relief when the storm ended and the sun came out."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "nar-003",
+    "word": "familiar",
+    "definition": "known to you because you have seen, heard or done it before",
+    "synonyms": [
+      "known",
+      "well-known"
+    ],
+    "exampleSentences": [
+      "The new teacher's face looked familiar, but I couldn't remember where I had seen her."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "nar-004",
+    "word": "casually",
+    "definition": "in a relaxed, not very serious or formal way",
+    "synonyms": [
+      "informally",
+      "easily"
+    ],
+    "exampleSentences": [
+      "He casually kicked a stone along the path as he talked to his friend."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "adverb"
+  },
+  {
+    "id": "nar-005",
+    "word": "traffic",
+    "definition": "all the cars, buses, bikes and other vehicles moving along a road",
+    "synonyms": [],
+    "exampleSentences": [
+      "Mum said we left early so we wouldn't get stuck in heavy traffic."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "nar-006",
+    "word": "exhaust",
+    "definition": "the gas or smoke that comes out of a car, bus or truck engine",
+    "synonyms": [
+      "fumes",
+      "smoke"
+    ],
+    "exampleSentences": [
+      "We could smell the exhaust from the buses outside the school gate."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "nar-007",
+    "word": "crowd",
+    "definition": "a large group of people close together in one place",
+    "synonyms": [
+      "group",
+      "bunch"
+    ],
+    "exampleSentences": [
+      "A crowd gathered in the hall to watch the school concert."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "nar-008",
+    "word": "faint",
+    "definition": "not strong or clear; hard to see, hear or smell",
+    "synonyms": [
+      "weak",
+      "slight"
+    ],
+    "exampleSentences": [
+      "There was a faint smell of popcorn in the classroom after lunchtime."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "nar-009",
+    "word": "nearby",
+    "definition": "close to you in distance; not far away",
+    "synonyms": [
+      "close",
+      "close by"
+    ],
+    "exampleSentences": [
+      "We bought ice-creams from a nearby shop after school."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "adverb/adjective"
+  },
+  {
+    "id": "nar-010",
+    "word": "relatives",
+    "definition": "family members who are not your parents or brothers and sisters, like grandparents, aunts, uncles and cousins",
+    "synonyms": [
+      "family members",
+      "relations"
+    ],
+    "exampleSentences": [
+      "We visit our relatives in the country every winter holidays."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "noun, plural"
+  },
+  {
+    "id": "nar-011",
+    "word": "interstellar",
+    "definition": "from or between stars",
+    "synonyms": [
+      "cosmic",
+      "deep-space",
+      "between the stars"
+    ],
+    "exampleSentences": [
+      "An interstellar visitor comes from outside our solar system."
+    ],
+    "difficulty": "advanced",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "nar-012",
+    "word": "comet",
+    "definition": "a space object made of ice and dust that can form a bright tail",
+    "synonyms": [
+      "icy body",
+      "space rock",
+      "celestial object"
+    ],
+    "exampleSentences": [
+      "We stayed up late to see the comet near the horizon."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "nar-013",
+    "word": "porch",
+    "definition": "a covered area at the entrance of a house",
+    "synonyms": [
+      "verandah",
+      "entryway",
+      "portico"
+    ],
+    "exampleSentences": [
+      "I stepped onto the porch to feel the cool night air."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "nar-014",
+    "word": "crisp",
+    "definition": "(of air) pleasantly cold, fresh, and sharp",
+    "synonyms": [
+      "fresh",
+      "chilly",
+      "sharp"
+    ],
+    "exampleSentences": [
+      "The morning was crisp, so I wore a jumper."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "nar-015",
+    "word": "realised",
+    "definition": "understood or became fully aware of something",
+    "synonyms": [
+      "understood",
+      "recognised",
+      "noticed"
+    ],
+    "exampleSentences": [
+      "I realised I had left my hat at school."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "verb"
+  },
+  {
+    "id": "nar-016",
+    "word": "suspected",
+    "definition": "thought something might be true, without being sure",
+    "synonyms": [
+      "guessed",
+      "believed",
+      "thought"
+    ],
+    "exampleSentences": [
+      "Mia suspected it would rain because the clouds were dark."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "verb"
+  },
+  {
+    "id": "nar-017",
+    "word": "smear",
+    "definition": "a blurry mark or streak",
+    "synonyms": [
+      "smudge",
+      "streak",
+      "blot"
+    ],
+    "exampleSentences": [
+      "There was a smear on the window that made the light look hazy."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "nar-018",
+    "word": "flung",
+    "definition": "thrown suddenly and with force",
+    "synonyms": [
+      "hurled",
+      "threw",
+      "tossed"
+    ],
+    "exampleSentences": [
+      "He flung the ball back to his teammate."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "verb"
+  },
+  {
+    "id": "nar-019",
+    "word": "rooted",
+    "definition": "fixed in place, unable or unwilling to move",
+    "synonyms": [
+      "fixed",
+      "stuck",
+      "frozen",
+      "immobile"
+    ],
+    "exampleSentences": [
+      "I stood rooted to the spot when my name was called."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "nar-020",
+    "word": "acrid",
+    "definition": "having a strong, sharp, unpleasant smell",
+    "synonyms": [
+      "pungent",
+      "biting",
+      "harsh"
+    ],
+    "exampleSentences": [
+      "An acrid smell drifted in when the wind changed."
+    ],
+    "difficulty": "advanced",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "nar-021",
+    "word": "hazy",
+    "definition": "not clear; cloudy with smoke, dust, or mist",
+    "synonyms": [
+      "misty",
+      "smoky",
+      "blurred"
+    ],
+    "exampleSentences": [
+      "The hills looked hazy from far away."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "nar-022",
+    "word": "hushed",
+    "definition": "very quiet; spoken softly",
+    "synonyms": [
+      "quiet",
+      "soft",
+      "subdued"
+    ],
+    "exampleSentences": [
+      "We used hushed voices in the library."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "nar-023",
+    "word": "packed away",
+    "definition": "put away neatly for storage",
+    "synonyms": [
+      "put away",
+      "stored",
+      "tidied up"
+    ],
+    "exampleSentences": [
+      "After the picnic, we packed away the blanket and plates."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "phrasal verb"
+  },
+  {
+    "id": "nar-024",
+    "word": "issued",
+    "definition": "officially sent out or announced",
+    "synonyms": [
+      "released",
+      "sent out",
+      "handed out"
+    ],
+    "exampleSentences": [
+      "The school issued a note about the excursion."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "verb"
+  },
+  {
+    "id": "nar-025",
+    "word": "precautions",
+    "definition": "steps taken to prevent danger or reduce risk",
+    "synonyms": [
+      "safety measures",
+      "safeguards",
+      "steps"
+    ],
+    "exampleSentences": [
+      "We took precautions by wearing a helmet on our bikes."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "noun, plural"
+  },
+  {
+    "id": "nar-026",
+    "word": "Dad",
+    "definition": "a father (informal, family word)",
+    "synonyms": [
+      "father",
+      "daddy"
+    ],
+    "exampleSentences": [
+      "Dad drove me to training on Saturday morning."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "nar-027",
+    "word": "already",
+    "definition": "before now; earlier than expected",
+    "synonyms": [
+      "by now",
+      "previously",
+      "earlier"
+    ],
+    "exampleSentences": [
+      "I've already finished my homework."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "adverb"
+  },
+  {
+    "id": "nar-028",
+    "word": "checked",
+    "definition": "looked at carefully to make sure something is correct or to find information",
+    "synonyms": [
+      "inspected",
+      "examined",
+      "reviewed"
+    ],
+    "exampleSentences": [
+      "She checked the timetable before leaving."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "verb"
+  },
+  {
+    "id": "nar-029",
+    "word": "rating",
+    "definition": "a level or score that shows how serious/strong something is",
+    "synonyms": [
+      "score",
+      "grade",
+      "ranking"
+    ],
+    "exampleSentences": [
+      "The movie's rating tells you if it's suitable for kids."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "nar-030",
+    "word": "buzzing",
+    "definition": "full of noise, energy and activity",
+    "synonyms": [
+      "busy",
+      "lively",
+      "humming"
+    ],
+    "exampleSentences": [
+      "The school hall was buzzing with excitement before the concert began."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "nar-031",
+    "word": "cacophony",
+    "definition": "a mixture of loud, harsh, and unpleasant sounds",
+    "synonyms": [
+      "racket",
+      "din",
+      "noise"
+    ],
+    "exampleSentences": [
+      "The construction site was a cacophony of drills, hammers and shouting."
+    ],
+    "difficulty": "advanced",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "nar-032",
+    "word": "busker",
+    "definition": "a person who plays music or performs in public places, usually for money from passers-by",
+    "synonyms": [
+      "street performer",
+      "entertainer"
+    ],
+    "exampleSentences": [
+      "We stopped to listen to a busker playing the violin outside the train station."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "nar-033",
+    "word": "jostled",
+    "definition": "pushed or bumped against someone roughly, usually in a crowd",
+    "synonyms": [
+      "shoved",
+      "bumped",
+      "pushed"
+    ],
+    "exampleSentences": [
+      "I was jostled by other fans as we tried to get closer to the stage."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "verb - past tense"
+  },
+  {
+    "id": "nar-034",
+    "word": "aroma",
+    "definition": "a strong, pleasant smell, especially from food or drink",
+    "synonyms": [
+      "scent",
+      "fragrance",
+      "smell"
+    ],
+    "exampleSentences": [
+      "The aroma of fresh bread drifted from the school canteen."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "nar-035",
+    "word": "queue",
+    "definition": "(noun) a line of people or vehicles waiting for something (verb) to line up and wait for your turn",
+    "synonyms": [
+      "line",
+      "file"
+    ],
+    "exampleSentences": [
+      "We had to stand in a long queue to buy tickets for the ride."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "noun/verb"
+  },
+  {
+    "id": "nar-036",
+    "word": "awning",
+    "definition": "a sheet of cloth or metal fixed above a window or door to give shade or shelter from rain",
+    "synonyms": [
+      "canopy",
+      "shelter"
+    ],
+    "exampleSentences": [
+      "We waited under the shop's awning until the heavy rain stopped."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "nar-037",
+    "word": "restless",
+    "definition": "unable to relax, be still or stay calm, often because you are excited, bored or worried",
+    "synonyms": [
+      "fidgety",
+      "uneasy"
+    ],
+    "exampleSentences": [
+      "The students grew restless as they waited for the excursion bus to arrive."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "nar-038",
+    "word": "cultures",
+    "definition": "the ways of life of different groups of people, including their language, food, beliefs and traditions",
+    "synonyms": [
+      "traditions",
+      "ways of life"
+    ],
+    "exampleSentences": [
+      "Our class studied different cultures and compared their festivals and celebrations."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "noun, plural"
+  },
+  {
+    "id": "nar-039",
+    "word": "flavours",
+    "definition": "the different tastes of food or drink",
+    "synonyms": [
+      "tastes"
+    ],
+    "exampleSentences": [
+      "the different tastes of food or drink"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "noun, plural"
+  },
+  {
+    "id": "nar-040",
+    "word": "quiet",
+    "definition": "making very little or no sound; not noisy",
+    "synonyms": [
+      "still"
+    ],
+    "exampleSentences": [
+      "The library was so quiet that I could hear the pages turning."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "nar-041",
+    "word": "velvety",
+    "definition": "feeling very soft and smooth, like velvet cloth",
+    "synonyms": [
+      "soft"
+    ],
+    "exampleSentences": [
+      "The kitten's fur felt velvety when I patted it."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "nar-042",
+    "word": "hesitant",
+    "definition": "slow to do or say something because you are unsure or nervous",
+    "synonyms": [],
+    "exampleSentences": [
+      "She was hesitant to put up her hand in case her answer was wrong."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "nar-043",
+    "word": "unhurried",
+    "definition": "calm and not rushed; happening at a slow, relaxed speed",
+    "synonyms": [],
+    "exampleSentences": [
+      "We took an unhurried walk along the beach after dinner."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "nar-044",
+    "word": "suspended",
+    "definition": "hanging or kept in one place, often between two places or times",
+    "synonyms": [],
+    "exampleSentences": [
+      "Lanterns were suspended from the trees above the garden."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "nar-045",
+    "word": "crowded",
+    "definition": "full of people or things, with very little space left",
+    "synonyms": [],
+    "exampleSentences": [
+      "The train was so crowded that I had to stand."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "nar-046",
+    "word": "empty",
+    "definition": "with nothing, or almost nothing, inside",
+    "synonyms": [],
+    "exampleSentences": [
+      "He opened the fridge and found it almost empty."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "nar-047",
+    "word": "noisy",
+    "definition": "making a lot of sound",
+    "synonyms": [],
+    "exampleSentences": [
+      "The playground was noisy as everyone rushed outside at recess."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "nar-048",
+    "word": "gentle",
+    "definition": "kind, soft, and not rough or strong",
+    "synonyms": [
+      "soft"
+    ],
+    "exampleSentences": [
+      "Her gentle voice helped calm the crying baby."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "nar-049",
+    "word": "nervous",
+    "definition": "feeling worried or a bit scared about what might happen",
+    "synonyms": [
+      "unsure"
+    ],
+    "exampleSentences": [
+      "I felt nervous before giving my speech to the whole class."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "nar-050",
+    "word": "confident",
+    "definition": "feeling sure of yourself and your abilities",
+    "synonyms": [],
+    "exampleSentences": [
+      "After practising my lines, I felt confident about the school play."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "nar-051",
+    "word": "clutch",
+    "definition": "to hold something tightly in your hand",
+    "synonyms": [],
+    "exampleSentences": [
+      "He clutched his bag so it wouldnâ€™t fall off the bus seat."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "verb"
+  },
+  {
+    "id": "nar-052",
+    "word": "timetable",
+    "definition": "a list or chart that shows what is happening and when, like lessons during the day",
+    "synonyms": [],
+    "exampleSentences": [
+      "I checked the timetable to see when I had maths and English next."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "nar-053",
+    "word": "corridor",
+    "definition": "long, narrow passage inside a building with doors that open into rooms",
+    "synonyms": [],
+    "exampleSentences": [
+      "The school corridors were crowded as students hurried to class."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "nar-054",
+    "word": "fumble",
+    "definition": "to try to do or hold something in an awkward or clumsy way",
+    "synonyms": [],
+    "exampleSentences": [
+      "I fumbled with the keys at the door and dropped them twice."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "verb"
+  },
+  {
+    "id": "nar-055",
+    "word": "volunteer",
+    "definition": "to offer to do something without being forced or paid",
+    "synonyms": [],
+    "exampleSentences": [
+      "Amir volunteered to collect the sports equipment after the game."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "verb"
+  },
+  {
+    "id": "nar-056",
+    "word": "survive",
+    "definition": "to get through a difficult or dangerous time and stay safe or okay",
+    "synonyms": [],
+    "exampleSentences": [
+      "We survived the long afternoon lessons even though it rained all afternoon."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "verb"
+  },
+  {
+    "id": "nar-057",
+    "word": "unsure",
+    "definition": "not certain; not feeling confident about something",
+    "synonyms": [
+      "nervous"
+    ],
+    "exampleSentences": [
+      "I was unsure which bus to catch home from school."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "nar-058",
+    "word": "rattled",
+    "definition": "moved while making lots of small shakes and knocking sounds",
+    "synonyms": [
+      "shook",
+      "clattered"
+    ],
+    "exampleSentences": [
+      "The old bus rattled as it drove over the bridge."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "verb â€“ past tense"
+  },
+  {
+    "id": "nar-059",
+    "word": "pavement",
+    "definition": "the hard surface or footpath beside a road where people walk",
+    "synonyms": [
+      "footpath"
+    ],
+    "exampleSentences": [
+      "We waited on the pavement outside the shops after school."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "nar-060",
+    "word": "evidence",
+    "definition": "facts or information that help to show that something is true",
+    "synonyms": [
+      "proof"
+    ],
+    "exampleSentences": [
+      "The teacher asked for evidence that we had finished our projects."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "nar-061",
+    "word": "awkward",
+    "definition": "feeling uncomfortable or embarrassed, or not moving smoothly or easily",
+    "synonyms": [
+      "uncomfortable",
+      "clumsy"
+    ],
+    "exampleSentences": [
+      "There was an awkward silence when nobody answered the question."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "nar-062",
+    "word": "crumpled",
+    "definition": "crushed into a wrinkled, messy shape",
+    "synonyms": [
+      "wrinkled",
+      "crushed",
+      "messy"
+    ],
+    "exampleSentences": [
+      "He pulled a crumpled note from the bottom of his bag."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "nar-063",
+    "word": "rehearse",
+    "definition": "to practise a play or speech, such as lines before performing it",
+    "synonyms": [
+      "practise"
+    ],
+    "exampleSentences": [
+      "We need to rehearse our lines before the school assembly."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "verb"
+  },
+  {
+    "id": "nar-064",
+    "word": "laminated",
+    "definition": "covered with a thin layer of plastic to protect something and make it stronger",
+    "synonyms": [
+      "plastic-coated"
+    ],
+    "exampleSentences": [
+      "My library card is laminated so it doesn't tear easily."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "nar-065",
+    "word": "faded",
+    "definition": "having lost colour or clearness over time",
+    "synonyms": [
+      "bright"
+    ],
+    "exampleSentences": [
+      "The faded sign was hard to read after so many years in the sun."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "nar-066",
+    "word": "reflection",
+    "definition": "an image you see in a mirror, window, or water when light bounces back",
+    "synonyms": [
+      "mirror image"
+    ],
+    "exampleSentences": [
+      "I checked my reflection in the window before going into class."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "nar-067",
+    "word": "identity",
+    "definition": "who someone is, including their appearance, name, and what makes them different from others",
+    "synonyms": [
+      "individuality"
+    ],
+    "exampleSentences": [
+      "Changing schools made her think about her identity and who she wanted to be."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "nar-068",
+    "word": "headline",
+    "definition": "the title that tells you what a news story is about",
+    "synonyms": [
+      "title"
+    ],
+    "exampleSentences": [],
+    "difficulty": "beginner",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "nar-069",
+    "word": "caught",
+    "definition": "grabbed or noticed something suddenly",
+    "synonyms": [
+      "seized",
+      "grabbed"
+    ],
+    "exampleSentences": [
+      "The strange sound caught my attention during the test."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "verb"
+  },
+  {
+    "id": "nar-070",
+    "word": "host",
+    "definition": "the place where something belongs (e.g., a host galaxy) or the organiser",
+    "synonyms": [
+      "organiser",
+      "home",
+      "star",
+      "main"
+    ],
+    "exampleSentences": [
+      "The host school welcomed visitors for the competition."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "noun/adjective"
+  },
+  {
+    "id": "nar-071",
+    "word": "galaxy",
+    "definition": "a huge group of stars, gas, and dust held together by gravity",
+    "synonyms": [
+      "collection of stars",
+      "Milky Way"
+    ],
+    "exampleSentences": [
+      "The Milky Way is the galaxy we live in."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "nar-072",
+    "word": "burst",
+    "definition": "a sudden powerful explosion or flash; to explode suddenly",
+    "synonyms": [
+      "explosion",
+      "blast"
+    ],
+    "exampleSentences": [
+      "We heard a burst of laughter from the hallway."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "noun/verb"
+  },
+  {
+    "id": "nar-073",
+    "word": "released",
+    "definition": "made available to the public",
+    "synonyms": [
+      "published",
+      "issued"
+    ],
+    "exampleSentences": [
+      "The new video was released online yesterday."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "verb"
+  },
+  {
+    "id": "nar-074",
+    "word": "work out",
+    "definition": "to figure out or understand something by thinking",
+    "synonyms": [
+      "figure out",
+      "solve"
+    ],
+    "exampleSentences": [
+      "I tried to work out the maths problem step by step."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "phrasal verb"
+  },
+  {
+    "id": "nar-075",
+    "word": "however",
+    "definition": "used to show contrast: 'but'",
+    "synonyms": [
+      "nevertheless"
+    ],
+    "exampleSentences": [
+      "I wanted to go; however, it started raining."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "connector"
+  },
+  {
+    "id": "nar-076",
+    "word": "wondering",
+    "definition": "thinking curiously about something you don't know yet",
+    "synonyms": [
+      "questioning",
+      "thinking"
+    ],
+    "exampleSentences": [
+      "She was wondering what the surprise would be."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "verb"
+  },
+  {
+    "id": "nar-077",
+    "word": "promised",
+    "definition": "said that you would definitely do something in the future",
+    "synonyms": [
+      "vowed",
+      "guaranteed"
+    ],
+    "exampleSentences": [
+      "Mum promised she would come to my school play."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "verb"
+  },
+  {
+    "id": "nar-078",
+    "word": "backpack",
+    "definition": "a bag you carry on your back with two straps on your shoulders",
+    "synonyms": [
+      "schoolbag"
+    ],
+    "exampleSentences": [
+      "I put my lunch and jumper in my backpack."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "nar-079",
+    "word": "gates",
+    "definition": "large doors in a fence or wall that you go through to get in or out",
+    "synonyms": [
+      "entrance",
+      "doorway"
+    ],
+    "exampleSentences": [
+      "The park gates are locked at night."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "noun plural"
+  },
+  {
+    "id": "nar-080",
+    "word": "begged",
+    "definition": "asked someone very strongly, often again and again, for something",
+    "synonyms": [
+      "pleaded"
+    ],
+    "exampleSentences": [
+      "I begged my parents to let me have a sleepover."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "verb"
+  },
+  {
+    "id": "nar-081",
+    "word": "vibrate",
+    "definition": "to shake very quickly and slightly",
+    "synonyms": [
+      "shake",
+      "tremble"
+    ],
+    "exampleSentences": [
+      "My phone will vibrate when a message arrives."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "verb"
+  },
+  {
+    "id": "nar-082",
+    "word": "gripped",
+    "definition": "held something very tightly",
+    "synonyms": [
+      "clutched",
+      "grabbed"
+    ],
+    "exampleSentences": [
+      "She gripped the railing as she walked down the steep stairs."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "verb"
+  },
+  {
+    "id": "nar-083",
+    "word": "reptile",
+    "definition": "an animal with dry, scaly skin that usually lays eggs, like a snake or lizard",
+    "synonyms": [],
+    "exampleSentences": [
+      "The crocodile is a reptile that lives in rivers."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "nar-084",
+    "word": "feeding",
+    "definition": "giving food to someone or something, or the time when this happens",
+    "synonyms": [],
+    "exampleSentences": [
+      "Feeding the dog is my job after school."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "noun/verb"
+  },
+  {
+    "id": "nar-085",
+    "word": "trainer",
+    "definition": "a person who teaches people or animals how to do something",
+    "synonyms": [
+      "coach",
+      "instructor"
+    ],
+    "exampleSentences": [
+      "The basketball trainer showed us how to dribble the ball."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "nar-086",
+    "word": "leapt",
+    "definition": "jumped high or far",
+    "synonyms": [
+      "jumped",
+      "sprang"
+    ],
+    "exampleSentences": [
+      "The frog leapt from one rock to another."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "verb past tense"
+  },
+  {
+    "id": "nar-087",
+    "word": "graphene",
+    "definition": "a very thin material made of carbon atoms in a tight pattern",
+    "synonyms": [],
+    "exampleSentences": [],
+    "difficulty": "advanced",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "nar-088",
+    "word": "supercapacitor",
+    "definition": "a device that stores electrical energy and can charge and discharge very quickly",
+    "synonyms": [],
+    "exampleSentences": [
+      "A supercapacitor can deliver energy very quickly in short, powerful bursts."
+    ],
+    "difficulty": "advanced",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "nar-089",
+    "word": "claimed",
+    "definition": "said something was true, especially without proving it fully",
+    "synonyms": [
+      "stated",
+      "asserted"
+    ],
+    "exampleSentences": [
+      "The advertisement claimed the shoes would last for years."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "verb"
+  },
+  {
+    "id": "nar-090",
+    "word": "timer",
+    "definition": "a device or phone tool that measures time",
+    "synonyms": [
+      "stopwatch",
+      "timekeeper"
+    ],
+    "exampleSentences": [
+      "I used a timer to see how long it took to finish my reading."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "nar-091",
+    "word": "funnel",
+    "definition": "a tool with a wide top and narrow tube used for pouring liquids",
+    "synonyms": [
+      "(pouring) cone",
+      "spout"
+    ],
+    "exampleSentences": [
+      "We used a funnel so the water wouldn't spill."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "nar-092",
+    "word": "surface",
+    "definition": "the outside layer of something",
+    "synonyms": [
+      "interior (as a noun)",
+      "inside"
+    ],
+    "exampleSentences": [
+      "The surface of the table was smooth after it was cleaned."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "noun/adjective"
+  },
+  {
+    "id": "nar-093",
+    "word": "pathway",
+    "definition": "a route or channel that moves something through",
+    "synonyms": [
+      "route",
+      "track"
+    ],
+    "exampleSentences": [
+      "The pathway through the park is the quickest way to school."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "nar-094",
+    "word": "takeaway",
+    "definition": "the most important lesson or idea you remember",
+    "synonyms": [
+      "lesson",
+      "key point"
+    ],
+    "exampleSentences": [
+      "My takeaway from the lesson was to check sources carefully."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "nar-095",
+    "word": "insignificant",
+    "definition": "so small or unimportant that it does not really matter",
+    "synonyms": [
+      "unimportant",
+      "trivial",
+      "minor"
+    ],
+    "exampleSentences": [
+      "Losing one pencil felt insignificant compared to losing her whole pencil case."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "nar-096",
+    "word": "vanished",
+    "definition": "disappeared suddenly and completely",
+    "synonyms": [
+      "disappeared",
+      "faded away"
+    ],
+    "exampleSentences": [
+      "The rabbit vanished as soon as it hopped into the bushes."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "verb â€“ past tense"
+  },
+  {
+    "id": "nar-097",
+    "word": "locksmith",
+    "definition": "a person whose job is to make, open and fix locks and keys",
+    "synonyms": [],
+    "exampleSentences": [
+      "They called a locksmith when they realised they were locked out of the house."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "nar-098",
+    "word": "mysteries",
+    "definition": "things that are unknown or hard to understand or explain",
+    "synonyms": [
+      "puzzles",
+      "secrets",
+      "riddles"
+    ],
+    "exampleSentences": [
+      "Detective stories are full of mysteries that keep the reader guessing."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "noun plural"
+  },
+  {
+    "id": "nar-099",
+    "word": "imagining",
+    "definition": "forming in your mind pictures or ideas about something that is not happening right now",
+    "synonyms": [
+      "picturising",
+      "visualising",
+      "daydreaming"
+    ],
+    "exampleSentences": [
+      "She lay in bed imagining what her new school would be like."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "verb â€“ present participle"
+  },
+  {
+    "id": "nar-100",
+    "word": "replaced",
+    "definition": "put in the place of something else, or had something else take its place",
+    "synonyms": [
+      "exchanged",
+      "swapped",
+      "took the place of"
+    ],
+    "exampleSentences": [
+      "The old playground was replaced with a safer, newer one."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "verb â€“ past tense"
+  },
+  {
+    "id": "nar-101",
+    "word": "glinting",
+    "definition": "shining with small, quick flashes of light",
+    "synonyms": [
+      "sparkling",
+      "shining",
+      "gleaming"
+    ],
+    "exampleSentences": [
+      "The waves were glinting in the afternoon sun."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "verb/adjective"
+  },
+  {
+    "id": "nar-102",
+    "word": "valuable",
+    "definition": "worth a lot of money, or very useful or important",
+    "synonyms": [
+      "precious",
+      "important",
+      "treasured"
+    ],
+    "exampleSentences": [
+      "Her grandmother's watch was valuable, both in money and in memories."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "nar-103",
+    "word": "juggling",
+    "definition": "holding or dealing with several things at the same time, or trying to do many tasks at once",
+    "synonyms": [
+      "balancing",
+      "managing",
+      "handling"
+    ],
+    "exampleSentences": [
+      "He was juggling homework, sport and music lessons all in one week."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "verb â€“ present participle"
+  },
+  {
+    "id": "nar-104",
+    "word": "stranger",
+    "definition": "a person you do not know",
+    "synonyms": [
+      "unknown person",
+      "outsider"
+    ],
+    "exampleSentences": [
+      "We were told never to share our address with a stranger online."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "nar-105",
+    "word": "barge",
+    "definition": "a large, flat boat used for carrying people or goods",
+    "synonyms": [
+      "cargo boat",
+      "flat-bottomed boat",
+      "vessel"
+    ],
+    "exampleSentences": [
+      "The barge moved slowly down the river."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "nar-106",
+    "word": "moored",
+    "definition": "tied up or secured so a boat cannot drift away",
+    "synonyms": [
+      "tied up",
+      "secured",
+      "fastened",
+      "anchored"
+    ],
+    "exampleSentences": [
+      "The boat was moored beside the jetty all night."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "verb/adjective"
+  },
+  {
+    "id": "nar-107",
+    "word": "reeds",
+    "definition": "tall, thin plants that grow near water",
+    "synonyms": [
+      "rushes",
+      "water plants",
+      "bulrushes"
+    ],
+    "exampleSentences": [
+      "Birds hid in the reeds along the bank."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "nar-108",
+    "word": "steward",
+    "definition": "a person who looks after passengers, supplies, or service (often on a ship)",
+    "synonyms": [
+      "attendant",
+      "caretaker",
+      "organiser",
+      "staff member"
+    ],
+    "exampleSentences": [
+      "The steward carried food and water to the guests."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "nar-109",
+    "word": "bundle",
+    "definition": "a group of things tied together or wrapped",
+    "synonyms": [
+      "pack",
+      "pile",
+      "bunch"
+    ],
+    "exampleSentences": [
+      "She carried a bundle of sticks for the fire."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "nar-110",
+    "word": "nevertheless",
+    "definition": "despite that; even so",
+    "synonyms": [
+      "however",
+      "even so",
+      "still",
+      "despite that"
+    ],
+    "exampleSentences": [
+      "It was raining; nevertheless, we kept walking."
+    ],
+    "difficulty": "advanced",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "adverb"
+  },
+  {
+    "id": "nar-111",
+    "word": "hull",
+    "definition": "the main body of a boat, including the sides and bottom",
+    "synonyms": [
+      "body (of a boat)",
+      "shell",
+      "frame"
+    ],
+    "exampleSentences": [
+      "The hull was damaged, so water started leaking in."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "nar-112",
+    "word": "watch",
+    "definition": "careful attention or guarding; staying alert",
+    "synonyms": [
+      "guard",
+      "vigilance",
+      "lookout",
+      "attention"
+    ],
+    "exampleSentences": [
+      "The guard kept watch at the gate."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "nar-113",
+    "word": "lantern",
+    "definition": "a lamp with a protective cover, often used outdoors",
+    "synonyms": [
+      "lamp",
+      "light"
+    ],
+    "exampleSentences": [
+      "A lantern lit the path through the dark."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "nar-114",
+    "word": "drifted",
+    "definition": "moved slowly, usually carried by wind or water, without a clear direction",
+    "synonyms": [
+      "floated",
+      "moved slowly"
+    ],
+    "exampleSentences": [
+      "The red balloon drifted higher and higher until it disappeared into the clouds."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "verb â€“ past tense"
+  },
+  {
+    "id": "nar-115",
+    "word": "dangling",
+    "definition": "hanging loosely, often swinging a little",
+    "synonyms": [
+      "hanging",
+      "swinging"
+    ],
+    "exampleSentences": [
+      "He came inside with his shoelaces dangling untied."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "verb/adjective"
+  },
+  {
+    "id": "nar-116",
+    "word": "waterfall",
+    "definition": "a place where water flows over a cliff or steep rock and falls down into a pool or river",
+    "synonyms": [],
+    "exampleSentences": [
+      "We hiked all day to see the waterfall crashing into the lake below."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "nar-117",
+    "word": "barely",
+    "definition": "only just; almost not",
+    "synonyms": [
+      "hardly",
+      "almost not"
+    ],
+    "exampleSentences": [
+      "She was so tired she could barely keep her eyes open."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "adverb"
+  },
+  {
+    "id": "nar-118",
+    "word": "strutted",
+    "definition": "walked in a proud way, showing off",
+    "synonyms": [
+      "swaggered",
+      "showed off"
+    ],
+    "exampleSentences": [
+      "The winning player strutted across the field, soaking up the applause."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "verb â€“ past tense"
+  },
+  {
+    "id": "nar-119",
+    "word": "shrink",
+    "definition": "to become smaller, or to make something smaller",
+    "synonyms": [
+      "lessen",
+      "reduce"
+    ],
+    "exampleSentences": [
+      "If you wash that wool jumper in hot water, it might shrink."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "verb"
+  },
+  {
+    "id": "nar-120",
+    "word": "springy",
+    "definition": "soft and bouncy, quickly returning to its shape when you press or step on it",
+    "synonyms": [
+      "bouncy",
+      "elastic"
+    ],
+    "exampleSentences": [
+      "The new carpet felt springy under her feet."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "nar-121",
+    "word": "moss",
+    "definition": "a very small, soft green plant that grows in patches on rocks, trees or damp ground",
+    "synonyms": [],
+    "exampleSentences": [
+      "The stones by the stream were covered in slippery moss."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "nar-122",
+    "word": "discover",
+    "definition": "to find or learn about something for the first time",
+    "synonyms": [
+      "find",
+      "uncover",
+      "detect"
+    ],
+    "exampleSentences": [
+      "Scientists hope to discover new medicines to help sick people."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "verb"
+  },
+  {
+    "id": "nar-123",
+    "word": "observatory",
+    "definition": "a place where people use telescopes to watch and study the sky",
+    "synonyms": [
+      "telescope centre",
+      "astronomical station",
+      "viewing centre"
+    ],
+    "exampleSentences": [
+      "Our class visited an observatory to look at the moon's craters."
+    ],
+    "difficulty": "advanced",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "nar-124",
+    "word": "messenger",
+    "definition": "someone or something that carries a message",
+    "synonyms": [
+      "courier"
+    ],
+    "exampleSentences": [
+      "In the story, the comet acts as a messenger from far away."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "nar-125",
+    "word": "pattern",
+    "definition": "a repeated design, order, or regular way something happens",
+    "synonyms": [
+      "arrangement",
+      "design"
+    ],
+    "exampleSentences": [
+      "She noticed a pattern in the flashing lights."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "nar-126",
+    "word": "pulsed",
+    "definition": "flashed or beat in repeated bursts",
+    "synonyms": [
+      "throbbed",
+      "flashed"
+    ],
+    "exampleSentences": [
+      "The emergency light pulsed every few seconds."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "verb"
+  },
+  {
+    "id": "nar-127",
+    "word": "sequence",
+    "definition": "a set of things arranged in a particular order",
+    "synonyms": [
+      "order",
+      "series"
+    ],
+    "exampleSentences": [
+      "The numbers formed a sequence that repeated."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "nar-128",
+    "word": "dismissed",
+    "definition": "decided something was not worth considering; rejected or brushed off",
+    "synonyms": [
+      "reject",
+      "brush off"
+    ],
+    "exampleSentences": [
+      "He dismissed the rumour as nonsense."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "verb"
+  },
+  {
+    "id": "nar-129",
+    "word": "recorded",
+    "definition": "saved sound, video, or information so it can be used later",
+    "synonyms": [
+      "captured",
+      "saved"
+    ],
+    "exampleSentences": [
+      "She recorded the announcement so she could replay it."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "verb"
+  },
+  {
+    "id": "nar-130",
+    "word": "mysterious",
+    "definition": "strange and difficult to understand or explain",
+    "synonyms": [
+      "clear"
+    ],
+    "exampleSentences": [
+      "The class heard a mysterious noise coming from the dark music room."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "nar-131",
+    "word": "investigate",
+    "definition": "to examine something carefully in order to find out the truth",
+    "synonyms": [
+      "examine"
+    ],
+    "exampleSentences": [
+      "The science group decided to investigate why the plants were dying."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "verb"
+  },
+  {
+    "id": "nar-132",
+    "word": "underneath",
+    "definition": "directly under something",
+    "synonyms": [],
+    "exampleSentences": [
+      "He hid his birthday present underneath his bed."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "preposition/adverb"
+  },
+  {
+    "id": "nar-133",
+    "word": "shiver",
+    "definition": "a small shaking of your body, usually because you are cold, scared or excited",
+    "synonyms": [
+      "steadiness"
+    ],
+    "exampleSentences": [
+      "A shiver ran through him as he stepped into the icy water."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "nar-134",
+    "word": "crouching",
+    "definition": "bending your knees and lowering your body close to the ground",
+    "synonyms": [
+      "standing",
+      "rising",
+      "stretching"
+    ],
+    "exampleSentences": [
+      "The goalie was crouching, ready to dive for the ball."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "verb"
+  },
+  {
+    "id": "nar-135",
+    "word": "wedged",
+    "definition": "stuck tightly between objects so it is hard to move",
+    "synonyms": [
+      "stuck"
+    ],
+    "exampleSentences": [
+      "The book was wedged between the shelf and the wall and wouldn't come out."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "adjective/verb"
+  },
+  {
+    "id": "nar-136",
+    "word": "rusted",
+    "definition": "covered with reddish-brown spots because metal has been exposed to moisture for a long time",
+    "synonyms": [],
+    "exampleSentences": [
+      "The rusted gate squeaked every time someone pushed it open."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "nar-137",
+    "word": "padlock",
+    "definition": "a small lock that can be fastened to something, usually opened with a key or combination",
+    "synonyms": [],
+    "exampleSentences": [
+      "They used a padlock to keep the shed door secure."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "nar-138",
+    "word": "explorers",
+    "definition": "people who travel to new or unknown places to find out more about them",
+    "synonyms": [
+      "adventurers",
+      "discoverers"
+    ],
+    "exampleSentences": [
+      "The explorers followed the river to see where it led."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "nar-139",
+    "word": "headland",
+    "definition": "a narrow piece of high land that sticks out into the sea",
+    "synonyms": [
+      "cape",
+      "point",
+      "promontory"
+    ],
+    "exampleSentences": [
+      "From the headland, we could see fishing boats far out on the water."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "nar-140",
+    "word": "crusted",
+    "definition": "covered with a hard, dry layer on the surface",
+    "synonyms": [
+      "encrusted",
+      "coated"
+    ],
+    "exampleSentences": [
+      "The baking tray was crusted with burnt cheese after dinner."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "nar-141",
+    "word": "churning",
+    "definition": "moving in a wild, swirling, often violent way",
+    "synonyms": [
+      "swirling",
+      "heaving",
+      "turbulent"
+    ],
+    "exampleSentences": [
+      "The river was churning after the heavy rain, so no one was allowed to swim."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "adjective/verb"
+  },
+  {
+    "id": "nar-142",
+    "word": "shudder",
+    "definition": "to shake suddenly and slightly, usually from fear, cold or disgust",
+    "synonyms": [
+      "tremble",
+      "shiver"
+    ],
+    "exampleSentences": [
+      "She felt a shudder run through her when she heard the creepy story."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "verb/noun"
+  },
+  {
+    "id": "nar-143",
+    "word": "coiled",
+    "definition": "wound into circles or loops",
+    "synonyms": [
+      "curled",
+      "wound"
+    ],
+    "exampleSentences": [
+      "The hose was neatly coiled beside the garden tap."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "adjective/verb"
+  },
+  {
+    "id": "nar-144",
+    "word": "reefs",
+    "definition": "long lines of rocks or coral just under the surface of the sea, which can be dangerous to ships",
+    "synonyms": [],
+    "exampleSentences": [
+      "The captain steered carefully near the shore to avoid the reefs."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "noun plural"
+  },
+  {
+    "id": "nar-145",
+    "word": "navigation",
+    "definition": "the skill or process of working out where you are and planning a safe route, especially for ships or aircraft",
+    "synonyms": [],
+    "exampleSentences": [
+      "Modern navigation systems help pilots fly safely through clouds."
+    ],
+    "difficulty": "advanced",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "nar-146",
+    "word": "landmark",
+    "definition": "something easy to see, like a building, hill, or tree, that helps you know where you are",
+    "synonyms": [
+      "marker",
+      "guide"
+    ],
+    "exampleSentences": [
+      "The clock tower is a useful landmark when you're finding your way around the city."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "nar-147",
+    "word": "harbour",
+    "definition": "a sheltered area of water next to the land where ships can stay safely and load or unload",
+    "synonyms": [
+      "port"
+    ],
+    "exampleSentences": [
+      "The fishing boats returned to the harbour before the storm arrived."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "nar-148",
+    "word": "clearing",
+    "definition": "an open area in a forest where there are few or no trees",
+    "synonyms": [],
+    "exampleSentences": [
+      "They pitched their tent in a clearing beside the river so they could see the sky."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "nar-149",
+    "word": "dense",
+    "definition": "packed closely together with very little space between parts (can describe trees, fog, crowds and more)",
+    "synonyms": [
+      "thick",
+      "crowded"
+    ],
+    "exampleSentences": [
+      "The bush was so dense that they had to push branches aside to keep moving."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "nar-150",
+    "word": "canopy",
+    "definition": "the upper layer of branches and leaves that forms a roof-like cover over a forest",
+    "synonyms": [
+      "cover",
+      "roof (of trees)"
+    ],
+    "exampleSentences": [
+      "Birds darted through the canopy high above their heads."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "nar-151",
+    "word": "sheltered",
+    "definition": "protected from danger, bad weather, or harsh conditions; safely hidden",
+    "synonyms": [
+      "protected",
+      "safe"
+    ],
+    "exampleSentences": [
+      "They waited in a sheltered spot behind the wall until the storm passed."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "nar-152",
+    "word": "muted",
+    "definition": "softer or quieter than normal; not strong or intense (in sound, colour, or feeling)",
+    "synonyms": [
+      "soft",
+      "subdued"
+    ],
+    "exampleSentences": [
+      "The class spoke in muted voices while the test was being handed out."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "nar-153",
+    "word": "threaded",
+    "definition": "moved carefully through or between things the way a thread goes through the eye of a needle",
+    "synonyms": [
+      "wound",
+      "weaved"
+    ],
+    "exampleSentences": [
+      "The path threaded between rocks and tree roots before climbing the hill."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "verb â€“ past tense"
+  },
+  {
+    "id": "nar-154",
+    "word": "cluster",
+    "definition": "a small group of things that are close together",
+    "synonyms": [
+      "group",
+      "bunch"
+    ],
+    "exampleSentences": [
+      "A cluster of students gathered around the noticeboard to check their results."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "nar-155",
+    "word": "hidden",
+    "definition": "placed or kept where it cannot easily be seen, found, or noticed",
+    "synonyms": [
+      "concealed",
+      "secret"
+    ],
+    "exampleSentences": [
+      "She discovered a hidden compartment at the back of the drawer."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "nar-156",
+    "word": "revealed",
+    "definition": "showed something that was hidden or unknown",
+    "synonyms": [
+      "showed",
+      "uncovered"
+    ],
+    "exampleSentences": [
+      "The investigation revealed the real reason the project failed."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "verb â€“ past tense"
+  },
+  {
+    "id": "nar-157",
+    "word": "jagged",
+    "definition": "having sharp, uneven points or edges",
+    "synonyms": [
+      "sharp",
+      "uneven"
+    ],
+    "exampleSentences": [
+      "We were careful climbing over the jagged rocks so we didn't cut our hands."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "nar-158",
+    "word": "glistening",
+    "definition": "shining or wavering with light, as if something is wet or polished",
+    "synonyms": [
+      "sparkling",
+      "shining"
+    ],
+    "exampleSentences": [
+      "Raindrops were glistening on the leaves after the storm."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "verb â€“ present participle"
+  },
+  {
+    "id": "nar-159",
+    "word": "moisture",
+    "definition": "tiny amounts of water or liquid in the air or on a surface",
+    "synonyms": [
+      "dampness",
+      "wetness"
+    ],
+    "exampleSentences": [
+      "There was so much moisture in the air that the windows fogged up."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "nar-160",
+    "word": "mist",
+    "definition": "a thin cloud of tiny water drops in the air that makes it hard to see clearly",
+    "synonyms": [
+      "haze",
+      "fog"
+    ],
+    "exampleSentences": [
+      "The town was covered in early morning mist, hiding the tops of the buildings."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "nar-161",
+    "word": "murmur",
+    "definition": "a quiet, soft, continuous sound, like distant voices or waves",
+    "synonyms": [
+      "whisper",
+      "hum"
+    ],
+    "exampleSentences": [
+      "The murmur of the crowd grew louder as the players ran onto the field."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "nar-162",
+    "word": "metallic",
+    "definition": "having the look, sound, taste, or smell of metal",
+    "synonyms": [
+      "metal-like"
+    ],
+    "exampleSentences": [
+      "The old coins had a metallic smell that clung to his fingers."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "nar-163",
+    "word": "seeped",
+    "definition": "flowed or leaked slowly through small holes or spaces",
+    "synonyms": [
+      "leaked",
+      "oozed"
+    ],
+    "exampleSentences": [
+      "Water seeped through the cracks in the wall after the heavy rain."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "verb â€“ past tense"
+  },
+  {
+    "id": "nar-164",
+    "word": "lichen",
+    "definition": "a flat, often crusty or leaf-like plant that grows on rocks, trees, and walls, made from a partnership between a fungus and an alga",
+    "synonyms": [],
+    "exampleSentences": [
+      "Green-grey lichen covered the old stone fence behind the school."
+    ],
+    "difficulty": "advanced",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "nar-165",
+    "word": "threshold",
+    "definition": "the strip or edge at the bottom of a doorway; can also mean the point where something begins or changes",
+    "synonyms": [
+      "entrance",
+      "doorway",
+      "brink"
+    ],
+    "exampleSentences": [
+      "She paused on the threshold of the classroom before stepping inside."
+    ],
+    "difficulty": "advanced",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "nar-166",
+    "word": "uneasy",
+    "definition": "feeling worried or uncomfortable, often because something seems wrong",
+    "synonyms": [
+      "anxious",
+      "nervous"
+    ],
+    "exampleSentences": [
+      "He felt uneasy walking home alone in the dark."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "nar-167",
+    "word": "skyscraper",
+    "definition": "a very tall city building with many storeys",
+    "synonyms": [
+      "high-rise",
+      "tower"
+    ],
+    "exampleSentences": [
+      "From each plane window, the skyscraper looked like a tiny silver stick poking up from the city."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "nar-168",
+    "word": "mirrored",
+    "definition": "reflected an image, like a mirror does; also used as an adjective",
+    "synonyms": [
+      "reflected"
+    ],
+    "exampleSentences": [
+      "The lake mirrored the mountains so clearly that it looked like there were two of them."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "verb â€“ past tense / adjective"
+  },
+  {
+    "id": "nar-169",
+    "word": "pedestrians",
+    "definition": "people who are walking, especially along a street or footpath",
+    "synonyms": [],
+    "exampleSentences": [
+      "Pedestrians waited for the green man before crossing the busy road."
+    ],
+    "difficulty": "advanced",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "noun plural"
+  },
+  {
+    "id": "nar-170",
+    "word": "intersection",
+    "definition": "a place where two or more roads meet or cross",
+    "synonyms": [
+      "crossroads",
+      "junction"
+    ],
+    "exampleSentences": [
+      "Traffic lights help stop cars at the intersection from crashing into each other."
+    ],
+    "difficulty": "advanced",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "nar-171",
+    "word": "lobby",
+    "definition": "the large entrance hall or waiting area inside a building",
+    "synonyms": [
+      "entrance hall",
+      "foyer"
+    ],
+    "exampleSentences": [
+      "We met our guide in the hotel lobby before going up to our rooms."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "nar-172",
+    "word": "suburbs",
+    "definition": "areas of houses and shops on the outer edges of a city, not in the city centre",
+    "synonyms": [],
+    "exampleSentences": [
+      "They moved from a tiny city flat to a bigger house in the suburbs."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "noun plural"
+  },
+  {
+    "id": "nar-173",
+    "word": "delicate",
+    "definition": "easily damaged or broken; or very light, fine, not very strong",
+    "synonyms": [
+      "fragile",
+      "fine"
+    ],
+    "exampleSentences": [
+      "The spider's web looked delicate but managed to hold raindrops on its threads."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "nar-174",
+    "word": "foundations",
+    "definition": "the strong base of a building, usually below ground, that supports everything above; can also mean the basic ideas or structures something is built on",
+    "synonyms": [
+      "base",
+      "groundwork"
+    ],
+    "exampleSentences": [
+      "The engineers checked the foundations before adding more storeys to the building."
+    ],
+    "difficulty": "advanced",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "noun plural"
+  },
+  {
+    "id": "nar-175",
+    "word": "sway",
+    "definition": "to move backwards and forwards or from side to side slowly and gently",
+    "synonyms": [
+      "swing",
+      "rock"
+    ],
+    "exampleSentences": [
+      "The tall trees began to sway in the strong wind."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "verb"
+  },
+  {
+    "id": "nar-176",
+    "word": "trolley",
+    "definition": "a small cart on wheels used to carry or deliver items",
+    "synonyms": [],
+    "exampleSentences": [
+      "The lab assistant pushed a trolley stacked with science equipment into the classroom."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "nar-177",
+    "word": "uniform",
+    "definition": "a set of special clothes worn by members of the same school, job or organisation so they are easily recognised",
+    "synonyms": [],
+    "exampleSentences": [
+      "The museum staff wore a dark green uniform with the logo on the pocket."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "nar-178",
+    "word": "crooked",
+    "definition": "not straight or level; bent or slanted to one side",
+    "synonyms": [
+      "straight",
+      "level"
+    ],
+    "exampleSentences": [
+      "He noticed that one of the paintings was slightly crooked on the wall."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "nar-179",
+    "word": "badge",
+    "definition": "a small sign or piece of metal or plastic that shows a person's name, job, or membership of a group",
+    "synonyms": [],
+    "exampleSentences": [
+      "Each helper wore a badge so visitors knew their name and who to ask for directions."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "nar-180",
+    "word": "practised",
+    "definition": "done so many times that it becomes skilful",
+    "synonyms": [
+      "skilled",
+      "skilful",
+      "experienced"
+    ],
+    "exampleSentences": [
+      "With practised fingers, she tied the bandage in a neat knot."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "nar-181",
+    "word": "reliable",
+    "definition": "consistently does what is expected; someone you can depend on",
+    "synonyms": [
+      "dependable",
+      "trustworthy"
+    ],
+    "exampleSentences": [
+      "He was chosen as group leader because he was the most reliable student in the class."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "nar-182",
+    "word": "suburb",
+    "definition": "a residential area, usually on the edge of a city, with houses, local shops, schools and parks",
+    "synonyms": [],
+    "exampleSentences": [
+      "Their new suburb had quieter streets and more parks than the city centre."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "nar-183",
+    "word": "cheerful",
+    "definition": "noticeably happy, positive or bright in mood or attitude",
+    "synonyms": [
+      "upbeat",
+      "joyful"
+    ],
+    "exampleSentences": [
+      "Her cheerful greeting made the early morning meeting less tiring."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "nar-184",
+    "word": "manner",
+    "definition": "the way someone behaves or speaks, especially towards other people",
+    "synonyms": [
+      "behaviour",
+      "attitude"
+    ],
+    "exampleSentences": [
+      "Although he disagreed, his calm and respectful manner impressed the teacher."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "nar-185",
+    "word": "energy",
+    "definition": "the physical or mental power that allows you to do work, move, stay active and concentrate",
+    "synonyms": [],
+    "exampleSentences": [
+      "After a full day of sport, she didn't have enough energy left to concentrate on homework."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "journal",
+      "essay"
+    ],
+    "partOfSpeech": "noun"
+  }
+]

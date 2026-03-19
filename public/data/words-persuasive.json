@@ -1,0 +1,2454 @@
+[
+  {
+    "id": "per-001",
+    "word": "benefit",
+    "definition": "something that helps you do something better or makes a situation better",
+    "synonyms": [
+      "advantage",
+      "help",
+      "gain"
+    ],
+    "exampleSentences": [
+      "harm"
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "per-002",
+    "word": "suitable",
+    "definition": "right or good for a particular person, purpose or situation",
+    "synonyms": [
+      "appropriate",
+      "right",
+      "proper"
+    ],
+    "exampleSentences": [
+      "The library is a suitable place for quiet reading, but not for noisy games."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "per-003",
+    "word": "distractions",
+    "definition": "things that take your attention away from what you are trying to do",
+    "synonyms": [
+      "diversions",
+      "disturbances"
+    ],
+    "exampleSentences": [
+      "I turned off distractions on my tablet while I finished my homework."
+    ],
+    "difficulty": "advanced",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "noun plural"
+  },
+  {
+    "id": "per-004",
+    "word": "responsibility",
+    "definition": "a duty or job that you are expected to do and take seriously",
+    "synonyms": [
+      "duty",
+      "obligation"
+    ],
+    "exampleSentences": [
+      "It is your responsibility to return borrowed library books on time."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "per-005",
+    "word": "resources",
+    "definition": "things you can use to help you, such as books, computers or websites",
+    "synonyms": [
+      "materials",
+      "supplies"
+    ],
+    "exampleSentences": [
+      "Our teacher showed us online resources to research our history assignment."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "noun plural"
+  },
+  {
+    "id": "per-006",
+    "word": "equitable",
+    "definition": "fair to everyone equally, so that everyone is treated in a just way",
+    "synonyms": [
+      "fair",
+      "just"
+    ],
+    "exampleSentences": [
+      "The school made an equitable plan so all students could have computer time."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "per-007",
+    "word": "opportunity",
+    "definition": "a good chance to do something or take advantage of something",
+    "synonyms": [
+      "chance",
+      "opening"
+    ],
+    "exampleSentences": [
+      "Joining the book club is an opportunity to discover new favourite authors."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "per-008",
+    "word": "culture",
+    "definition": "the shared habits, beliefs and activities of a group of people",
+    "synonyms": [
+      "traditions",
+      "customs"
+    ],
+    "exampleSentences": [
+      "Daily reading time helped build a strong reading culture in the school."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "per-009",
+    "word": "curiosity",
+    "definition": "a strong wish to know or learn something",
+    "synonyms": [
+      "interest"
+    ],
+    "exampleSentences": [
+      "His curiosity about insects led him to borrow lots of science books from the library."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "per-010",
+    "word": "confidence",
+    "definition": "a feeling that you can do something well or succeed",
+    "synonyms": [
+      "self-belief"
+    ],
+    "exampleSentences": [
+      "Using the library often gave her confidence to research her own projects."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "per-011",
+    "word": "fascinating",
+    "definition": "extremely interesting and holding your attention",
+    "synonyms": [
+      "gripping",
+      "absorbing"
+    ],
+    "exampleSentences": [
+      "The story about space travel was so fascinating that no one wanted to stop reading."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "per-012",
+    "word": "stretches",
+    "definition": "makes something work hard or improves it (here, your brain or thinking)",
+    "synonyms": [
+      "challenges",
+      "exercises"
+    ],
+    "exampleSentences": [
+      "Solving tricky puzzles stretches your brain and helps you think more clearly."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "verb"
+  },
+  {
+    "id": "per-013",
+    "word": "flexible",
+    "definition": "able to change or be changed easily; willing to consider different ideas",
+    "synonyms": [
+      "adaptable",
+      "open-minded"
+    ],
+    "exampleSentences": [
+      "Her flexible thinking helped her find another solution when the first plan failed."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "per-014",
+    "word": "empathy",
+    "definition": "the ability to understand how someone else feels",
+    "synonyms": [
+      "understanding",
+      "compassion"
+    ],
+    "exampleSentences": [
+      "Showing empathy means listening carefully when your friend is upset."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "per-015",
+    "word": "stereotype",
+    "definition": "(verb) to unfairly believe all people in a group are the same; (noun) an unfair, oversimplified idea",
+    "synonyms": [
+      "label",
+      "generalise"
+    ],
+    "exampleSentences": [
+      "It is wrong to stereotype people just because of where they come from."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "verb/noun"
+  },
+  {
+    "id": "per-016",
+    "word": "multicultural",
+    "definition": "including or involving people from different cultures and many backgrounds",
+    "synonyms": [
+      "diverse",
+      "many-cultured"
+    ],
+    "exampleSentences": [
+      "Our multicultural school celebrates festivals from many countries."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "per-017",
+    "word": "bilingual",
+    "definition": "able to speak two languages well",
+    "synonyms": [
+      "two-language",
+      "multilingual"
+    ],
+    "exampleSentences": [
+      "The bilingual nurse could explain the medicine in both English and Spanish."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "per-018",
+    "word": "advantage",
+    "definition": "something that helps you or gives you a better chance of success",
+    "synonyms": [
+      "benefit",
+      "gain",
+      "plus"
+    ],
+    "exampleSentences": [
+      "Knowing another language is an advantage when you apply for certain jobs."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "per-019",
+    "word": "scholarships",
+    "definition": "money given to students for their education, usually because of achievement or need",
+    "synonyms": [
+      "study grants",
+      "awards"
+    ],
+    "exampleSentences": [
+      "She won two scholarships that helped pay for her high school fees."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "noun plural"
+  },
+  {
+    "id": "per-020",
+    "word": "investment",
+    "definition": "something you put time, effort or money into now because it will help you in the future",
+    "synonyms": [
+      "commitment",
+      "contribution"
+    ],
+    "exampleSentences": [
+      "Practising a language every day is an investment in your future career."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "per-021",
+    "word": "alert",
+    "definition": "awake and paying attention; quick to notice things",
+    "synonyms": [
+      "watchful",
+      "attentive"
+    ],
+    "exampleSentences": [
+      "The lifeguard must stay alert while watching the pool."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "per-022",
+    "word": "environment",
+    "definition": "the air, land, water, plants and animals around us",
+    "synonyms": [
+      "surroundings",
+      "nature"
+    ],
+    "exampleSentences": [
+      "Planting trees helps the environment by cleaning the air."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "per-023",
+    "word": "refreshing",
+    "definition": "making you feel cooler, less tired, or more awake",
+    "synonyms": [
+      "cooling",
+      "reviving"
+    ],
+    "exampleSentences": [
+      "A cold drink on a hot day can be very refreshing."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "per-024",
+    "word": "deserves",
+    "definition": "has earned something good because of being good or worthy",
+    "synonyms": [
+      "has earned",
+      "is worthy of"
+    ],
+    "exampleSentences": [
+      "She practised every day and deserves a place on the team."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "verb"
+  },
+  {
+    "id": "per-025",
+    "word": "hidden",
+    "definition": "not seen or easily noticed; kept out of sight",
+    "synonyms": [
+      "secret",
+      "unseen"
+    ],
+    "exampleSentences": [
+      "There was a hidden pocket inside the jacket."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "per-026",
+    "word": "burst",
+    "definition": "a sudden, strong increase that doesn't last long",
+    "synonyms": [
+      "flash",
+      "rush"
+    ],
+    "exampleSentences": [
+      "He ran with a burst of speed at the finish line."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "per-027",
+    "word": "refill",
+    "definition": "to fill something again",
+    "synonyms": [
+      "top up",
+      "fill again"
+    ],
+    "exampleSentences": [
+      "Please refill your water bottle at the tap."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "verb"
+  },
+  {
+    "id": "per-028",
+    "word": "thirsty",
+    "definition": "feeling like you need a drink",
+    "synonyms": [
+      "parched"
+    ],
+    "exampleSentences": [
+      "After the long walk, we were very thirsty."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "per-029",
+    "word": "kilojoules",
+    "definition": "a unit used to measure how much energy is in food or drink",
+    "synonyms": [],
+    "exampleSentences": [
+      "The label shows how many kilojoules are in each biscuit."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "per-030",
+    "word": "properly",
+    "definition": "in a correct or right way",
+    "synonyms": [
+      "correctly",
+      "rightly"
+    ],
+    "exampleSentences": [
+      "Tie your shoelaces properly so you don't trip."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "adverb"
+  },
+  {
+    "id": "per-031",
+    "word": "diversity",
+    "definition": "a range of many different types of people or things",
+    "synonyms": [
+      "variety",
+      "mixture"
+    ],
+    "exampleSentences": [
+      "The diversity in our class means we hear stories from all over the world."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "per-032",
+    "word": "heritage",
+    "definition": "the traditions, history, and culture from previous generations",
+    "synonyms": [
+      "background",
+      "legacy"
+    ],
+    "exampleSentences": [
+      "He is proud of his family's cultural heritage."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "per-033",
+    "word": "stereotypes",
+    "definition": "unfair and oversimplified ideas about a group of people",
+    "synonyms": [
+      "generalizations",
+      "clichés"
+    ],
+    "exampleSentences": [
+      "Stereotypes can stop people from seeing others as individuals."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "per-034",
+    "word": "cooperation",
+    "definition": "people working together to reach a shared goal",
+    "synonyms": [
+      "collaboration",
+      "teamwork"
+    ],
+    "exampleSentences": [
+      "With cooperation, the group finished the project on time."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "per-035",
+    "word": "inclusive",
+    "definition": "including everyone, especially people who might otherwise be left out",
+    "synonyms": [
+      "welcoming",
+      "open"
+    ],
+    "exampleSentences": [
+      "An inclusive school welcomes students from all backgrounds."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "per-036",
+    "word": "racism",
+    "definition": "unfair treatment or hatred towards people because of their race or skin colour",
+    "synonyms": [
+      "racial discrimination",
+      "prejudice"
+    ],
+    "exampleSentences": [
+      "Racism can make people feel unsafe in their own communities."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "per-037",
+    "word": "citizens",
+    "definition": "people who belong to a country or community and have rights and responsibilities in it",
+    "synonyms": [
+      "members (of a country)",
+      "residents"
+    ],
+    "exampleSentences": [
+      "Good citizens follow the law and help their neighbours."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "per-038",
+    "word": "global",
+    "definition": "relating to the whole world",
+    "synonyms": [
+      "worldwide",
+      "international"
+    ],
+    "exampleSentences": [
+      "English is used in global business meetings."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "per-039",
+    "word": "tolerate",
+    "definition": "to accept something, even if you do not agree with it or like it",
+    "synonyms": [
+      "accept",
+      "put up with"
+    ],
+    "exampleSentences": [
+      "We should not tolerate bullying at school."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "verb"
+  },
+  {
+    "id": "per-040",
+    "word": "transform",
+    "definition": "to change something completely or in a very important way, often for the better",
+    "synonyms": [
+      "change",
+      "revolutionise"
+    ],
+    "exampleSentences": [
+      "Joining the debating team helped transform his confidence."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "verb"
+  },
+  {
+    "id": "per-041",
+    "word": "strengthens",
+    "definition": "makes something stronger or more powerful",
+    "synonyms": [
+      "reinforces",
+      "builds up"
+    ],
+    "exampleSentences": [
+      "Reading every night strengthens your vocabulary."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "verb"
+  },
+  {
+    "id": "per-042",
+    "word": "manageable",
+    "definition": "possible to deal with or control without too much difficulty",
+    "synonyms": [
+      "doable",
+      "achievable"
+    ],
+    "exampleSentences": [
+      "Breaking the project into small steps made the work manageable."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "per-043",
+    "word": "improvement",
+    "definition": "a change that makes something better than before",
+    "synonyms": [
+      "progress",
+      "development"
+    ],
+    "exampleSentences": [
+      "Her teacher noticed a big improvement in her essays."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "per-044",
+    "word": "genuine",
+    "definition": "real and honest; not fake or pretending",
+    "synonyms": [
+      "real",
+      "sincere"
+    ],
+    "exampleSentences": [
+      "He showed genuine interest in his friend's problems."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "per-045",
+    "word": "organise",
+    "definition": "to arrange things in a clear order or system",
+    "synonyms": [
+      "arrange",
+      "sort"
+    ],
+    "exampleSentences": [
+      "She used headings to organise her ideas before writing."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "verb"
+  },
+  {
+    "id": "per-046",
+    "word": "speak up",
+    "definition": "to talk more loudly or more confidently, especially to share your opinion",
+    "synonyms": [
+      "voice",
+      "say what you think"
+    ],
+    "exampleSentences": [
+      "The teacher encouraged quiet students to speak up in class."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "phrasal verb"
+  },
+  {
+    "id": "per-047",
+    "word": "risks",
+    "definition": "actions that might lead to loss, failure, or embarrassment",
+    "synonyms": [
+      "chances",
+      "dangers"
+    ],
+    "exampleSentences": [
+      "Artists often take risks when they try new styles."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "noun plural"
+  },
+  {
+    "id": "per-048",
+    "word": "experiment",
+    "definition": "to try new ideas or ways of doing things to see what happens",
+    "synonyms": [
+      "try out",
+      "test"
+    ],
+    "exampleSentences": [
+      "She liked to experiment with different endings to her stories."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "verb"
+  },
+  {
+    "id": "per-049",
+    "word": "foundation",
+    "definition": "the basic part that supports something and that everything else depends on",
+    "synonyms": [
+      "base",
+      "groundwork"
+    ],
+    "exampleSentences": [
+      "Trust is the foundation of a strong friendship."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "per-050",
+    "word": "participate",
+    "definition": "to take part in an activity",
+    "synonyms": [
+      "take part",
+      "join"
+    ],
+    "exampleSentences": [
+      "Every student was asked to participate in the science experiment."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "verb"
+  },
+  {
+    "id": "per-051",
+    "word": "consequences",
+    "definition": "results or effects of an action, often what happens because of a choice",
+    "synonyms": [
+      "results",
+      "outcomes"
+    ],
+    "exampleSentences": [
+      "Staying up too late can have consequences for your focus the next day."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "per-052",
+    "word": "compromise",
+    "definition": "an agreement where each side gives up something so everyone can accept the solution",
+    "synonyms": [
+      "middle ground",
+      "settlement"
+    ],
+    "exampleSentences": [
+      "The class reached a compromise by sharing the hall with another group."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "per-053",
+    "word": "concentrate",
+    "definition": "to give all your attention to one thing and not be distracted",
+    "synonyms": [
+      "focus",
+      "pay attention"
+    ],
+    "exampleSentences": [
+      "It is hard to concentrate when people are talking loudly nearby."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "verb"
+  },
+  {
+    "id": "per-054",
+    "word": "behaviour",
+    "definition": "the way someone acts, especially towards others",
+    "synonyms": [
+      "conduct",
+      "actions"
+    ],
+    "exampleSentences": [
+      "The teacher praised the class for their respectful behaviour."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "per-055",
+    "word": "argument",
+    "definition": "a disagreement with words, or a set of reasons for or against an idea",
+    "synonyms": [
+      "dispute",
+      "(quarrel)",
+      "reasoning"
+    ],
+    "exampleSentences": [
+      "She gave a strong argument for starting school later in the morning."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "per-056",
+    "word": "punishment",
+    "definition": "something unpleasant done to someone because they broke a rule or did something wrong",
+    "synonyms": [
+      "penalty",
+      "(a consequence)"
+    ],
+    "exampleSentences": [
+      "Detention was the punishment for repeatedly arriving late."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "per-057",
+    "word": "repetitive",
+    "definition": "happening again and again in the same way",
+    "synonyms": [
+      "monotonous",
+      "routine",
+      "repeated"
+    ],
+    "exampleSentences": [
+      "Filing hundreds of papers every day is very repetitive work."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "per-058",
+    "word": "hazardous",
+    "definition": "very dangerous or likely to cause harm",
+    "synonyms": [
+      "dangerous",
+      "risky",
+      "unsafe"
+    ],
+    "exampleSentences": [
+      "Workers must wear helmets at the hazardous construction site."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "per-059",
+    "word": "ethical",
+    "definition": "following rules about what is right and wrong; morally good",
+    "synonyms": [
+      "moral",
+      "principled",
+      "fair"
+    ],
+    "exampleSentences": [
+      "It is ethical for scientists to test new medicines carefully before using them on people."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "per-060",
+    "word": "meaningful",
+    "definition": "full of importance or having real value or purpose",
+    "synonyms": [
+      "significant",
+      "worthwhile"
+    ],
+    "exampleSentences": [
+      "Volunteering at the animal shelter felt like meaningful work because it helped others."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "per-061",
+    "word": "purpose",
+    "definition": "the reason why something is done, or the feeling that what you do is important",
+    "synonyms": [
+      "aim",
+      "goal",
+      "intention"
+    ],
+    "exampleSentences": [
+      "Coaching the junior team gave her a sense of purpose."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "per-062",
+    "word": "training",
+    "definition": "practice or instruction that teaches you how to do a job or skill",
+    "synonyms": [
+      "coaching",
+      "preparation",
+      "practice"
+    ],
+    "exampleSentences": [
+      "All new lifeguards must complete training before starting work."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "per-063",
+    "word": "compassion",
+    "definition": "a strong feeling of sympathy for someone who is suffering, and a wish to help them",
+    "synonyms": [
+      "kindness",
+      "mercy",
+      "sympathy"
+    ],
+    "exampleSentences": [
+      "The nurse treated every patient with compassion."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "per-064",
+    "word": "frustration",
+    "definition": "the feeling of being annoyed or upset because you cannot do what you want",
+    "synonyms": [
+      "annoyance",
+      "irritation"
+    ],
+    "exampleSentences": [
+      "He felt frustration when the computer kept crashing during his homework."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "per-065",
+    "word": "assist",
+    "definition": "to help someone do something",
+    "synonyms": [
+      "help",
+      "support",
+      "aid"
+    ],
+    "exampleSentences": [
+      "Older students often assist teachers during school events."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "verb"
+  },
+  {
+    "id": "per-066",
+    "word": "funded",
+    "definition": "given money to support a project or activity",
+    "synonyms": [
+      "financed",
+      "sponsored"
+    ],
+    "exampleSentences": [
+      "The council funded the new library so students could study there."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "verb"
+  },
+  {
+    "id": "per-067",
+    "word": "fragile",
+    "definition": "easily broken or damaged",
+    "synonyms": [
+      "delicate",
+      "breakable"
+    ],
+    "exampleSentences": [
+      "The fragile shell cracked when it fell onto the tiles."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "per-068",
+    "word": "iceberg",
+    "definition": "a large floating piece of ice, mostly hidden underwater",
+    "synonyms": [],
+    "exampleSentences": [
+      "The ship changed course to avoid the iceberg."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "per-069",
+    "word": "piece",
+    "definition": "(in 'piece together') to join bits of information to form a whole idea",
+    "synonyms": [],
+    "exampleSentences": [
+      "Detectives pieced together the clues to solve the case."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "verb"
+  },
+  {
+    "id": "per-070",
+    "word": "otherwise",
+    "definition": "if not; or else",
+    "synonyms": [],
+    "exampleSentences": [
+      "Wear sunscreen, otherwise you might get sunburnt."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "adverb"
+  },
+  {
+    "id": "per-071",
+    "word": "hands-on",
+    "definition": "involving active participation and doing something",
+    "synonyms": [
+      "practical",
+      "interactive"
+    ],
+    "exampleSentences": [
+      "The science centre had hands-on experiments with magnets."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "per-072",
+    "word": "mapping",
+    "definition": "making a map; recording where things are",
+    "synonyms": [
+      "charting",
+      "recording"
+    ],
+    "exampleSentences": [
+      "The class is mapping the school grounds for a geography task."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "verb"
+  },
+  {
+    "id": "per-073",
+    "word": "preserve",
+    "definition": "to protect something so it lasts a long time",
+    "synonyms": [
+      "protect",
+      "conserve"
+    ],
+    "exampleSentences": [
+      "Museums preserve old letters in special boxes."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "verb"
+  },
+  {
+    "id": "per-074",
+    "word": "artefact",
+    "definition": "an object made by people in the past",
+    "synonyms": [
+      "relic"
+    ],
+    "exampleSentences": [
+      "The museum displayed an artefact from an ancient civilisation."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "per-075",
+    "word": "sonar",
+    "definition": "a system that uses sound underwater to detect objects or measure distance",
+    "synonyms": [],
+    "exampleSentences": [
+      "Researchers used sonar to find the shape of the wreck."
+    ],
+    "difficulty": "advanced",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "per-076",
+    "word": "individuality",
+    "definition": "the qualities that make one person different from others; uniqueness",
+    "synonyms": [
+      "uniqueness",
+      "distinctiveness"
+    ],
+    "exampleSentences": [
+      "Wearing her handmade bracelet helped her show her individuality in a school full of uniforms."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "per-077",
+    "word": "practicality",
+    "definition": "how useful something is, or how sensible it is in everyday life",
+    "synonyms": [
+      "usefulness",
+      "sensibleness"
+    ],
+    "exampleSentences": [
+      "One practicality of school uniforms is that students don't have to choose an outfit every morning."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "per-078",
+    "word": "pressured",
+    "definition": "feeling strongly influenced or pushed to do something, often because of others",
+    "synonyms": [
+      "(informally) forced",
+      "pushed"
+    ],
+    "exampleSentences": [
+      "He felt pressured to buy the latest brand of shoes because all his friends had them."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "per-079",
+    "word": "bullying",
+    "definition": "repeated teasing, threatening, harmful behaviour such as harming someone weaker or less popular",
+    "synonyms": [
+      "harassment",
+      "intimidation"
+    ],
+    "exampleSentences": [
+      "The school has strict rules to stop bullying in the playground."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "per-080",
+    "word": "belonging",
+    "definition": "the feeling of being accepted and included in a group",
+    "synonyms": [
+      "inclusion",
+      "connectedness"
+    ],
+    "exampleSentences": [
+      "Joining the choir gave her a strong sense of belonging at her new school."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "per-081",
+    "word": "fairness",
+    "definition": "the quality of treating people equally and without favour or cheating",
+    "synonyms": [
+      "justice",
+      "equality"
+    ],
+    "exampleSentences": [
+      "The teacher showed fairness by giving everyone the same amount of time to speak."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "per-082",
+    "word": "popularity",
+    "definition": "the state of being liked or admired by many people",
+    "synonyms": [
+      "favour",
+      "fame (in some contexts)"
+    ],
+    "exampleSentences": [
+      "Some students worry too much about the popularity of their clothes."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "per-083",
+    "word": "fashion",
+    "definition": "the most current or popular styles of clothes, hair, or appearance at a particular time",
+    "synonyms": [
+      "style",
+      "trend"
+    ],
+    "exampleSentences": [
+      "School uniforms are meant to reduce arguments about fashion in the classroom."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "per-084",
+    "word": "balance",
+    "definition": "to give the right amount or importance to different things so none is too strong or too weak",
+    "synonyms": [
+      "weigh",
+      "adjust",
+      "even out"
+    ],
+    "exampleSentences": [
+      "Schools must balance freedom of choice with fairness for all families."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "verb"
+  },
+  {
+    "id": "per-085",
+    "word": "banned",
+    "definition": "not allowed by law or rules",
+    "synonyms": [
+      "forbidden",
+      "prohibited",
+      "not allowed"
+    ],
+    "exampleSentences": [
+      "permitted"
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "per-086",
+    "word": "essential",
+    "definition": "absolutely needed; very important",
+    "synonyms": [
+      "necessary",
+      "vital",
+      "important"
+    ],
+    "exampleSentences": [
+      "A helmet is essential when you ride a bike in busy traffic."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "per-087",
+    "word": "pollution",
+    "definition": "harmful or dirty substances in the air, water, or land that make it unsafe or unhealthy",
+    "synonyms": [
+      "contamination",
+      "dirtiness"
+    ],
+    "exampleSentences": [
+      "Air pollution in big cities can make it hard for some people to breathe."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "per-088",
+    "word": "exhaust",
+    "definition": "the waste gases that come out of an engine, such as from a car, bus, or other vehicle",
+    "synonyms": [
+      "emissions",
+      "fumes"
+    ],
+    "exampleSentences": [
+      "We could smell the exhaust from the buses waiting outside the station."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "per-089",
+    "word": "fumes",
+    "definition": "strong-smelling gases, smoke, or vapours, often harmful to breathe",
+    "synonyms": [
+      "gas",
+      "smoke",
+      "vapours"
+    ],
+    "exampleSentences": [
+      "The paint gave off strong fumes, so we opened the windows."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "per-090",
+    "word": "pedestrians",
+    "definition": "people who are walking, especially along a street or footpath",
+    "synonyms": [
+      "walkers",
+      "people on foot"
+    ],
+    "exampleSentences": [
+      "Drivers must stop at the crossing to let pedestrians walk across safely."
+    ],
+    "difficulty": "advanced",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "per-091",
+    "word": "confident",
+    "definition": "feeling sure about something or your own abilities",
+    "synonyms": [
+      "sure",
+      "certain",
+      "self-assured"
+    ],
+    "exampleSentences": [
+      "After practising, her speech became confident when speaking to the class."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "per-092",
+    "word": "sensible",
+    "definition": "showing good judgement; making careful, practical choices",
+    "synonyms": [
+      "reasonable",
+      "wise",
+      "practical"
+    ],
+    "exampleSentences": [
+      "It is sensible to bring a water bottle on a hot day."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "per-093",
+    "word": "attractive",
+    "definition": "pleasant to look at or appealing in some way",
+    "synonyms": [
+      "appealing",
+      "pretty",
+      "pleasant"
+    ],
+    "exampleSentences": [
+      "The park looked attractive with its colourful flowers and neat lawns."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "per-094",
+    "word": "restricting",
+    "definition": "limiting something so it cannot be done freely or as much as before",
+    "synonyms": [
+      "limiting",
+      "controlling"
+    ],
+    "exampleSentences": [
+      "freeing"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "verb"
+  },
+  {
+    "id": "per-095",
+    "word": "fast-paced",
+    "definition": "moving quickly or happening very quickly with lots of action and little waiting time",
+    "synonyms": [
+      "quick",
+      "lively",
+      "energetic"
+    ],
+    "exampleSentences": [
+      "The fast-paced movie kept the audience on the edge of their seats."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "per-096",
+    "word": "unfinished",
+    "definition": "not still completed or missing parts",
+    "synonyms": [
+      "unfinished",
+      "incomplete"
+    ],
+    "exampleSentences": [
+      "She left her homework unfinished on the table when dinner was ready."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "per-097",
+    "word": "floods",
+    "definition": "fills with too much water so that it overflows onto land or into places it shouldn't be",
+    "synonyms": [
+      "overflows",
+      "inundates"
+    ],
+    "exampleSentences": [
+      "The river floods the nearby park after heavy rain."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "verb"
+  },
+  {
+    "id": "per-098",
+    "word": "warning",
+    "definition": "a sign, sound, or message that tells you something bad or dangerous may happen",
+    "synonyms": [
+      "alert",
+      "caution"
+    ],
+    "exampleSentences": [
+      "The loud siren was a warning that a storm was coming."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "per-099",
+    "word": "stubbornness",
+    "definition": "the quality of refusing to change your mind or behaviour, even when it might be better to do so",
+    "synonyms": [],
+    "exampleSentences": [
+      "His stubbornness meant he wouldn't ask for help, even when he was clearly stuck."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "per-100",
+    "word": "engaging",
+    "definition": "interesting and enjoyable so that it holds your attention",
+    "synonyms": [
+      "absorbing",
+      "captivating"
+    ],
+    "exampleSentences": [
+      "The teacher told an engaging story that made everyone listen closely."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "per-101",
+    "word": "predictable",
+    "definition": "easy to guess or expect; not surprising",
+    "synonyms": [
+      "predictable",
+      "foreseeable"
+    ],
+    "exampleSentences": [
+      "The ending of the film was so predictable that I knew what would happen halfway through."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "per-102",
+    "word": "thought-provoking",
+    "definition": "making you think carefully about something; full of interesting or stimulating ideas",
+    "synonyms": [],
+    "exampleSentences": [
+      "The article about technology was thought-provoking and made me reconsider how we use it."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "per-103",
+    "word": "spooky",
+    "definition": "a bit eerie or scary, often in a fun, mysterious way",
+    "synonyms": [
+      "eerie",
+      "creepy"
+    ],
+    "exampleSentences": [
+      "We told spooky stories around the campfire at night."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "per-104",
+    "word": "stunning",
+    "definition": "extremely impressive or very beautiful",
+    "synonyms": [
+      "amazing",
+      "spectacular",
+      "breathtaking"
+    ],
+    "exampleSentences": [
+      "The mountain view was so stunning that everyone stopped to take photos."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "per-105",
+    "word": "documentary",
+    "definition": "a film or TV programme that gives facts and information about real events or people",
+    "synonyms": [
+      "factual film",
+      "non-fiction film"
+    ],
+    "exampleSentences": [
+      "We watched a documentary about coral reefs in science class."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "per-106",
+    "word": "captures",
+    "definition": "here, to show or represent something very well, especially in an artwork or film",
+    "synonyms": [
+      "portrays",
+      "represents"
+    ],
+    "exampleSentences": [
+      "This painting captures the feeling of a hot summer afternoon."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "verb"
+  },
+  {
+    "id": "per-107",
+    "word": "savannah",
+    "definition": "a large flat grassland with scattered trees, especially in parts of Africa",
+    "synonyms": [],
+    "exampleSentences": [
+      "African animals on the savannah must travel long distances to find water."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "per-108",
+    "word": "narration",
+    "definition": "spoken commentary that explains what is happening in a film or documentary",
+    "synonyms": [
+      "commentary",
+      "voice-over"
+    ],
+    "exampleSentences": [
+      "The calm narration made the science easy to understand."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "per-109",
+    "word": "habitat",
+    "definition": "the natural home or environment of an animal or plant",
+    "synonyms": [
+      "environment",
+      "surroundings"
+    ],
+    "exampleSentences": [
+      "The wetland habitat provides food and shelter for many birds."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "per-110",
+    "word": "climate",
+    "definition": "the usual weather conditions in an area over a long period of time",
+    "synonyms": [
+      "weather pattern"
+    ],
+    "exampleSentences": [
+      "Australia's climate can be very dry in the inland areas."
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "per-111",
+    "word": "conservation",
+    "definition": "the protection of the environment and wildlife so they are not lost or destroyed",
+    "synonyms": [
+      "protection",
+      "preservation"
+    ],
+    "exampleSentences": [
+      "Planting trees is one way to help with conservation."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "per-112",
+    "word": "insight",
+    "definition": "a clear, deep understanding of a situation, problem, person or thing",
+    "synonyms": [
+      "understanding",
+      "perception"
+    ],
+    "exampleSentences": [
+      "Talking to older people can give you real insight into history."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "per-113",
+    "word": "breathtaking",
+    "definition": "extremely beautiful or impressive",
+    "synonyms": [
+      "stunning",
+      "spectacular"
+    ],
+    "exampleSentences": [
+      "The fireworks over the harbour were absolutely breathtaking."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "per-114",
+    "word": "animated",
+    "definition": "made using drawings or computer images that move, like a cartoon",
+    "synonyms": [
+      "cartoon",
+      "drawn"
+    ],
+    "exampleSentences": [
+      "The animated film was full of bright colours and funny characters."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "per-115",
+    "word": "likeable",
+    "definition": "easy to like; pleasant and friendly",
+    "synonyms": [
+      "pleasant",
+      "friendly",
+      "appealing"
+    ],
+    "exampleSentences": [
+      "The new teacher is very likeable, so students feel comfortable asking questions."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "per-116",
+    "word": "cautious",
+    "definition": "careful to avoid danger or mistakes",
+    "synonyms": [
+      "careful",
+      "wary"
+    ],
+    "exampleSentences": [
+      "He was cautious when crossing the road, waiting for the light to turn green."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "per-117",
+    "word": "relate",
+    "definition": "to understand and feel a connection because you have had similar experiences",
+    "synonyms": [
+      "identify (with)",
+      "empathise (with)"
+    ],
+    "exampleSentences": [
+      "Many students can relate to stories about starting at a new school."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "verb"
+  },
+  {
+    "id": "per-118",
+    "word": "soundtrack",
+    "definition": "the music and sounds that go with a film, TV show or game",
+    "synonyms": [
+      "score (in film)",
+      "background music"
+    ],
+    "exampleSentences": [
+      "The movie's soundtrack was so catchy that everyone hummed it on the way home."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "per-119",
+    "word": "appreciate",
+    "definition": "to recognise how good or important something is; to value it",
+    "synonyms": [
+      "value",
+      "be grateful"
+    ],
+    "exampleSentences": [
+      "I really appreciate your help with the science project."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "verb"
+  },
+  {
+    "id": "per-120",
+    "word": "lose",
+    "definition": "to stop having something; to have something taken away or misplaced",
+    "synonyms": [],
+    "exampleSentences": [
+      "If you don't look after your water bottle, you might lose it."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "verb"
+  },
+  {
+    "id": "per-121",
+    "word": "celebrates",
+    "definition": "honours or praises; shows special recognition (third-person form of 'celebrate')",
+    "synonyms": [
+      "honours",
+      "praises"
+    ],
+    "exampleSentences": [
+      "This festival celebrates local art and music."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "verb"
+  },
+  {
+    "id": "per-122",
+    "word": "unearthed",
+    "definition": "dug up or discovered something hidden underground",
+    "synonyms": [
+      "disclosed",
+      "revealed"
+    ],
+    "exampleSentences": [
+      "The old bottle was unearthed while digging in the backyard."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "verb"
+  },
+  {
+    "id": "per-123",
+    "word": "meticulous",
+    "definition": "extremely careful and precise about small details",
+    "synonyms": [
+      "careful",
+      "thorough",
+      "precise"
+    ],
+    "exampleSentences": [
+      "Her meticulous notes helped the whole group revise."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "per-124",
+    "word": "replica",
+    "definition": "an exact copy or model of something",
+    "synonyms": [
+      "copy",
+      "duplicate"
+    ],
+    "exampleSentences": [
+      "The museum displayed a replica so visitors could see the object safely."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "per-125",
+    "word": "immerse",
+    "definition": "to involve someone deeply so they feel surrounded by an experience",
+    "synonyms": [
+      "engage",
+      "absorb",
+      "surround"
+    ],
+    "exampleSentences": [
+      "Sound effects in the story immerse you in the action."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "verb"
+  },
+  {
+    "id": "per-126",
+    "word": "artefacts",
+    "definition": "objects made or used by people in the past, often kept in museums",
+    "synonyms": [
+      "relics"
+    ],
+    "exampleSentences": [
+      "The glass case protected the artefacts from dust and light."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "per-127",
+    "word": "curators",
+    "definition": "people who choose, organise, and care for museum displays",
+    "synonyms": [],
+    "exampleSentences": [
+      "The curators planned where each object should go."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "per-128",
+    "word": "sealed",
+    "definition": "closed tightly so nothing can enter or escape",
+    "synonyms": [],
+    "exampleSentences": [
+      "The jar was sealed to keep the biscuits fresh."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "verb/adjective"
+  },
+  {
+    "id": "per-129",
+    "word": "verdict",
+    "definition": "a final judgement or decision after considering the facts",
+    "synonyms": [
+      "decision",
+      "judgement"
+    ],
+    "exampleSentences": [
+      "My verdict on the book was exciting, but too short."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "per-130",
+    "word": "exciting",
+    "definition": "causing strong interest and thrill; enthusiasm",
+    "synonyms": [
+      "thrilling",
+      "gripping",
+      "stimulating"
+    ],
+    "exampleSentences": [
+      "The rollercoaster was so exciting that we wanted to ride it again straight away."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "per-131",
+    "word": "dull",
+    "definition": "not interesting or lively; boring",
+    "synonyms": [
+      "boring",
+      "tedious"
+    ],
+    "exampleSentences": [
+      "The talk was so dull that several students started yawning."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "per-132",
+    "word": "cliff-hangers",
+    "definition": "story endings that stop at a very tense or exciting moment so you want to know what happens next",
+    "synonyms": [
+      "suspenseful endings"
+    ],
+    "exampleSentences": [
+      "The TV show used cliff-hangers so viewers would keep watching the next episode."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "per-133",
+    "word": "believable",
+    "definition": "able to be accepted as true or realistic",
+    "synonyms": [
+      "convincing",
+      "realistic"
+    ],
+    "exampleSentences": [
+      "Even though the story had magic, the characters' feelings were believable."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "per-134",
+    "word": "three-dimensional",
+    "definition": "having length, width and depth; not flat",
+    "synonyms": [
+      "3D",
+      "solid"
+    ],
+    "exampleSentences": [
+      "The model of the volcano was three-dimensional because we could see all sides of it."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "per-135",
+    "word": "motives",
+    "definition": "the reasons that explain why someone does something",
+    "synonyms": [
+      "reasons",
+      "intentions"
+    ],
+    "exampleSentences": [
+      "Detectives tried to understand the suspect's motives for lying."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "noun"
+  },
+  {
+    "id": "per-136",
+    "word": "vivid",
+    "definition": "very clear, bright or lively; seems real or alive",
+    "synonyms": [
+      "bright",
+      "lively",
+      "striking"
+    ],
+    "exampleSentences": [
+      "The author's vivid descriptions made me feel as if I were in the jungle."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": "per-137",
+    "word": "original",
+    "definition": "new and different from anything done before; not copied",
+    "synonyms": [
+      "novel",
+      "inventive",
+      "unique"
+    ],
+    "exampleSentences": [
+      "Her story was so original and full of magic that no one had read anything like it."
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "essay",
+      "speech"
+    ],
+    "partOfSpeech": "adjective"
+  }
+]
