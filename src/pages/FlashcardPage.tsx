@@ -1,6 +1,5 @@
 import { useEffect, useState, useMemo, useCallback } from 'react'
 import { useWordStore } from '../stores/wordStore'
-import { useProfileStore } from '../stores/profileStore'
 import type { DifficultyTier, WordCategory } from '../types/word'
 import FlashcardDeck from '../components/flashcard/FlashcardDeck'
 
@@ -21,7 +20,6 @@ const SELECT_BASE =
 
 export default function FlashcardPage() {
   const { words, isLoaded, loadWords, filters, setFilters, getFilteredWords } = useWordStore()
-  const activeProfile = useProfileStore(s => s.getActiveProfile())
 
   const [shuffleSeed, setShuffleSeed] = useState(0)
   const [sessionKey,  setSessionKey]  = useState(0)
