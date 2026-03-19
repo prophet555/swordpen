@@ -4,6 +4,7 @@ import type { Word, DifficultyTier, WordCategory } from '../types/word'
 import FlashcardDeck from '../components/flashcard/FlashcardDeck'
 
 const INDEX_STORAGE_KEY = 'flashcard-resume-index'
+const LEARNED_IDS_KEY = 'flashcard-learned-ids'
 
 function shuffleArray<T>(arr: T[]): T[] {
   const copy = [...arr]
@@ -31,10 +32,20 @@ export default function FlashcardPage() {
   })
   const [learnedWords, setLearnedWords] = useState<Word[]>([])
   const [showLearned, setShowLearned] = useState(false)
+  const initialLearnedIds = useMemo(() => {
+    const stored = sessionStorage.getItem(LEARNED_IDS_KEY)
+    return stored ? (JSON.parse(stored) as string[]) : []
+  }, [sessionKey])
 
   useEffect(() => {
     if (!isLoaded) loadWords()
   }, [isLoaded, loadWords])
+
+  useEffect(() => {
+    if (!isLoaded || initialLearnedIds.length === 0) return
+    const idSet = new Set(initialLearnedIds)
+    setLearnedWords(displayWords.filter(w => idSet.has(w.id)))
+  }, [isLoaded])
 
   const filteredWords = useMemo(() => getFilteredWords(), [words, filters])
 
@@ -49,6 +60,7 @@ export default function FlashcardPage() {
 
   const resetSession = useCallback(() => {
     sessionStorage.removeItem(INDEX_STORAGE_KEY)
+    sessionStorage.removeItem(LEARNED_IDS_KEY)
     setResumeIndex(0)
     setLearnedWords([])
     setShowLearned(false)
@@ -85,6 +97,7 @@ export default function FlashcardPage() {
 
   const handleLearnedChange = useCallback((words: Word[]) => {
     setLearnedWords(words)
+    sessionStorage.setItem(LEARNED_IDS_KEY, JSON.stringify(words.map(w => w.id)))
   }, [])
 
   /* ── Loading ── */
@@ -179,6 +192,7 @@ export default function FlashcardPage() {
           onComplete={handleComplete}
           initialIndex={resumeIndex}
           onIndexChange={handleIndexChange}
+          initialLearnedIds={initialLearnedIds}
           onLearnedChange={handleLearnedChange}
         />
       )}

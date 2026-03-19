@@ -12,18 +12,25 @@ interface FlashcardDeckProps {
   onComplete: (results: { correct: string[]; incorrect: string[] }) => void
   initialIndex?: number
   onIndexChange?: (index: number) => void
+  initialLearnedIds?: string[]
   onLearnedChange?: (words: Word[]) => void
 }
 
-export default function FlashcardDeck({ words, onComplete, initialIndex = 0, onIndexChange, onLearnedChange }: FlashcardDeckProps) {
-  const [currentIndex, setCurrentIndex] = useState(() =>
-    initialIndex < words.length ? initialIndex : 0
+export default function FlashcardDeck({ words, onComplete, initialIndex = 0, onIndexChange, initialLearnedIds = [], onLearnedChange }: FlashcardDeckProps) {
+  const [learnedIds, setLearnedIds] = useState<Set<string>>(() => new Set(initialLearnedIds))
+  const [learnedWords, setLearnedWords] = useState<Word[]>(() =>
+    initialLearnedIds.length > 0 ? words.filter(w => initialLearnedIds.includes(w.id)) : []
   )
+
+  const [currentIndex, setCurrentIndex] = useState(() => {
+    const safeInitial = initialIndex < words.length ? initialIndex : 0
+    // adjust so we don't land on an already-learned card
+    const activeLen = words.length - initialLearnedIds.length
+    return safeInitial < activeLen ? safeInitial : Math.max(0, activeLen - 1)
+  })
   const [isFlipped, setIsFlipped] = useState(false)
   const [correct, setCorrect] = useState<string[]>([])
   const [incorrect, setIncorrect] = useState<string[]>([])
-  const [learnedIds, setLearnedIds] = useState<Set<string>>(new Set())
-  const [learnedWords, setLearnedWords] = useState<Word[]>([])
   const [totalXP, setTotalXP] = useState(0)
   const [isComplete, setIsComplete] = useState(false)
 
