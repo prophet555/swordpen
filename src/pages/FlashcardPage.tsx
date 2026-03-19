@@ -1,7 +1,9 @@
 import { useEffect, useState, useMemo, useCallback } from 'react'
 import { useWordStore } from '../stores/wordStore'
-import type { DifficultyTier, WordCategory } from '../types/word'
+import type { Word, DifficultyTier, WordCategory } from '../types/word'
 import FlashcardDeck from '../components/flashcard/FlashcardDeck'
+
+const INDEX_STORAGE_KEY = 'flashcard-resume-index'
 
 function shuffleArray<T>(arr: T[]): T[] {
   const copy = [...arr]
@@ -23,6 +25,12 @@ export default function FlashcardPage() {
 
   const [shuffleSeed, setShuffleSeed] = useState(0)
   const [sessionKey,  setSessionKey]  = useState(0)
+  const [resumeIndex, setResumeIndex] = useState(() => {
+    const stored = sessionStorage.getItem(INDEX_STORAGE_KEY)
+    return stored ? parseInt(stored, 10) : 0
+  })
+  const [learnedWords, setLearnedWords] = useState<Word[]>([])
+  const [showLearned, setShowLearned] = useState(false)
 
   useEffect(() => {
     if (!isLoaded) loadWords()
@@ -35,25 +43,37 @@ export default function FlashcardPage() {
     [filteredWords, shuffleSeed]
   )
 
-  const handleShuffle = useCallback(() => {
-    setShuffleSeed(p => p + 1)
+  const handleIndexChange = useCallback((index: number) => {
+    sessionStorage.setItem(INDEX_STORAGE_KEY, String(index))
+  }, [])
+
+  const resetSession = useCallback(() => {
+    sessionStorage.removeItem(INDEX_STORAGE_KEY)
+    setResumeIndex(0)
+    setLearnedWords([])
+    setShowLearned(false)
     setSessionKey(p => p + 1)
   }, [])
+
+  const handleShuffle = useCallback(() => {
+    setShuffleSeed(p => p + 1)
+    resetSession()
+  }, [resetSession])
 
   const handleDifficultyChange = useCallback(
     (e: React.ChangeEvent<HTMLSelectElement>) => {
       setFilters({ difficulty: e.target.value as DifficultyTier | 'all' })
-      setSessionKey(p => p + 1)
+      resetSession()
     },
-    [setFilters]
+    [setFilters, resetSession]
   )
 
   const handleCategoryChange = useCallback(
     (e: React.ChangeEvent<HTMLSelectElement>) => {
       setFilters({ category: e.target.value as WordCategory | 'all' })
-      setSessionKey(p => p + 1)
+      resetSession()
     },
-    [setFilters]
+    [setFilters, resetSession]
   )
 
   const handleComplete = useCallback(
@@ -62,6 +82,10 @@ export default function FlashcardPage() {
     },
     []
   )
+
+  const handleLearnedChange = useCallback((words: Word[]) => {
+    setLearnedWords(words)
+  }, [])
 
   /* ── Loading ── */
   if (!isLoaded) {
@@ -149,7 +173,55 @@ export default function FlashcardPage() {
           <p className="text-sm text-[#AEAEB2]">Try adjusting your filters above.</p>
         </div>
       ) : (
-        <FlashcardDeck key={sessionKey} words={displayWords} onComplete={handleComplete} />
+        <FlashcardDeck
+          key={sessionKey}
+          words={displayWords}
+          onComplete={handleComplete}
+          initialIndex={resumeIndex}
+          onIndexChange={handleIndexChange}
+          onLearnedChange={handleLearnedChange}
+        />
+      )}
+
+      {/* Learned words panel */}
+      {learnedWords.length > 0 && (
+        <div className="border border-[#E5E5EA] rounded-2xl overflow-hidden">
+          <button
+            onClick={() => setShowLearned(p => !p)}
+            className="w-full flex items-center justify-between px-4 py-3
+              bg-green-50 hover:bg-green-100 transition-colors duration-150 cursor-pointer"
+          >
+            <div className="flex items-center gap-2">
+              <span className="text-sm font-semibold text-green-700">
+                Learned this session
+              </span>
+              <span className="text-xs font-bold bg-green-500 text-white
+                rounded-full px-2 py-0.5 leading-none">
+                {learnedWords.length}
+              </span>
+            </div>
+            <svg
+              width="14" height="14" viewBox="0 0 24 24" fill="none"
+              stroke="#15803d" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"
+              className={`transition-transform duration-200 ${showLearned ? 'rotate-180' : ''}`}
+            >
+              <polyline points="6 9 12 15 18 9" />
+            </svg>
+          </button>
+
+          {showLearned && (
+            <ul className="divide-y divide-[#F2F2F7]">
+              {learnedWords.map(w => (
+                <li key={w.id} className="flex items-start justify-between gap-4 px-4 py-3 bg-white">
+                  <span className="text-sm font-semibold text-[#1C1C1E]">{w.word}</span>
+                  <span className="text-xs text-[#6B6B6B] text-right leading-snug max-w-[60%]">
+                    {w.definition}
+                  </span>
+                </li>
+              ))}
+            </ul>
+          )}
+        </div>
       )}
     </div>
   )

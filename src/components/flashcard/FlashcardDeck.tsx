@@ -1,4 +1,4 @@
-import { useState, useCallback } from 'react'
+import { useState, useCallback, useMemo } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import type { Word } from '../../types/word'
 import { useGamificationStore } from '../../stores/gamificationStore'
@@ -10,13 +10,20 @@ import FlashcardProgress from './FlashcardProgress'
 interface FlashcardDeckProps {
   words: Word[]
   onComplete: (results: { correct: string[]; incorrect: string[] }) => void
+  initialIndex?: number
+  onIndexChange?: (index: number) => void
+  onLearnedChange?: (words: Word[]) => void
 }
 
-export default function FlashcardDeck({ words, onComplete }: FlashcardDeckProps) {
-  const [currentIndex, setCurrentIndex] = useState(0)
+export default function FlashcardDeck({ words, onComplete, initialIndex = 0, onIndexChange, onLearnedChange }: FlashcardDeckProps) {
+  const [currentIndex, setCurrentIndex] = useState(() =>
+    initialIndex < words.length ? initialIndex : 0
+  )
   const [isFlipped, setIsFlipped] = useState(false)
   const [correct, setCorrect] = useState<string[]>([])
   const [incorrect, setIncorrect] = useState<string[]>([])
+  const [learnedIds, setLearnedIds] = useState<Set<string>>(new Set())
+  const [learnedWords, setLearnedWords] = useState<Word[]>([])
   const [totalXP, setTotalXP] = useState(0)
   const [isComplete, setIsComplete] = useState(false)
 
@@ -27,13 +34,18 @@ export default function FlashcardDeck({ words, onComplete }: FlashcardDeckProps)
 
   const profileId = activeProfile?.id ?? ''
 
+  const activeWords = useMemo(
+    () => words.filter(w => !learnedIds.has(w.id)),
+    [words, learnedIds]
+  )
+
   const handleFlip = useCallback(() => {
     setIsFlipped(prev => !prev)
   }, [])
 
   const advance = useCallback(() => {
     setIsFlipped(false)
-    if (currentIndex + 1 >= words.length) {
+    if (currentIndex + 1 >= activeWords.length) {
       setIsComplete(true)
       if (profileId) {
         const sessionXP = completeSession(profileId)
@@ -41,23 +53,51 @@ export default function FlashcardDeck({ words, onComplete }: FlashcardDeckProps)
       }
       onComplete({ correct, incorrect })
     } else {
-      setCurrentIndex(prev => prev + 1)
+      const next = currentIndex + 1
+      setCurrentIndex(next)
+      onIndexChange?.(next)
     }
-  }, [currentIndex, words.length, profileId, completeSession, onComplete, correct, incorrect])
+  }, [currentIndex, activeWords.length, profileId, completeSession, onComplete, correct, incorrect, onIndexChange])
 
   const handleKnow = useCallback(() => {
-    const word = words[currentIndex]
+    const word = activeWords[currentIndex]
+    if (!word) return
+
     setCorrect(prev => [...prev, word.id])
+    setIsFlipped(false)
+
     if (profileId) {
       recordWordAttempt(profileId, word.id, true)
       awardXP(profileId, XP_VALUES.reviewCorrect)
       setTotalXP(prev => prev + XP_VALUES.reviewCorrect)
     }
-    advance()
-  }, [currentIndex, words, profileId, recordWordAttempt, awardXP, advance])
+
+    const newLearnedWords = [...learnedWords, word]
+    const newLearnedIds = new Set([...learnedIds, word.id])
+    setLearnedIds(newLearnedIds)
+    setLearnedWords(newLearnedWords)
+    onLearnedChange?.(newLearnedWords)
+
+    const newActiveLength = activeWords.length - 1
+
+    if (newActiveLength <= 0) {
+      setIsComplete(true)
+      if (profileId) {
+        const sessionXP = completeSession(profileId)
+        setTotalXP(prev => prev + sessionXP)
+      }
+      onComplete({ correct: [...correct, word.id], incorrect })
+    } else if (currentIndex >= newActiveLength) {
+      const next = newActiveLength - 1
+      setCurrentIndex(next)
+      onIndexChange?.(next)
+    }
+    // else: currentIndex stays, next word slides in automatically
+  }, [activeWords, currentIndex, learnedIds, learnedWords, profileId, recordWordAttempt, awardXP, correct, incorrect, completeSession, onComplete, onLearnedChange, onIndexChange])
 
   const handleStillLearning = useCallback(() => {
-    const word = words[currentIndex]
+    const word = activeWords[currentIndex]
+    if (!word) return
     setIncorrect(prev => [...prev, word.id])
     if (profileId) {
       recordWordAttempt(profileId, word.id, false)
@@ -65,23 +105,27 @@ export default function FlashcardDeck({ words, onComplete }: FlashcardDeckProps)
       setTotalXP(prev => prev + XP_VALUES.reviewIncorrect)
     }
     advance()
-  }, [currentIndex, words, profileId, recordWordAttempt, awardXP, advance])
+  }, [activeWords, currentIndex, profileId, recordWordAttempt, awardXP, advance])
 
   const handlePrevious = useCallback(() => {
     if (currentIndex > 0) {
       setIsFlipped(false)
-      setCurrentIndex(prev => prev - 1)
+      const prev = currentIndex - 1
+      setCurrentIndex(prev)
+      onIndexChange?.(prev)
     }
-  }, [currentIndex])
+  }, [currentIndex, onIndexChange])
 
   const handleNext = useCallback(() => {
-    if (currentIndex < words.length - 1) {
+    if (currentIndex < activeWords.length - 1) {
       setIsFlipped(false)
-      setCurrentIndex(prev => prev + 1)
+      const next = currentIndex + 1
+      setCurrentIndex(next)
+      onIndexChange?.(next)
     }
-  }, [currentIndex, words.length])
+  }, [currentIndex, activeWords.length, onIndexChange])
 
-  if (words.length === 0) return null
+  if (activeWords.length === 0 && !isComplete) return null
 
   if (isComplete) {
     return (
@@ -116,11 +160,11 @@ export default function FlashcardDeck({ words, onComplete }: FlashcardDeckProps)
     )
   }
 
-  const currentWord = words[currentIndex]
+  const currentWord = activeWords[currentIndex]
 
   return (
     <div className="flex flex-col items-center gap-6 w-full">
-      <FlashcardProgress current={currentIndex + 1} total={words.length} />
+      <FlashcardProgress current={currentIndex + 1} total={activeWords.length} />
 
       <AnimatePresence mode="wait">
         <motion.div
@@ -146,7 +190,7 @@ export default function FlashcardDeck({ words, onComplete }: FlashcardDeckProps)
         </button>
         <button
           onClick={handleNext}
-          disabled={currentIndex >= words.length - 1}
+          disabled={currentIndex >= activeWords.length - 1}
           className="px-5 py-2 rounded-xl text-lg font-semibold bg-gray-200 text-gray-700 hover:bg-gray-300 disabled:opacity-40 disabled:cursor-not-allowed transition-colors"
         >
           Next →
