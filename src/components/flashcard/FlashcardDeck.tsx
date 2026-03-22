@@ -1,4 +1,4 @@
-import { useState, useCallback, useMemo } from 'react'
+import { useState, useCallback, useMemo, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import type { Word } from '../../types/word'
 import { useGamificationStore } from '../../stores/gamificationStore'
@@ -131,6 +131,20 @@ export default function FlashcardDeck({ words, onComplete, initialIndex = 0, onI
       onIndexChange?.(next)
     }
   }, [currentIndex, activeWords.length, onIndexChange])
+
+  useEffect(() => {
+    if (isComplete) return
+    const onKey = (e: KeyboardEvent) => {
+      if (e.target instanceof HTMLInputElement || e.target instanceof HTMLSelectElement || e.target instanceof HTMLTextAreaElement) return
+      if (e.key === 'ArrowLeft')  { e.preventDefault(); handlePrevious() }
+      if (e.key === 'ArrowRight') { e.preventDefault(); handleNext() }
+      if (e.key === ' ')          { e.preventDefault(); handleFlip() }
+      if (e.key === 'k' || e.key === 'K') handleKnow()
+      if (e.key === 'l' || e.key === 'L') handleStillLearning()
+    }
+    window.addEventListener('keydown', onKey)
+    return () => window.removeEventListener('keydown', onKey)
+  }, [isComplete, handlePrevious, handleNext, handleFlip, handleKnow, handleStillLearning])
 
   if (activeWords.length === 0 && !isComplete) return null
 

@@ -3,13 +3,21 @@
     "id": "adv-001",
     "word": "articulate",
     "definition": "To express an idea clearly and effectively; or, fluent and clear in speech.",
-    "synonyms": ["express", "eloquent", "fluent", "well-spoken"],
+    "synonyms": [
+      "express",
+      "eloquent",
+      "fluent",
+      "well-spoken"
+    ],
     "exampleSentences": [
       "She articulated her argument so clearly that everyone understood.",
       "An articulate speaker can inspire a whole audience."
     ],
     "difficulty": "advanced",
-    "categories": ["essay", "speech"],
+    "categories": [
+      "essay",
+      "speech"
+    ],
     "partOfSpeech": "verb/adjective",
     "tip": "ART-iculate — speaking is an ART!"
   },
@@ -17,13 +25,21 @@
     "id": "adv-002",
     "word": "hypothesis",
     "definition": "An educated guess or proposed explanation that can be tested.",
-    "synonyms": ["theory", "assumption", "proposition", "conjecture"],
+    "synonyms": [
+      "theory",
+      "assumption",
+      "proposition",
+      "conjecture"
+    ],
     "exampleSentences": [
       "The scientist's hypothesis was that plants grow faster with music.",
       "Before the experiment, we wrote down our hypothesis."
     ],
     "difficulty": "advanced",
-    "categories": ["report", "essay"],
+    "categories": [
+      "report",
+      "essay"
+    ],
     "partOfSpeech": "noun",
     "tip": "A HYPO-THESIS is like a THESIS (idea) you put UNDER a microscope to test!"
   },
@@ -31,13 +47,22 @@
     "id": "adv-003",
     "word": "unprecedented",
     "definition": "Never done or known before; without previous example.",
-    "synonyms": ["unparalleled", "unheard-of", "extraordinary", "novel"],
+    "synonyms": [
+      "unparalleled",
+      "unheard-of",
+      "extraordinary",
+      "novel"
+    ],
     "exampleSentences": [
       "The team achieved an unprecedented victory, winning every single game.",
       "The discovery was unprecedented in the history of science."
     ],
     "difficulty": "advanced",
-    "categories": ["essay", "report", "speech"],
+    "categories": [
+      "essay",
+      "report",
+      "speech"
+    ],
     "partOfSpeech": "adjective",
     "tip": "UN-PRECEDENT-ed — no PRECEDENT (example) exists before it!"
   },
@@ -45,13 +70,21 @@
     "id": "adv-004",
     "word": "synthesize",
     "definition": "To combine different ideas or things to form a new whole.",
-    "synonyms": ["combine", "integrate", "merge", "blend"],
+    "synonyms": [
+      "combine",
+      "integrate",
+      "merge",
+      "blend"
+    ],
     "exampleSentences": [
       "Good writers synthesize information from multiple sources.",
       "The report synthesized data from three different studies."
     ],
     "difficulty": "advanced",
-    "categories": ["essay", "report"],
+    "categories": [
+      "essay",
+      "report"
+    ],
     "partOfSpeech": "verb",
     "tip": "SYNTH-esize — like a music synthesizer combines sounds into something new!"
   },
@@ -59,13 +92,22 @@
     "id": "adv-005",
     "word": "advocate",
     "definition": "To publicly support or recommend a cause or policy; a person who does this.",
-    "synonyms": ["support", "champion", "promote", "endorse"],
+    "synonyms": [
+      "support",
+      "champion",
+      "promote",
+      "endorse"
+    ],
     "exampleSentences": [
       "She advocates for equal access to education for all children.",
       "The advocate spoke passionately about protecting the environment."
     ],
     "difficulty": "advanced",
-    "categories": ["essay", "speech", "report"],
+    "categories": [
+      "essay",
+      "speech",
+      "report"
+    ],
     "partOfSpeech": "verb/noun",
     "tip": "An ADVOCATE uses their VOICE (voc) to speak up for others!"
   },
@@ -73,13 +115,22 @@
     "id": "adv-006",
     "word": "perseverance",
     "definition": "Continued effort and determination despite difficulties or delay in achieving success.",
-    "synonyms": ["persistence", "determination", "tenacity", "grit"],
+    "synonyms": [
+      "persistence",
+      "determination",
+      "tenacity",
+      "grit"
+    ],
     "exampleSentences": [
       "Through perseverance, she finally mastered the difficult piano piece.",
       "The story of the inventor teaches us about the power of perseverance."
     ],
     "difficulty": "advanced",
-    "categories": ["essay", "journal", "speech"],
+    "categories": [
+      "essay",
+      "journal",
+      "speech"
+    ],
     "partOfSpeech": "noun",
     "tip": "PERSEVER-ance — you SEVERE (cut through) every obstacle!"
   },
@@ -87,13 +138,22 @@
     "id": "adv-007",
     "word": "perspective",
     "definition": "A particular way of thinking about something; a point of view.",
-    "synonyms": ["viewpoint", "outlook", "standpoint", "angle"],
+    "synonyms": [
+      "viewpoint",
+      "outlook",
+      "standpoint",
+      "angle"
+    ],
     "exampleSentences": [
       "Reading books from different cultures gives us new perspectives.",
       "From my perspective, teamwork is more important than individual talent."
     ],
     "difficulty": "advanced",
-    "categories": ["essay", "journal", "speech"],
+    "categories": [
+      "essay",
+      "journal",
+      "speech"
+    ],
     "partOfSpeech": "noun",
     "tip": "Your PERSPECTIVE is the lens through which you PER-SPECT (look through)!"
   },
@@ -101,14 +161,45 @@
     "id": "adv-008",
     "word": "acknowledge",
     "definition": "To accept or recognize that something is true or exists.",
-    "synonyms": ["recognize", "admit", "accept", "concede"],
+    "synonyms": [
+      "recognize",
+      "admit",
+      "accept",
+      "concede"
+    ],
     "exampleSentences": [
       "It is important to acknowledge your mistakes and learn from them.",
       "The author acknowledged the contributions of her research team."
     ],
     "difficulty": "advanced",
-    "categories": ["essay", "speech", "report"],
+    "categories": [
+      "essay",
+      "speech",
+      "report"
+    ],
     "partOfSpeech": "verb",
     "tip": "When you ACKNOWLEDGE, you give a KNOWLEDGE-able nod to the truth!"
+  },
+  {
+    "id": "adv-009",
+    "word": "alleviate",
+    "definition": "make suffering, deficiency or a problem less severe",
+    "synonyms": [
+      "reduce",
+      "ease",
+      "relieve",
+      "take the edge off"
+    ],
+    "antonyms": [
+      "aggravate"
+    ],
+    "exampleSentences": [
+      "he couldn't prevent her pain, only alleviate it"
+    ],
+    "difficulty": "advanced",
+    "categories": [
+      "essay"
+    ],
+    "partOfSpeech": "verb"
   }
 ]

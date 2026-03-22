@@ -1,8 +1,11 @@
 import { create } from 'zustand'
 import type { Word, DifficultyTier, WordCategory } from '../types/word'
 
+const CUSTOM_WORDS_KEY = 'swordpen-custom-words'
+
 interface WordState {
   words: Word[]
+  customWords: Word[]
   isLoaded: boolean
   error: string | null
   filters: {
@@ -12,6 +15,8 @@ interface WordState {
   loadWords: () => Promise<void>
   setFilters: (filters: Partial<WordState['filters']>) => void
   getFilteredWords: () => Word[]
+  addCustomWord: (word: Word) => void
+  deleteCustomWord: (id: string) => void
 }
 
 async function fetchWordFile(filename: string): Promise<Word[]> {
@@ -42,8 +47,22 @@ function validateWord(w: unknown): w is Word {
   )
 }
 
+function loadCustomWordsFromStorage(): Word[] {
+  try {
+    const stored = localStorage.getItem(CUSTOM_WORDS_KEY)
+    return stored ? JSON.parse(stored) : []
+  } catch {
+    return []
+  }
+}
+
+function saveCustomWordsToStorage(words: Word[]) {
+  localStorage.setItem(CUSTOM_WORDS_KEY, JSON.stringify(words))
+}
+
 export const useWordStore = create<WordState>()((set, get) => ({
   words: [],
+  customWords: loadCustomWordsFromStorage(),
   isLoaded: false,
   error: null,
   filters: { difficulty: 'all', category: 'all' },
@@ -71,11 +90,28 @@ export const useWordStore = create<WordState>()((set, get) => ({
   },
 
   getFilteredWords: () => {
-    const { words, filters } = get()
-    return words.filter(w => {
+    const { words, customWords, filters } = get()
+    const all = [...words, ...customWords]
+    return all.filter(w => {
       if (filters.difficulty !== 'all' && w.difficulty !== filters.difficulty) return false
       if (filters.category !== 'all' && !w.categories.includes(filters.category)) return false
       return true
+    })
+  },
+
+  addCustomWord: (word) => {
+    set(state => {
+      const updated = [...state.customWords, word]
+      saveCustomWordsToStorage(updated)
+      return { customWords: updated }
+    })
+  },
+
+  deleteCustomWord: (id) => {
+    set(state => {
+      const updated = state.customWords.filter(w => w.id !== id)
+      saveCustomWordsToStorage(updated)
+      return { customWords: updated }
     })
   },
 }))

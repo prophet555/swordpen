@@ -2,6 +2,7 @@ import { useEffect, useState, useMemo, useCallback } from 'react'
 import { useWordStore } from '../stores/wordStore'
 import type { Word, DifficultyTier, WordCategory } from '../types/word'
 import FlashcardDeck from '../components/flashcard/FlashcardDeck'
+import AddWordModal from '../components/flashcard/AddWordModal'
 
 const INDEX_STORAGE_KEY = 'flashcard-resume-index'
 const LEARNED_IDS_KEY = 'flashcard-learned-ids'
@@ -22,7 +23,9 @@ const SELECT_BASE =
   'transition-colors duration-150 cursor-pointer'
 
 export default function FlashcardPage() {
-  const { words, isLoaded, loadWords, filters, setFilters, getFilteredWords } = useWordStore()
+  const { words, customWords, isLoaded, loadWords, filters, setFilters, getFilteredWords, addCustomWord } = useWordStore()
+  const [showAddModal, setShowAddModal] = useState(false)
+  const [toastWord, setToastWord] = useState<string | null>(null)
 
   const [shuffleSeed, setShuffleSeed] = useState(0)
   const [sessionKey,  setSessionKey]  = useState(0)
@@ -47,7 +50,7 @@ export default function FlashcardPage() {
     setLearnedWords(displayWords.filter(w => idSet.has(w.id)))
   }, [isLoaded])
 
-  const filteredWords = useMemo(() => getFilteredWords(), [words, filters])
+  const filteredWords = useMemo(() => getFilteredWords(), [words, customWords, filters])
 
   const displayWords = useMemo(
     () => (shuffleSeed > 0 ? shuffleArray(filteredWords) : filteredWords),
@@ -94,6 +97,18 @@ export default function FlashcardPage() {
     },
     []
   )
+
+  const handleAddWord = useCallback((word: Word) => {
+    addCustomWord(word)
+    setShowAddModal(false)
+    setToastWord(word.word)
+  }, [addCustomWord])
+
+  useEffect(() => {
+    if (!toastWord) return
+    const id = setTimeout(() => setToastWord(null), 2500)
+    return () => clearTimeout(id)
+  }, [toastWord])
 
   const handleLearnedChange = useCallback((words: Word[]) => {
     setLearnedWords(words)
@@ -168,6 +183,20 @@ export default function FlashcardPage() {
             <line x1="15" y1="15" x2="21" y2="21" />
           </svg>
         </button>
+
+        <button
+          onClick={() => setShowAddModal(true)}
+          title="Add word"
+          className="flex items-center justify-center w-6 h-6 rounded-md
+            text-[#5E5CE6] hover:bg-[#5E5CE6]/10
+            active:scale-90 transition-all duration-150 cursor-pointer shrink-0"
+        >
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+            <line x1="12" y1="5" x2="12" y2="19" />
+            <line x1="5" y1="12" x2="19" y2="12" />
+          </svg>
+        </button>
       </div>
 
       {/* Divider */}
@@ -194,6 +223,15 @@ export default function FlashcardPage() {
           onIndexChange={handleIndexChange}
           initialLearnedIds={initialLearnedIds}
           onLearnedChange={handleLearnedChange}
+        />
+      )}
+
+      {/* Add word modal */}
+      {showAddModal && (
+        <AddWordModal
+          onClose={() => setShowAddModal(false)}
+          onAdd={handleAddWord}
+          existingWords={[...words, ...customWords]}
         />
       )}
 
@@ -237,6 +275,21 @@ export default function FlashcardPage() {
           )}
         </div>
       )}
+      {/* Success toast */}
+      <div
+        className={`fixed bottom-6 left-1/2 -translate-x-1/2 z-50 flex items-center gap-2
+          px-4 py-2.5 rounded-xl bg-[#1C1C1E] text-white text-sm font-medium shadow-xl
+          transition-all duration-300
+          ${toastWord ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-3 pointer-events-none'}`}
+      >
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none"
+          stroke="#34C759" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+          <polyline points="20 6 9 17 4 12" />
+        </svg>
+        <span>
+          <span className="text-[#34C759]">&ldquo;{toastWord}&rdquo;</span> added to your deck
+        </span>
+      </div>
     </div>
   )
 }

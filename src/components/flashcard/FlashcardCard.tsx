@@ -34,10 +34,13 @@ export default function FlashcardCard({ word, isFlipped, onFlip }: FlashcardCard
           className="absolute inset-0 flex flex-col items-center justify-center
             rounded-2xl lg:rounded-3xl shadow-lg lg:shadow-2xl
             bg-gradient-to-br from-indigo-400 via-purple-400 to-pink-400
-            p-6 lg:p-16 text-white"
+            p-6 lg:p-16 text-white overflow-hidden"
           style={{ backfaceVisibility: 'hidden' }}
         >
-          <span className="text-4xl lg:text-9xl font-extrabold tracking-wide drop-shadow-md text-center leading-tight">
+          <span
+            className="font-extrabold tracking-wide drop-shadow-md text-center leading-tight whitespace-nowrap"
+            style={{ fontSize: `clamp(1.5rem, ${70 / word.word.length}vw, 9rem)` }}
+          >
             {word.word}
           </span>
           <span className="mt-3 lg:mt-6 text-base lg:text-3xl font-medium italic opacity-90
@@ -72,6 +75,25 @@ export default function FlashcardCard({ word, isFlipped, onFlip }: FlashcardCard
                       text-xs lg:text-xl font-semibold ${synonymColors[i % synonymColors.length]}`}
                   >
                     {syn}
+                  </span>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {word.antonyms && word.antonyms.length > 0 && (
+            <div className="mb-3 lg:mb-5">
+              <span className="text-[10px] lg:text-sm font-semibold text-gray-400 uppercase tracking-widest">
+                Antonyms
+              </span>
+              <div className="flex flex-wrap gap-1.5 lg:gap-3 mt-1 lg:mt-2">
+                {word.antonyms.map((ant, i) => (
+                  <span
+                    key={ant}
+                    className={`px-2 lg:px-4 py-0.5 lg:py-1.5 rounded-full
+                      text-xs lg:text-xl font-semibold ${synonymColors[i % synonymColors.length]}`}
+                  >
+                    {ant}
                   </span>
                 ))}
               </div>

@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { useProfileStore } from '../stores/profileStore'
 import { useGamificationStore } from '../stores/gamificationStore'
+import { useWordStore } from '../stores/wordStore'
 import type { AvatarId } from '../types/profile'
 import type { DifficultyTier } from '../types/word'
 
@@ -27,12 +28,25 @@ export default function SettingsPage() {
   const deleteProfile = useProfileStore(s => s.deleteProfile)
   const resetProgress = useGamificationStore(s => s.resetProgress)
 
+  const customWords = useWordStore(s => s.customWords)
+
   const [name, setName] = useState(profile?.name ?? '')
   const [avatar, setAvatar] = useState<AvatarId>(profile?.avatar ?? 'knight')
   const [difficulty, setDifficulty] = useState<DifficultyTier>(profile?.difficulty ?? 'beginner')
   const [showResetConfirm, setShowResetConfirm] = useState(false)
   const [showDeleteConfirm, setShowDeleteConfirm] = useState(false)
   const [saved, setSaved] = useState(false)
+
+  const handleExportWords = () => {
+    const json = JSON.stringify(customWords, null, 2)
+    const blob = new Blob([json], { type: 'application/json' })
+    const url = URL.createObjectURL(blob)
+    const a = document.createElement('a')
+    a.href = url
+    a.download = 'custom-words.json'
+    a.click()
+    URL.revokeObjectURL(url)
+  }
 
   if (!profile) return null
 
@@ -117,6 +131,36 @@ export default function SettingsPage() {
       >
         {saved ? 'Saved! ✓' : 'Save Changes'}
       </button>
+
+      {/* Custom words */}
+      <div className="bg-white rounded-2xl p-6 shadow-md mb-6">
+        <div className="flex items-center justify-between mb-1">
+          <h3 className="text-lg font-bold">Custom Words</h3>
+          <span className="text-sm font-semibold text-[#5E5CE6] bg-[#5E5CE6]/10 px-2.5 py-0.5 rounded-full">
+            {customWords.length}
+          </span>
+        </div>
+        <p className="text-sm text-gray-500 mb-4">
+          {customWords.length === 0
+            ? 'No custom words added yet. Use the + button on the Flashcards page to add some.'
+            : 'Export your custom words as JSON to add them permanently to a word file.'}
+        </p>
+        <button
+          onClick={handleExportWords}
+          disabled={customWords.length === 0}
+          className="w-full flex items-center justify-center gap-2 p-3 rounded-xl border-2
+            border-[#5E5CE6]/40 text-[#5E5CE6] font-semibold
+            hover:bg-[#5E5CE6]/5 disabled:opacity-40 disabled:cursor-not-allowed transition-all"
+        >
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+            <polyline points="7 10 12 15 17 10" />
+            <line x1="12" y1="15" x2="12" y2="3" />
+          </svg>
+          Export custom-words.json
+        </button>
+      </div>
 
       {/* Danger zone */}
       <div className="bg-white rounded-2xl p-6 shadow-md border-2 border-danger/20">

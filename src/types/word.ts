@@ -7,6 +7,7 @@ export interface Word {
   word: string
   definition: string
   synonyms: string[]
+  antonyms?: string[]
   exampleSentences: string[]
   difficulty: DifficultyTier
   categories: WordCategory[]
