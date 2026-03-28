@@ -1,0 +1,3490 @@
+[
+  {
+    "id": "jnl-001",
+    "word": "Elated",
+    "definition": "intense joy and excitement",
+    "synonyms": [
+      "thrilled",
+      "exhilarated",
+      "happy"
+    ],
+    "exampleSentences": [
+      "after the concert, I felt elated"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "ELATED = Extremely Light And Totally Energized with Delight!"
+  },
+  {
+    "id": "jnl-002",
+    "word": "Melancholic",
+    "definition": "thoughtful, lingering sadness",
+    "synonyms": [
+      "sad",
+      "depressed",
+      "unhappy"
+    ],
+    "exampleSentences": [
+      "his work often has a wistful or melancholic mood"
+    ],
+    "difficulty": "advanced",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "MELancholic — MELting into sadness like ice in the sun."
+  },
+  {
+    "id": "jnl-003",
+    "word": "Wistful",
+    "definition": "yearning with a touch of gentle sadness",
+    "synonyms": [
+      "regretful",
+      "nostalgic",
+      "yearning"
+    ],
+    "exampleSentences": [
+      "he gave a wistful smile"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "WIST-ful — WIShing Things were different."
+  },
+  {
+    "id": "jnl-004",
+    "word": "Bittersweet",
+    "definition": "happiness mixed with sorrow",
+    "synonyms": [
+      "heartbreaking",
+      "tragic",
+      "sorrowful"
+    ],
+    "exampleSentences": [
+      "he had bittersweet memories of his time in London"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "Think of dark chocolate — BITTER and SWEET at the same time."
+  },
+  {
+    "id": "jnl-005",
+    "word": "Resentful",
+    "definition": "lingering bitterness toward someone",
+    "synonyms": [
+      "bitter",
+      "aggrieved"
+    ],
+    "exampleSentences": [
+      "he was angry and resentful of their intrusion"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "RE-sentful — feelings SENT back at someone again and again."
+  },
+  {
+    "id": "jnl-006",
+    "word": "Forlorn",
+    "definition": "desolate, abandoned feeling",
+    "synonyms": [
+      "desolate",
+      "forsaken"
+    ],
+    "exampleSentences": [
+      "forlorn figures at bus stops"
+    ],
+    "difficulty": "advanced",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "FOR-lorn — lost and FOR-gotten, all alone."
+  },
+  {
+    "id": "jnl-007",
+    "word": "Euphoric",
+    "definition": "overwhelming bliss",
+    "synonyms": [
+      "elated",
+      "ecstatic"
+    ],
+    "exampleSentences": [
+      "a euphoric sense of freedom"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "EU-phoric — think EUPHORIA, the peak of happiness."
+  },
+  {
+    "id": "jnl-008",
+    "word": "Disheartened",
+    "definition": "loss of hope or courage",
+    "synonyms": [
+      "discouraged",
+      "dejected"
+    ],
+    "exampleSentences": [
+      "a disheartened tone of voice"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "Your HEART is DIS-connected — hope has left."
+  },
+  {
+    "id": "jnl-009",
+    "word": "Overwhelmed",
+    "definition": "buried under intense emotion",
+    "synonyms": [
+      "swamped",
+      "inundated"
+    ],
+    "exampleSentences": [
+      "he felt overwhelmed upon seeing the task"
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "verb",
+    "tip": "OVER-whelmed — too much OVER your head."
+  },
+  {
+    "id": "jnl-010",
+    "word": "Serene",
+    "definition": "calm, peaceful clarity",
+    "synonyms": [
+      "tranquil",
+      "placid"
+    ],
+    "exampleSentences": [
+      "her eyes were closed and she looked very serene"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "SERENE = Silent, Easy, Relaxed, Effortless, No worries, Easygoing."
+  },
+  {
+    "id": "jnl-011",
+    "word": "Agitated",
+    "definition": "restless inner turmoil",
+    "synonyms": [
+      "restless",
+      "perturbed"
+    ],
+    "exampleSentences": [
+      "there was no point in getting agitated"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "AGI-tated — AGItated like a washing machine spinning fast."
+  },
+  {
+    "id": "jnl-012",
+    "word": "Nostalgic",
+    "definition": "tender longing for the past",
+    "synonyms": [
+      "sentimental",
+      "wistful"
+    ],
+    "exampleSentences": [
+      "he remained nostalgic about the good old days"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "NOS-talgic — your NOSe remembers the past (scent triggers memory)."
+  },
+  {
+    "id": "jnl-013",
+    "word": "Indignant",
+    "definition": "angry at perceived injustice",
+    "synonyms": [
+      "outraged",
+      "incensed"
+    ],
+    "exampleSentences": [
+      "he was indignant at being the object of suspicion"
+    ],
+    "difficulty": "advanced",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "IN-DIG-nant — you DIG your heels in because it is unfair."
+  },
+  {
+    "id": "jnl-014",
+    "word": "Vulnerable",
+    "definition": "emotionally exposed and fragile",
+    "synonyms": [
+      "exposed",
+      "defenseless"
+    ],
+    "exampleSentences": [
+      "he was vulnerable and open to attack"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "VULNER-able — from VULNUS (wound) — able to be wounded."
+  },
+  {
+    "id": "jnl-015",
+    "word": "Content",
+    "definition": "quiet, satisfied peace",
+    "synonyms": [
+      "satisfied",
+      "pleased"
+    ],
+    "exampleSentences": [
+      "he was content with what he had"
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "CON-TENT — comfortable living in your own TENT."
+  },
+  {
+    "id": "jnl-016",
+    "word": "Despondent",
+    "definition": "profound hopelessness",
+    "synonyms": [
+      "dejected",
+      "hopeless"
+    ],
+    "exampleSentences": [
+      "she grew more and more despondent"
+    ],
+    "difficulty": "advanced",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "De-SPON-dent — hope has SPONGED away."
+  },
+  {
+    "id": "jnl-017",
+    "word": "Exhilarated",
+    "definition": "thrilled and energized",
+    "synonyms": [
+      "thrilled",
+      "elated"
+    ],
+    "exampleSentences": [
+      "all this hustle and bustle makes me feel exhilarated"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "EX-HILAR-ated — EX-tremely HILARious levels of joy."
+  },
+  {
+    "id": "jnl-018",
+    "word": "Ambivalent",
+    "definition": "mixed, conflicting feelings",
+    "synonyms": [
+      "conflicted",
+      "undecided"
+    ],
+    "exampleSentences": [
+      "some loved her, some hated her, few were ambivalent about her"
+    ],
+    "difficulty": "advanced",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "AMBI-valent — AMBI means both, valuing TWO opposite things."
+  },
+  {
+    "id": "jnl-019",
+    "word": "Grateful",
+    "definition": "deep appreciation",
+    "synonyms": [
+      "thankful",
+      "appreciative"
+    ],
+    "exampleSentences": [
+      "he was grateful for all her help"
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "GRATE-ful — your heart is GRATING with thankfulness."
+  },
+  {
+    "id": "jnl-020",
+    "word": "Listless",
+    "definition": "lacking energy or enthusiasm",
+    "synonyms": [
+      "lethargic",
+      "languid"
+    ],
+    "exampleSentences": [
+      "he increasingly appears to be listless and bored"
+    ],
+    "difficulty": "advanced",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "LIST-less — you have no LIST, no energy, no goals."
+  },
+  {
+    "id": "jnl-021",
+    "word": "Pensive",
+    "definition": "deep thoughtful, reflective",
+    "synonyms": [
+      "thoughtful",
+      "reflective"
+    ],
+    "exampleSentences": [
+      "he was in a pensive mood"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "PEN-sive — like holding a PEN, deep in thought before writing."
+  },
+  {
+    "id": "jnl-022",
+    "word": "Devastated",
+    "definition": "completely shattered emotional",
+    "synonyms": [
+      "shattered",
+      "crushed"
+    ],
+    "exampleSentences": [
+      "he was devastated of the sudden loss"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "verb",
+    "tip": "DEVA-stated — like a STATE laid WASTE, completely destroyed."
+  },
+  {
+    "id": "jnl-023",
+    "word": "Buoyant",
+    "definition": "cheerfully optimistic",
+    "synonyms": [
+      "cheerful",
+      "optimistic"
+    ],
+    "exampleSentences": [
+      "the meeting ended in a buoyant mood"
+    ],
+    "difficulty": "advanced",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "BUOY-ant — like a BUOY floating cheerfully on water."
+  },
+  {
+    "id": "jnl-024",
+    "word": "Apprehensive",
+    "definition": "anxious anticipation",
+    "synonyms": [
+      "anxious",
+      "uneasy"
+    ],
+    "exampleSentences": [
+      "he was apprehensive about going to the party"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "APPRE-hensive — your mind is SEIZING up with worry."
+  },
+  {
+    "id": "jnl-025",
+    "word": "Empowered",
+    "definition": "strong and capable",
+    "synonyms": [
+      "strengthened",
+      "emboldened"
+    ],
+    "exampleSentences": [
+      "movements to empower the poor"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "verb",
+    "tip": "EM-POWERED — charged with POWER from within."
+  },
+  {
+    "id": "jnl-026",
+    "word": "Disillusioned",
+    "definition": "stripped of former beliefs/ideals",
+    "synonyms": [
+      "disenchanted",
+      "disappointed"
+    ],
+    "exampleSentences": [
+      "his traditions were disillusioned"
+    ],
+    "difficulty": "advanced",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "DIS-illusioned — the ILLUSION has been broken."
+  },
+  {
+    "id": "jnl-027",
+    "word": "Tender",
+    "definition": "soft, caring affection",
+    "synonyms": [
+      "gentle",
+      "affectionate"
+    ],
+    "exampleSentences": [
+      "she was being kind and tender"
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "TENDER — soft, gentle, careful — like handling something precious."
+  },
+  {
+    "id": "jnl-028",
+    "word": "Restless",
+    "definition": "unable to settle emotionally",
+    "synonyms": [
+      "uneasy",
+      "unsettled"
+    ],
+    "exampleSentences": [
+      "the audience grew restless and inattentive"
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "REST-less — you cannot REST, always moving."
+  },
+  {
+    "id": "jnl-029",
+    "word": "Liberated",
+    "definition": "free from emotional burden",
+    "synonyms": [
+      "freed",
+      "emancipated"
+    ],
+    "exampleSentences": [
+      "America was liberated from British rule on July 4, 1776"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "LIBER-ated — from LIBER (Latin for free), set free."
+  },
+  {
+    "id": "jnl-030",
+    "word": "Aching",
+    "definition": "deep, persistent emotional pain",
+    "synonyms": [
+      "hurting",
+      "throbbing"
+    ],
+    "exampleSentences": [
+      "I write this letter with tears in my eyes and an aching heart"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "ACHING — your heart is making a long, drawn-out sound of pain."
+  },
+  {
+    "id": "jnl-031",
+    "word": "Accepting",
+    "definition": "open and receptive to what is",
+    "synonyms": [
+      "receptive",
+      "open-minded"
+    ],
+    "exampleSentences": [
+      "he accepted a pen as a present"
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "verb",
+    "tip": "ACCEPT-ing — opening your arms to ACCEPt what is."
+  },
+  {
+    "id": "jnl-032",
+    "word": "Affectionate",
+    "definition": "warm and loving toward someone",
+    "synonyms": [
+      "loving",
+      "tender"
+    ],
+    "exampleSentences": [
+      "his affectionate nature"
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "AFFECT-ionate — your AFFECT (feelings) flows warmly outward."
+  },
+  {
+    "id": "jnl-033",
+    "word": "Aggrieved",
+    "definition": "feeling unfairly treated or offended",
+    "synonyms": [
+      "wronged",
+      "offended"
+    ],
+    "exampleSentences": [
+      "they were aggrieved at the outcome"
+    ],
+    "difficulty": "advanced",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "AG-grieved — GRIEVED to an extra degree."
+  },
+  {
+    "id": "jnl-034",
+    "word": "Alarmed",
+    "definition": "sudden sharp fear or worry",
+    "synonyms": [
+      "frightened",
+      "startled"
+    ],
+    "exampleSentences": [
+      "they didn't seem too alarmed"
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "ALARM-ed — the ALARM bells of fear are ringing."
+  },
+  {
+    "id": "jnl-035",
+    "word": "Alienated",
+    "definition": "isolated or estranged from others",
+    "synonyms": [
+      "estranged",
+      "isolated"
+    ],
+    "exampleSentences": [
+      "an alienated, angst-ridden twenty-two-year-old"
+    ],
+    "difficulty": "advanced",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "ALIEN-ated — feeling like an ALIEN, foreign and apart."
+  },
+  {
+    "id": "jnl-036",
+    "word": "Amazed",
+    "definition": "filled with wonder and surprise",
+    "synonyms": [
+      "astonished",
+      "astounded"
+    ],
+    "exampleSentences": [
+      "I was amazed that he could remember me"
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "A-MAZED — lost in a MAZE of wonder."
+  },
+  {
+    "id": "jnl-037",
+    "word": "Amused",
+    "definition": "quietly entertained or finding humor",
+    "synonyms": [
+      "entertained",
+      "tickled"
+    ],
+    "exampleSentences": [
+      "people looked on with amused curiosity"
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "A-MUSED — your MUSE has been tickled."
+  },
+  {
+    "id": "jnl-038",
+    "word": "Anguished",
+    "definition": "extreme mental or emotional pain",
+    "synonyms": [
+      "tormented",
+      "distressed"
+    ],
+    "exampleSentences": [
+      "he gave an anguished cry"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "ANGUI-shed — pain SHED from deep inside."
+  },
+  {
+    "id": "jnl-039",
+    "word": "Annoyed",
+    "definition": "mildly irritated or bothered",
+    "synonyms": [
+      "irritated",
+      "vexed"
+    ],
+    "exampleSentences": [
+      "she was annoyed with him"
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "AN-NOYED — something is NOYing you... again."
+  },
+  {
+    "id": "jnl-040",
+    "word": "Anxious",
+    "definition": "uneasy anticipation of something",
+    "synonyms": [
+      "worried",
+      "apprehensive"
+    ],
+    "exampleSentences": [
+      "she was extremely anxious about her exams"
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "ANX-ious — your mind is full of tight KNOTS."
+  },
+  {
+    "id": "jnl-041",
+    "word": "Appalled",
+    "definition": "horrified or shocked by something",
+    "synonyms": [
+      "horrified",
+      "shocked"
+    ],
+    "exampleSentences": [
+      "he looked at me, appalled"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "AP-PALLED — a PALL (darkness) has been cast over you."
+  },
+  {
+    "id": "jnl-042",
+    "word": "Aroused",
+    "definition": "stirred with excitement or interest",
+    "synonyms": [
+      "excited",
+      "stimulated"
+    ],
+    "exampleSentences": [
+      "he was aroused"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "A-ROUSED — ROUSED from rest into excitement."
+  },
+  {
+    "id": "jnl-043",
+    "word": "Astonished",
+    "definition": "greatly surprised or amazed",
+    "synonyms": [
+      "amazed",
+      "flabbergasted"
+    ],
+    "exampleSentences": [
+      "he was astonished at the change in him"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "A-STON-ished — struck like a STONE, frozen in surprise."
+  },
+  {
+    "id": "jnl-044",
+    "word": "Awe-struck",
+    "definition": "overwhelmed by wonder or reverence",
+    "synonyms": [
+      "amazed",
+      "reverent"
+    ],
+    "exampleSentences": [
+      "people were awestruck by the pictures sent back to earth"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "AWE-STRUCK — STRUCK by AWE like lightning."
+  },
+  {
+    "id": "jnl-045",
+    "word": "Bewildered",
+    "definition": "completely puzzled or confused",
+    "synonyms": [
+      "baffled",
+      "mystified",
+      "bemused"
+    ],
+    "exampleSentences": [
+      "he saw the bewildered look on my face"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "Be-WILD-ered — gone WILD with confusion."
+  },
+  {
+    "id": "jnl-046",
+    "word": "Bitter",
+    "definition": "harboring deep resentment",
+    "synonyms": [
+      "sharp",
+      "acid",
+      "pungent"
+    ],
+    "exampleSentences": [
+      "raw berries have an intensely bitter flavour"
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "BITTER — like a BITTER taste that lingers long after."
+  },
+  {
+    "id": "jnl-047",
+    "word": "Blissful",
+    "definition": "perfect, serene happiness",
+    "synonyms": [
+      "ecstatic",
+      "rapturous",
+      "joyful"
+    ],
+    "exampleSentences": [
+      "a blissful couple holding a baby"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "BLISS-ful — full of BLISS, pure and simple."
+  },
+  {
+    "id": "jnl-048",
+    "word": "Burdened",
+    "definition": "weighed down by worry or responsibility",
+    "synonyms": [
+      "load",
+      "weight",
+      "charge"
+    ],
+    "exampleSentences": [
+      "she walked forwards burdened with a wooden box"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "verb",
+    "tip": "BURDEN-ed — carrying a heavy BURDEN on your shoulders."
+  },
+  {
+    "id": "jnl-049",
+    "word": "Cautious",
+    "definition": "careful due to potential risk",
+    "synonyms": [
+      "careful",
+      "wary",
+      "aware"
+    ],
+    "exampleSentences": [
+      "a cautious driver"
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "CAUT-ious — CAUTION! Slow down and watch your step."
+  },
+  {
+    "id": "jnl-050",
+    "word": "Cheerful",
+    "definition": "bright and optimistic mood",
+    "synonyms": [
+      "happy",
+      "merry",
+      "bright"
+    ],
+    "exampleSentences": [
+      "how can she be so cheerful at six o'clock in the morning?"
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "CHEER-ful — full of CHEERS, like a crowd celebrating."
+  },
+  {
+    "id": "jnl-051",
+    "word": "Compassionate",
+    "definition": "deeply sympathetic and caring",
+    "synonyms": [
+      "pitying",
+      "sympathetic",
+      "empathetic"
+    ],
+    "exampleSentences": [
+      "I allowed him to go home on compassionate grounds"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "COM-PASSION-ate — full of PASSION for others."
+  },
+  {
+    "id": "jnl-052",
+    "word": "Concerned",
+    "definition": "worried about someone's well-being",
+    "synonyms": [
+      "worried",
+      "disturbed",
+      "perturbed"
+    ],
+    "exampleSentences": [
+      "the villagers are concerned about burglaries"
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "CON-CERNED — CIRCLing with worry."
+  },
+  {
+    "id": "jnl-053",
+    "word": "Conflicted",
+    "definition": "torn between opposing feelings",
+    "synonyms": [
+      "clash",
+      "at odds",
+      "discordant"
+    ],
+    "exampleSentences": [
+      "she plays an empathetic character who is fundamentally conflicted about her relationship with amy"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "CON-FLICT-ed — caught in a CONFLICT inside yourself."
+  },
+  {
+    "id": "jnl-054",
+    "word": "contemptuous",
+    "definition": "feeling disdain or scorn",
+    "synonyms": [
+      "scornful",
+      "disrespectful"
+    ],
+    "exampleSentences": [
+      "she was intolerant and contemptuous of the majority of the human race"
+    ],
+    "difficulty": "advanced",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "CONTEMPT-uous — full of CONTEMPT, looking down."
+  },
+  {
+    "id": "jnl-055",
+    "word": "contented",
+    "definition": "satisfied and at ease",
+    "synonyms": [
+      "satisfied",
+      "pleased",
+      "fulfilled"
+    ],
+    "exampleSentences": [
+      "I was never contented with half measures"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "CON-TENT-ed — living comfortably in your TENT."
+  },
+  {
+    "id": "jnl-056",
+    "word": "crestfallen",
+    "definition": "disappointed and dejected",
+    "synonyms": [
+      "dejected",
+      "downcast"
+    ],
+    "exampleSentences": [
+      "he looked crestfallen when he heard the news"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "CREST-fallen — your CREST (pride) has FALLEN."
+  },
+  {
+    "id": "jnl-057",
+    "word": "curious",
+    "definition": "eager to learn or explore",
+    "synonyms": [
+      "inquisitive",
+      "eager"
+    ],
+    "exampleSentences": [
+      "she was curious about the strange noise coming from the attic"
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "CUR-ious — like a CURE, curiosity heals ignorance."
+  },
+  {
+    "id": "jnl-058",
+    "word": "defeated",
+    "definition": "over by failure or despair",
+    "synonyms": [
+      "vanquished",
+      "overcome"
+    ],
+    "exampleSentences": [
+      "he felt defeated after losing the match"
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "DE-FEAT-ed — your FEET have been knocked out from under you."
+  },
+  {
+    "id": "jnl-059",
+    "word": "delighted",
+    "definition": "greatly pleased and joyful",
+    "synonyms": [
+      "thrilled",
+      "overjoyed"
+    ],
+    "exampleSentences": [
+      "she was delighted to see her old friend"
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "DE-LIGHT-ed — filled with LIGHT and joy."
+  },
+  {
+    "id": "jnl-060",
+    "word": "depleted",
+    "definition": "emotionally drained and empty",
+    "synonyms": [
+      "exhausted",
+      "drained"
+    ],
+    "exampleSentences": [
+      "after the long week she felt emotionally depleted"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "DE-PLET-ed — emptied out, nothing PLENTIFUL left."
+  },
+  {
+    "id": "jnl-061",
+    "word": "derisive",
+    "definition": "expressing mockery or scorn",
+    "synonyms": [
+      "scornful",
+      "mocking"
+    ],
+    "exampleSentences": [
+      "he let out a derisive laugh at the suggestion"
+    ],
+    "difficulty": "advanced",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "DE-RIS-ive — RISing above others with mockery."
+  },
+  {
+    "id": "jnl-062",
+    "word": "desolate",
+    "definition": "bleak and profoundly lonely",
+    "synonyms": [
+      "barren",
+      "forsaken"
+    ],
+    "exampleSentences": [
+      "she felt utterly desolate after the breakup"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "DES-olate — a DESERT of emotions, barren and empty."
+  },
+  {
+    "id": "jnl-063",
+    "word": "despairing",
+    "definition": "complete loss of hope",
+    "synonyms": [
+      "hopeless",
+      "despondent"
+    ],
+    "exampleSentences": [
+      "his despairing cries echoed through the empty house"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "DE-SPARE-ing — no SPARE hope left at all."
+  },
+  {
+    "id": "jnl-064",
+    "word": "detached",
+    "definition": "emotionally distant or aloof",
+    "synonyms": [
+      "aloof",
+      "indifferent"
+    ],
+    "exampleSentences": [
+      "she felt detached from the world around her"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "DE-TACHED — un-ATTACHED, floating away from connection."
+  },
+  {
+    "id": "jnl-065",
+    "word": "determined",
+    "definition": "resolute and focused",
+    "synonyms": [
+      "resolute",
+      "steadfast"
+    ],
+    "exampleSentences": [
+      "she was determined to finish the race no matter what"
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "DE-TERM-ined — you have set your TERMS and will not budge."
+  },
+  {
+    "id": "jnl-066",
+    "word": "devoted",
+    "definition": "loyal and loving commitment",
+    "synonyms": [
+      "dedicated",
+      "loyal"
+    ],
+    "exampleSentences": [
+      "he was devoted to his family above all else"
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "DE-VOT-ed — VOTED with your heart, fully committed."
+  },
+  {
+    "id": "jnl-067",
+    "word": "disappointed",
+    "definition": "let down by unmet expectations",
+    "synonyms": [
+      "let down",
+      "disenchanted"
+    ],
+    "exampleSentences": [
+      "she was disappointed when the concert was cancelled"
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "DIS-APPOINT-ed — the APPOINTMENT with happiness was cancelled."
+  },
+  {
+    "id": "jnl-068",
+    "word": "disconcerted",
+    "definition": "unsettled or disturbed",
+    "synonyms": [
+      "unsettled",
+      "flustered"
+    ],
+    "exampleSentences": [
+      "he was disconcerted by her sudden change of mood"
+    ],
+    "difficulty": "advanced",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "DIS-CON-certed — the concert is off-key, nothing is in harmony."
+  },
+  {
+    "id": "jnl-069",
+    "word": "disgusted",
+    "definition": "strong revulsion or distaste",
+    "synonyms": [
+      "revolted",
+      "repelled"
+    ],
+    "exampleSentences": [
+      "she was disgusted by his rude behaviour"
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "DIS-GUST-ed — a bad GUST of wind that turns your stomach."
+  },
+  {
+    "id": "jnl-070",
+    "word": "Disheartened",
+    "definition": "discouraged and low spirited",
+    "synonyms": [
+      "discouraged",
+      "deflated"
+    ],
+    "exampleSentences": [
+      "the team felt disheartened after losing three games in a row"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "Your HEART is DIS-connected — hope has left."
+  },
+  {
+    "id": "jnl-071",
+    "word": "dismissive",
+    "definition": "brushing off with contempt",
+    "synonyms": [
+      "contemptuous",
+      "disdainful"
+    ],
+    "exampleSentences": [
+      "he was dismissive of her concerns"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "DIS-MISS-ive — MISSing the point on purpose."
+  },
+  {
+    "id": "jnl-072",
+    "word": "distraught",
+    "definition": "deeply upset and agitated",
+    "synonyms": [
+      "frantic",
+      "overwrought"
+    ],
+    "exampleSentences": [
+      "she was distraught when she heard the terrible news"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "DIS-TRAUGHT — scattered like a cold DRAUGHT of wind."
+  },
+  {
+    "id": "jnl-073",
+    "word": "distressed",
+    "definition": "suffering emotional pain",
+    "synonyms": [
+      "troubled",
+      "tormented"
+    ],
+    "exampleSentences": [
+      "the child appeared distressed and confused"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "DIS-STRESSED — STRESSED to the point of breaking."
+  },
+  {
+    "id": "jnl-074",
+    "word": "dreadful",
+    "definition": "filled with intense fear",
+    "synonyms": [
+      "terrifying",
+      "awful"
+    ],
+    "exampleSentences": [
+      "she had a dreadful feeling something was wrong"
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "DREAD-ful — full of DREAD, heavy with fear."
+  },
+  {
+    "id": "jnl-075",
+    "word": "eager",
+    "definition": "enthusiastically wanting something",
+    "synonyms": [
+      "enthusiastic",
+      "keen"
+    ],
+    "exampleSentences": [
+      "the pupils were eager to learn"
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "EAGER — like a beaver, always EAGER to build and do more."
+  },
+  {
+    "id": "jnl-076",
+    "word": "ecstatic",
+    "definition": "rapturous joy",
+    "synonyms": [
+      "euphoric",
+      "elated"
+    ],
+    "exampleSentences": [
+      "she was ecstatic when she got the job offer"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "EC-STATIC — your happiness is so high it creates STATIC energy."
+  },
+  {
+    "id": "jnl-077",
+    "word": "embarrassed",
+    "definition": "self conscious and awkward",
+    "synonyms": [
+      "ashamed",
+      "flustered"
+    ],
+    "exampleSentences": [
+      "he felt embarrassed by his mistake"
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "EM-BARR-assed — BARRED from feeling at ease."
+  },
+  {
+    "id": "jnl-078",
+    "word": "empathetic",
+    "definition": "deeply understanding another's feelings",
+    "synonyms": [
+      "compassionate",
+      "understanding"
+    ],
+    "exampleSentences": [
+      "a good teacher is empathetic toward their students"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "EM-PATH-etic — walking the same PATH as another person."
+  },
+  {
+    "id": "jnl-079",
+    "word": "enchanted",
+    "definition": "filled with delight and magic",
+    "synonyms": [
+      "captivated",
+      "spellbound"
+    ],
+    "exampleSentences": [
+      "she was enchanted by the beauty of the old city"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "EN-CHANT-ed — a magic CHANT has been cast over you."
+  },
+  {
+    "id": "jnl-080",
+    "word": "encouraged",
+    "definition": "inspired with hope and confidence",
+    "synonyms": [
+      "inspired",
+      "uplifted"
+    ],
+    "exampleSentences": [
+      "he felt encouraged by the positive feedback"
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "EN-COUR-aged — filled with COURAGE from someone else."
+  },
+  {
+    "id": "jnl-081",
+    "word": "energised",
+    "definition": "invigorated and alive",
+    "synonyms": [
+      "invigorated",
+      "revitalized"
+    ],
+    "exampleSentences": [
+      "a brisk morning walk left her feeling energised"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "EN-ERGY-sed — plugged into ENERGY and buzzing."
+  },
+  {
+    "id": "jnl-082",
+    "word": "enraged",
+    "definition": "violently angry",
+    "synonyms": [
+      "furious",
+      "incensed"
+    ],
+    "exampleSentences": [
+      "he was enraged by the false accusations"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "EN-RAGED — RAGE has entered and taken over."
+  },
+  {
+    "id": "jnl-083",
+    "word": "enthralled",
+    "definition": "captivated and spellbound",
+    "synonyms": [
+      "captivated",
+      "fascinated"
+    ],
+    "exampleSentences": [
+      "the audience was enthralled by the performance"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "EN-THRALL-ed — held in THRALL, captive to wonder."
+  },
+  {
+    "id": "jnl-084",
+    "word": "enthusiastic",
+    "definition": "full of eager interest",
+    "synonyms": [
+      "eager",
+      "passionate"
+    ],
+    "exampleSentences": [
+      "she was enthusiastic about starting her new job"
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "EN-THUS-iastic — ENTHEOS (Greek) = god within, divinely inspired."
+  },
+  {
+    "id": "jnl-085",
+    "word": "envious",
+    "definition": "wanting what others have",
+    "synonyms": [
+      "jealous",
+      "covetous"
+    ],
+    "exampleSentences": [
+      "he was envious of his friend's success"
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "EN-VI-ous — your EYE is fixed on what others have."
+  },
+  {
+    "id": "jnl-086",
+    "word": "exasperated",
+    "definition": "intensely irritated",
+    "synonyms": [
+      "frustrated",
+      "infuriated"
+    ],
+    "exampleSentences": [
+      "she was exasperated by his constant complaints"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "EX-ASPER-ated — ROUGH edges (asper = rough) pushed too far."
+  },
+  {
+    "id": "jnl-087",
+    "word": "exhausted",
+    "definition": "emotionally worn out",
+    "synonyms": [
+      "depleted",
+      "drained"
+    ],
+    "exampleSentences": [
+      "he was exhausted after the long journey"
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "EX-HAUST-ed — your EXHAUST pipe is empty, nothing left."
+  },
+  {
+    "id": "jnl-088",
+    "word": "Exhilarated",
+    "definition": "thrilled with energy",
+    "synonyms": [
+      "thrilled",
+      "elated"
+    ],
+    "exampleSentences": [
+      "she felt exhilarated after the skydive"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "EX-HILAR-ated — EX-tremely HILARious levels of joy."
+  },
+  {
+    "id": "jnl-089",
+    "word": "expectant",
+    "definition": "hopeful anticipation",
+    "synonyms": [
+      "anticipatory",
+      "hopeful"
+    ],
+    "exampleSentences": [
+      "the expectant crowd waited in silence"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "EX-PECT-ant — looking outward (ex) with eyes fixed on the future."
+  },
+  {
+    "id": "jnl-090",
+    "word": "fascinated",
+    "definition": "intensely interested",
+    "synonyms": [
+      "captivated",
+      "enthralled"
+    ],
+    "exampleSentences": [
+      "he was fascinated by the history of ancient Rome"
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "FASCIN-ated — like a FASCINATOR hat, drawn in with style."
+  },
+  {
+    "id": "jnl-091",
+    "word": "fearful",
+    "definition": "full of fear",
+    "synonyms": [
+      "frightened",
+      "terrified"
+    ],
+    "exampleSentences": [
+      "she was fearful of what the future might bring"
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "FEAR-ful — full of FEAR from head to toe."
+  },
+  {
+    "id": "jnl-092",
+    "word": "flustered",
+    "definition": "agitated and confused",
+    "synonyms": [
+      "agitated",
+      "unsettled"
+    ],
+    "exampleSentences": [
+      "she became flustered when asked an unexpected question"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "FLUS-tered — like a FLUSTER of birds scared into the air."
+  },
+  {
+    "id": "jnl-093",
+    "word": "Forlorn",
+    "definition": "pitifully sad and abandoned",
+    "synonyms": [
+      "abandoned",
+      "desolate"
+    ],
+    "exampleSentences": [
+      "the forlorn child sat alone in the corner"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "FOR-lorn — lost and FOR-gotten, all alone."
+  },
+  {
+    "id": "jnl-094",
+    "word": "fragile",
+    "definition": "emotionally delicate",
+    "synonyms": [
+      "delicate",
+      "vulnerable"
+    ],
+    "exampleSentences": [
+      "he felt fragile and needed time to heal"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "FRAG-ile — like a FRAGMENT, easily broken."
+  },
+  {
+    "id": "jnl-095",
+    "word": "frazzled",
+    "definition": "overwhelmed and stressed",
+    "synonyms": [
+      "exhausted",
+      "stressed"
+    ],
+    "exampleSentences": [
+      "she arrived at the meeting looking completely frazzled"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "FRAZ-zled — FRIZZLED and fried from too much stress."
+  },
+  {
+    "id": "jnl-096",
+    "word": "frustrated",
+    "definition": "blocked from achieving something",
+    "synonyms": [
+      "thwarted",
+      "exasperated"
+    ],
+    "exampleSentences": [
+      "he was frustrated by the endless delays"
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "FRUS-trated — FRUSTUM (a cut shape) — your goals have been cut short."
+  },
+  {
+    "id": "jnl-097",
+    "word": "fulfilled",
+    "definition": "completely satsified",
+    "synonyms": [
+      "satisfied",
+      "gratified"
+    ],
+    "exampleSentences": [
+      "she felt fulfilled after years of dedicated work"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "FULL-filled — completely FULL, nothing more needed."
+  },
+  {
+    "id": "jnl-098",
+    "word": "furious",
+    "definition": "intense rage",
+    "synonyms": [
+      "enraged",
+      "irate"
+    ],
+    "exampleSentences": [
+      "he was furious when he discovered the lie"
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "FUR-ious — FURy turned all the way up."
+  },
+  {
+    "id": "jnl-099",
+    "word": "gleeful",
+    "definition": "exhuberantly joyful",
+    "synonyms": [
+      "joyful",
+      "delighted"
+    ],
+    "exampleSentences": [
+      "the children were gleeful on the last day of school"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "GLEE-ful — full of GLEE, singing with joy."
+  },
+  {
+    "id": "jnl-100",
+    "word": "Grateful",
+    "definition": "deeply thankful",
+    "synonyms": [
+      "thankful",
+      "appreciative"
+    ],
+    "exampleSentences": [
+      "she was deeply grateful for all the support"
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "GRATE-ful — your heart is GRATING with thankfulness."
+  },
+  {
+    "id": "jnl-101",
+    "word": "grief stricken",
+    "definition": "overwhelmed by sorrow",
+    "synonyms": [
+      "bereaved",
+      "heartbroken"
+    ],
+    "exampleSentences": [
+      "he was grief stricken by the sudden loss of his father"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "GRIEF-STRICKEN — STRUCK down by GRIEF."
+  },
+  {
+    "id": "jnl-102",
+    "word": "guilty",
+    "definition": "remoseful for wrongdoing",
+    "synonyms": [
+      "remorseful",
+      "ashamed"
+    ],
+    "exampleSentences": [
+      "she felt guilty for not telling the truth"
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "GUILT-y — dragging the weight of GUILT behind you."
+  },
+  {
+    "id": "jnl-103",
+    "word": "helpless",
+    "definition": "unable to act or change things",
+    "synonyms": [
+      "powerless",
+      "defenseless"
+    ],
+    "exampleSentences": [
+      "he felt helpless as he watched the situation unfold"
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "HELP-less — without HELP, without options."
+  },
+  {
+    "id": "jnl-104",
+    "word": "homesick",
+    "definition": "longing for home",
+    "synonyms": [
+      "nostalgic",
+      "longing"
+    ],
+    "exampleSentences": [
+      "she grew homesick during her first month abroad"
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "HOME-SICK — SICK with longing to be HOME."
+  },
+  {
+    "id": "jnl-105",
+    "word": "hopeful",
+    "definition": "optimistic about the future",
+    "synonyms": [
+      "optimistic",
+      "expectant"
+    ],
+    "exampleSentences": [
+      "they remained hopeful despite the bad news"
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "HOPE-ful — full of HOPE, eyes on the horizon."
+  },
+  {
+    "id": "jnl-106",
+    "word": "horrified",
+    "definition": "shocked with fear and disgust",
+    "synonyms": [
+      "appalled",
+      "terrified"
+    ],
+    "exampleSentences": [
+      "she was horrified by what she saw"
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "HORROR-ified — turned into HORROR, frozen with fright."
+  },
+  {
+    "id": "jnl-107",
+    "word": "humble",
+    "definition": "modest and unassuming",
+    "synonyms": [
+      "modest",
+      "unpretentious"
+    ],
+    "exampleSentences": [
+      "he remained humble despite his great success"
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "HUM-ble — HUMming quietly, not needing to shout."
+  },
+  {
+    "id": "jnl-108",
+    "word": "humiliated",
+    "definition": "deeply embarrassed",
+    "synonyms": [
+      "mortified",
+      "shamed"
+    ],
+    "exampleSentences": [
+      "she felt humiliated in front of the entire class"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "HU-MIL-iated — ground into the MUD (humus = earth)."
+  },
+  {
+    "id": "jnl-109",
+    "word": "hurt",
+    "definition": "emotionally wounded",
+    "synonyms": [
+      "wounded",
+      "pained"
+    ],
+    "exampleSentences": [
+      "he was deeply hurt by her harsh words"
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "HURT — a short sharp word for a short sharp pain."
+  },
+  {
+    "id": "jnl-110",
+    "word": "impatient",
+    "definition": "restless for something to happen",
+    "synonyms": [
+      "restless",
+      "eager"
+    ],
+    "exampleSentences": [
+      "she grew impatient waiting for the results"
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "IM-PATIENT — the opposite of PATIENT, cannot wait."
+  },
+  {
+    "id": "jnl-111",
+    "word": "indifferent",
+    "definition": "lacking interest or concern",
+    "synonyms": [
+      "apathetic",
+      "unconcerned"
+    ],
+    "exampleSentences": [
+      "he seemed indifferent to the outcome"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "IN-DIFFER-ent — sees no DIFFERENCE, nothing matters."
+  },
+  {
+    "id": "jnl-112",
+    "word": "insecure",
+    "definition": "lacking confidence",
+    "synonyms": [
+      "uncertain",
+      "anxious"
+    ],
+    "exampleSentences": [
+      "she felt insecure about speaking in public"
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "IN-SECURE — not SECURE, always shaky inside."
+  },
+  {
+    "id": "jnl-113",
+    "word": "inspired",
+    "definition": "motivated by something uplifting",
+    "synonyms": [
+      "motivated",
+      "uplifted"
+    ],
+    "exampleSentences": [
+      "he was inspired by the speaker's words"
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "IN-SPIRED — breath (spirit) has been breathed into you."
+  },
+  {
+    "id": "jnl-114",
+    "word": "intrigued",
+    "definition": "fascinated and curious",
+    "synonyms": [
+      "fascinated",
+      "curious"
+    ],
+    "exampleSentences": [
+      "she was intrigued by the mysterious letter"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "IN-TRIGUED — TRAPPED by curiosity, you must know more."
+  },
+  {
+    "id": "jnl-115",
+    "word": "irked",
+    "definition": "mildy annoyed",
+    "synonyms": [
+      "annoyed",
+      "bothered"
+    ],
+    "exampleSentences": [
+      "he was irked by the constant interruptions"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "IRKED — a short, sharp prick of annoyance."
+  },
+  {
+    "id": "jnl-116",
+    "word": "irritated",
+    "definition": "provoked to impatience",
+    "synonyms": [
+      "agitated",
+      "exasperated"
+    ],
+    "exampleSentences": [
+      "she was irritated by the loud noise next door"
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "IRRIT-ated — like a skin IRRITATION, small but hard to ignore."
+  },
+  {
+    "id": "jnl-117",
+    "word": "isolated",
+    "definition": "feeling cut off from others",
+    "synonyms": [
+      "lonely",
+      "secluded"
+    ],
+    "exampleSentences": [
+      "he felt isolated after moving to a new city"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "ISO-lated — ISO (equal/alone) — cut off on all sides."
+  },
+  {
+    "id": "jnl-118",
+    "word": "jealous",
+    "definition": "resentful of another's advantages",
+    "synonyms": [
+      "envious",
+      "covetous"
+    ],
+    "exampleSentences": [
+      "she was jealous of her sister's new car"
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "JEAL-ous — ZEAL turned outward at what others have."
+  },
+  {
+    "id": "jnl-119",
+    "word": "jubilant",
+    "definition": "rejoicing triumphantly",
+    "synonyms": [
+      "elated",
+      "triumphant"
+    ],
+    "exampleSentences": [
+      "the crowd was jubilant after the home team scored"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "JUBIL-ant — from JUBILEE, a great celebration."
+  },
+  {
+    "id": "jnl-120",
+    "word": "lethargic",
+    "definition": "sluggish and unmotivated",
+    "synonyms": [
+      "sluggish",
+      "listless"
+    ],
+    "exampleSentences": [
+      "the hot weather made everyone feel lethargic"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "LETHAR-gic — LETHE (Greek river of forgetfulness) — lost in slow fog."
+  },
+  {
+    "id": "jnl-121",
+    "word": "listless",
+    "definition": "lacking energy or interest",
+    "synonyms": [
+      "languid",
+      "apathetic"
+    ],
+    "exampleSentences": [
+      "she wandered listlessly around the house"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "LIST-less — no TO-DO LIST, no will to move."
+  },
+  {
+    "id": "jnl-122",
+    "word": "lonely",
+    "definition": "sad from being alone",
+    "synonyms": [
+      "isolated",
+      "forlorn"
+    ],
+    "exampleSentences": [
+      "he felt lonely in the big empty apartment"
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "LONE-ly — like a LONE wolf, apart from the pack."
+  },
+  {
+    "id": "jnl-123",
+    "word": "longing",
+    "definition": "intense yearning",
+    "synonyms": [
+      "yearning",
+      "craving"
+    ],
+    "exampleSentences": [
+      "she gazed out the window with a longing in her heart"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "noun",
+    "tip": "LONG-ing — a LONG-lasting hunger for something out of reach."
+  },
+  {
+    "id": "jnl-124",
+    "word": "melancholy",
+    "definition": "pensive sadness",
+    "synonyms": [
+      "sadness",
+      "despondency"
+    ],
+    "exampleSentences": [
+      "a deep melancholy settled over him as winter approached"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "noun",
+    "tip": "MELAN-choly — MELAN (Greek for black) + CHOLE (bile) = dark mood."
+  },
+  {
+    "id": "jnl-125",
+    "word": "mournful",
+    "definition": "expressing grief",
+    "synonyms": [
+      "sorrowful",
+      "grieving"
+    ],
+    "exampleSentences": [
+      "she sang a mournful song for the departed"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "MOURN-ful — full of MOURNING, heavy with grief."
+  },
+  {
+    "id": "jnl-126",
+    "word": "nervous",
+    "definition": "uneasy and tense",
+    "synonyms": [
+      "anxious",
+      "tense"
+    ],
+    "exampleSentences": [
+      "he was nervous before his big presentation"
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "NERVE-ous — your NERVES are jangling and raw."
+  },
+  {
+    "id": "jnl-127",
+    "word": "nostalgic",
+    "definition": "sentimental longing for the past",
+    "synonyms": [
+      "sentimental",
+      "wistful"
+    ],
+    "exampleSentences": [
+      "she felt nostalgic looking through old photographs"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "NOS-talgic — NOSTOS (Greek for homecoming) — longing to return."
+  },
+  {
+    "id": "jnl-128",
+    "word": "numb",
+    "definition": "emotionally desensitized",
+    "synonyms": [
+      "emotionless",
+      "detached"
+    ],
+    "exampleSentences": [
+      "after the shock she felt completely numb"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "NUMB — the word itself feels flat, heavy, and silent."
+  },
+  {
+    "id": "jnl-129",
+    "word": "optimistic",
+    "definition": "hopeful and positive",
+    "synonyms": [
+      "hopeful",
+      "positive"
+    ],
+    "exampleSentences": [
+      "she remained optimistic about finding a solution"
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "OPTIM-istic — OPTIMA (Latin for best) — always seeing the best."
+  },
+  {
+    "id": "jnl-130",
+    "word": "overjoyed",
+    "definition": "extremely happy",
+    "synonyms": [
+      "elated",
+      "ecstatic"
+    ],
+    "exampleSentences": [
+      "he was overjoyed when he passed his exams"
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "OVER-JOYED — JOY has OVERFLOWED its container."
+  },
+  {
+    "id": "jnl-131",
+    "word": "Overwhelmed",
+    "definition": "buried under emotions",
+    "synonyms": [
+      "swamped",
+      "inundated"
+    ],
+    "exampleSentences": [
+      "she felt overwhelmed by the amount of work ahead"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "OVER-whelmed — too much OVER your head."
+  },
+  {
+    "id": "jnl-132",
+    "word": "panicked",
+    "definition": "sudden intense fear",
+    "synonyms": [
+      "terrified",
+      "frantic"
+    ],
+    "exampleSentences": [
+      "he panicked when he couldn't find his wallet"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "PANIC-ked — from PAN (Greek god who caused sudden terror)."
+  },
+  {
+    "id": "jnl-133",
+    "word": "paralyzed",
+    "definition": "frozen by fear or overwhelm",
+    "synonyms": [
+      "immobilized",
+      "frozen"
+    ],
+    "exampleSentences": [
+      "she was paralyzed with indecision"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "PARA-lyzed — beside yourself (para) unable to move."
+  },
+  {
+    "id": "jnl-134",
+    "word": "passionate",
+    "definition": "intensely emotioned",
+    "synonyms": [
+      "fervent",
+      "ardent"
+    ],
+    "exampleSentences": [
+      "she was passionate about environmental issues"
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "PASSION-ate — full of PASSION, burning with feeling."
+  },
+  {
+    "id": "jnl-135",
+    "word": "peaceful",
+    "definition": "calm and tranquil",
+    "synonyms": [
+      "serene",
+      "tranquil"
+    ],
+    "exampleSentences": [
+      "he felt peaceful sitting by the lake"
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "PEACE-ful — full of PEACE, still as a quiet lake."
+  },
+  {
+    "id": "jnl-136",
+    "word": "pensive",
+    "definition": "deeply thoughtful",
+    "synonyms": [
+      "thoughtful",
+      "reflective"
+    ],
+    "exampleSentences": [
+      "she sat in a pensive silence deep in thought"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "PEN-sive — PENsive, like a pen hovering, deep in thought."
+  },
+  {
+    "id": "jnl-137",
+    "word": "perplexed",
+    "definition": "completed baffled",
+    "synonyms": [
+      "baffled",
+      "confused"
+    ],
+    "exampleSentences": [
+      "he was perplexed by her sudden change of heart"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "PER-PLEXED — PLEXED (twisted) all the way through."
+  },
+  {
+    "id": "jnl-138",
+    "word": "petrified",
+    "definition": "paralyzed with fear",
+    "synonyms": [
+      "terrified",
+      "paralyzed"
+    ],
+    "exampleSentences": [
+      "she was petrified of heights"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "PETRI-fied — turned to STONE (petra = rock) with fear."
+  },
+  {
+    "id": "jnl-139",
+    "word": "pleased",
+    "definition": "satisfied and content",
+    "synonyms": [
+      "satisfied",
+      "delighted"
+    ],
+    "exampleSentences": [
+      "she was pleased with the final result"
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "PLEASED — PLEA answered, everything is as it should be."
+  },
+  {
+    "id": "jnl-140",
+    "word": "proud",
+    "definition": "feeling self respect",
+    "synonyms": [
+      "dignified",
+      "self-respecting"
+    ],
+    "exampleSentences": [
+      "he was proud of everything his daughter had achieved"
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "PROUD — standing TALL, chest out, head high."
+  },
+  {
+    "id": "jnl-141",
+    "word": "regretful",
+    "definition": "sorry for past actions",
+    "synonyms": [
+      "remorseful",
+      "sorry"
+    ],
+    "exampleSentences": [
+      "she felt regretful about the things she had said"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "RE-GRET-ful — GRITTING your teeth wishing you could go back."
+  },
+  {
+    "id": "jnl-142",
+    "word": "relieved",
+    "definition": "freed from anxiety",
+    "synonyms": [
+      "reassured",
+      "comforted"
+    ],
+    "exampleSentences": [
+      "he was relieved to hear that everyone was safe"
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "RE-LIEVED — the heavy LOAD has been LIFTED."
+  },
+  {
+    "id": "jnl-143",
+    "word": "remorseful",
+    "definition": "deeply regretful",
+    "synonyms": [
+      "guilty",
+      "penitent"
+    ],
+    "exampleSentences": [
+      "she was deeply remorseful for what she had done"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "RE-MORSE-ful — the bite of guilt (mordere = to bite) bites back again."
+  },
+  {
+    "id": "jnl-144",
+    "word": "resentful",
+    "definition": "bitter about unfair treatment",
+    "synonyms": [
+      "bitter",
+      "aggrieved"
+    ],
+    "exampleSentences": [
+      "he grew resentful of the way he was treated"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "RE-SENT-ful — feelings SENT again and again, never resolved."
+  },
+  {
+    "id": "jnl-145",
+    "word": "resigned",
+    "definition": "accepting defeat quietly",
+    "synonyms": [
+      "submissive",
+      "acquiescent"
+    ],
+    "exampleSentences": [
+      "she gave a resigned sigh and agreed to help"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "RE-SIGNED — you have RE-SIGNED the contract of defeat."
+  },
+  {
+    "id": "jnl-146",
+    "word": "restless",
+    "definition": "unable to relax",
+    "synonyms": [
+      "uneasy",
+      "unsettled"
+    ],
+    "exampleSentences": [
+      "he was restless on the night before the trip"
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "REST-less — no REST, always turning."
+  },
+  {
+    "id": "jnl-147",
+    "word": "reverent",
+    "definition": "deep respect and awe",
+    "synonyms": [
+      "respectful",
+      "awed"
+    ],
+    "exampleSentences": [
+      "the crowd fell into a reverent silence"
+    ],
+    "difficulty": "advanced",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "REVER-ent — to REVERE, to hold in the highest respect."
+  },
+  {
+    "id": "jnl-148",
+    "word": "rueful",
+    "definition": "regretful with mild sorrow",
+    "synonyms": [
+      "regretful",
+      "mournful"
+    ],
+    "exampleSentences": [
+      "she gave a rueful smile at the memory"
+    ],
+    "difficulty": "advanced",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "RUE-ful — full of RUE (an old word for regret)."
+  },
+  {
+    "id": "jnl-149",
+    "word": "saddened",
+    "definition": "made sorrowful",
+    "synonyms": [
+      "sorrowful",
+      "downcast"
+    ],
+    "exampleSentences": [
+      "he was saddened by the news of her passing"
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "SAD-dened — SADNESS has settled in."
+  },
+  {
+    "id": "jnl-150",
+    "word": "satisfied",
+    "definition": "content with outcome",
+    "synonyms": [
+      "content",
+      "pleased"
+    ],
+    "exampleSentences": [
+      "she was satisfied with the work she had done"
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "SATIS-fied — SATIS (Latin for enough) — you have enough."
+  },
+  {
+    "id": "jnl-151",
+    "word": "skeptical",
+    "definition": "doubtful and questioning",
+    "synonyms": [
+      "doubtful",
+      "questioning"
+    ],
+    "exampleSentences": [
+      "he was skeptical about the new plan"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "SKEPT-ical — always CHECKING (skeptomai = to look carefully)."
+  },
+  {
+    "id": "jnl-152",
+    "word": "somber",
+    "definition": "grave and serious",
+    "synonyms": [
+      "grave",
+      "solemn"
+    ],
+    "exampleSentences": [
+      "a somber mood fell over the room"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "SOM-ber — like SHADOW (sombre = dark in French)."
+  },
+  {
+    "id": "jnl-153",
+    "word": "sorrowful",
+    "definition": "full of sorrow",
+    "synonyms": [
+      "mournful",
+      "grieving"
+    ],
+    "exampleSentences": [
+      "she wore a sorrowful expression at the funeral"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "SORROW-ful — full of SORROW, brimming with grief."
+  },
+  {
+    "id": "jnl-154",
+    "word": "stressed",
+    "definition": "under mental strain",
+    "synonyms": [
+      "strained",
+      "overwhelmed"
+    ],
+    "exampleSentences": [
+      "he was stressed about the upcoming deadline"
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "STRESS-ed — pulled tight like a STRESSED rope about to snap."
+  },
+  {
+    "id": "jnl-155",
+    "word": "stunned",
+    "definition": "shocked into immobility",
+    "synonyms": [
+      "shocked",
+      "dumbfounded"
+    ],
+    "exampleSentences": [
+      "she was stunned into silence by the news"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "STUNNED — STUN gun to the emotions, frozen mid-thought."
+  },
+  {
+    "id": "jnl-156",
+    "word": "tender",
+    "definition": "gentle and caring",
+    "synonyms": [
+      "gentle",
+      "affectionate"
+    ],
+    "exampleSentences": [
+      "he spoke to her in a tender voice"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "TENDER — soft, gentle, careful — like handling something precious."
+  },
+  {
+    "id": "jnl-157",
+    "word": "tense",
+    "definition": "strained and anxious",
+    "synonyms": [
+      "strained",
+      "anxious"
+    ],
+    "exampleSentences": [
+      "the atmosphere in the room was tense"
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "TENSE — pulled like a TENSE guitar string, ready to snap."
+  },
+  {
+    "id": "jnl-158",
+    "word": "terrified",
+    "definition": "extremely frightened",
+    "synonyms": [
+      "petrified",
+      "horrified"
+    ],
+    "exampleSentences": [
+      "she was terrified of what waited in the dark"
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "TERRI-fied — TERROR has made itself at home."
+  },
+  {
+    "id": "jnl-159",
+    "word": "thrilled",
+    "definition": "greated excited",
+    "synonyms": [
+      "elated",
+      "excited"
+    ],
+    "exampleSentences": [
+      "the children were thrilled by the surprise"
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "THRILL-ed — a THRILL running right through you."
+  },
+  {
+    "id": "jnl-160",
+    "word": "timid",
+    "definition": "shy and fearful",
+    "synonyms": [
+      "shy",
+      "meek"
+    ],
+    "exampleSentences": [
+      "she was too timid to speak up in class"
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "TIM-id — TIMid — scared of TIME running out, always hesitant."
+  },
+  {
+    "id": "jnl-161",
+    "word": "tormented",
+    "definition": "severely distressed",
+    "synonyms": [
+      "anguished",
+      "tortured"
+    ],
+    "exampleSentences": [
+      "he was tormented by guilt for years"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "TOR-mented — twisted and TORN by inner pain."
+  },
+  {
+    "id": "jnl-162",
+    "word": "touched",
+    "definition": "emotionally moved",
+    "synonyms": [
+      "moved",
+      "affected"
+    ],
+    "exampleSentences": [
+      "she was deeply touched by his kind gesture"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "TOUCHED — someone reached out and TOUCHED your heart."
+  },
+  {
+    "id": "jnl-163",
+    "word": "tranquil",
+    "definition": "peacefully calm",
+    "synonyms": [
+      "peaceful",
+      "serene"
+    ],
+    "exampleSentences": [
+      "she felt tranquil sitting in the garden at sunrise"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "TRAN-quil — quietly crossing still waters (tranquillus = calm sea)."
+  },
+  {
+    "id": "jnl-164",
+    "word": "triumphant",
+    "definition": "victorious and joyful",
+    "synonyms": [
+      "victorious",
+      "exultant"
+    ],
+    "exampleSentences": [
+      "she returned home triumphant after her victory"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "TRI-umphant — like a Roman TRIUMPH, a victory parade."
+  },
+  {
+    "id": "jnl-165",
+    "word": "trusting",
+    "definition": "confident in reliability",
+    "synonyms": [
+      "confident",
+      "faithful"
+    ],
+    "exampleSentences": [
+      "children are naturally trusting of those around them"
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "TRUST-ing — building TRUST brick by brick."
+  },
+  {
+    "id": "jnl-166",
+    "word": "uncertain",
+    "definition": "doubtful and insecure",
+    "synonyms": [
+      "doubtful",
+      "hesitant"
+    ],
+    "exampleSentences": [
+      "he was uncertain about what to do next"
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "UN-CERTAIN — nothing is CERTAIN, every step is wobbly."
+  },
+  {
+    "id": "jnl-167",
+    "word": "uneasy",
+    "definition": "uncomfortable or anxious",
+    "synonyms": [
+      "anxious",
+      "uncomfortable"
+    ],
+    "exampleSentences": [
+      "she felt uneasy about leaving the children alone"
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "UN-EASY — the opposite of EASY, always on edge."
+  },
+  {
+    "id": "jnl-168",
+    "word": "unsettled",
+    "definition": "disturbed and restless",
+    "synonyms": [
+      "disturbed",
+      "restless"
+    ],
+    "exampleSentences": [
+      "the constant changes left him feeling unsettled"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "UN-SETTLED — not yet SETTLED, still searching for solid ground."
+  },
+  {
+    "id": "jnl-169",
+    "word": "unplifted",
+    "definition": "elevated in mood",
+    "synonyms": [
+      "elevated",
+      "uplifted"
+    ],
+    "exampleSentences": [
+      "she felt uplifted after hearing the inspiring speech"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "UP-LIFTED — carried UPWARD by something bigger than yourself."
+  },
+  {
+    "id": "jnl-170",
+    "word": "valiant",
+    "definition": "brave and couragous",
+    "synonyms": [
+      "brave",
+      "courageous"
+    ],
+    "exampleSentences": [
+      "he made a valiant effort to hold back his tears"
+    ],
+    "difficulty": "advanced",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "VAL-iant — VALiant from VALUE — doing what is right despite fear."
+  },
+  {
+    "id": "jnl-171",
+    "word": "vexed",
+    "definition": "annoyed and puzzled",
+    "synonyms": [
+      "annoyed",
+      "irritated"
+    ],
+    "exampleSentences": [
+      "she was vexed by his lack of consideration"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "VEX-ed — a sharp, buzzing irritation that will not stop."
+  },
+  {
+    "id": "jnl-172",
+    "word": "vibrant",
+    "definition": "full of life and energy",
+    "synonyms": [
+      "energetic",
+      "lively"
+    ],
+    "exampleSentences": [
+      "she felt vibrant and full of life after the holiday"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "VI-BRANT — VIBRATing with life and energy."
+  },
+  {
+    "id": "jnl-173",
+    "word": "vindicated",
+    "definition": "cleared of blame",
+    "synonyms": [
+      "exonerated",
+      "cleared"
+    ],
+    "exampleSentences": [
+      "he felt vindicated when the truth finally came out"
+    ],
+    "difficulty": "advanced",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "VIN-dicated — the VINE of justice growing back."
+  },
+  {
+    "id": "jnl-174",
+    "word": "Vulnerable",
+    "definition": "open to emotional hurt",
+    "synonyms": [
+      "exposed",
+      "defenseless"
+    ],
+    "exampleSentences": [
+      "opening up about his feelings made him feel vulnerable"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "VULNER-able — from VULNUS (wound) — able to be wounded."
+  },
+  {
+    "id": "jnl-175",
+    "word": "weary",
+    "definition": "tired of burdens",
+    "synonyms": [
+      "tired",
+      "exhausted"
+    ],
+    "exampleSentences": [
+      "she was weary of fighting the same battles day after day"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "WEARY — WEAR-y — worn out from carrying too much for too long."
+  },
+  {
+    "id": "jnl-176",
+    "word": "wistful",
+    "definition": "yearning with sadness",
+    "synonyms": [
+      "nostalgic",
+      "yearning"
+    ],
+    "exampleSentences": [
+      "she gave a wistful sigh as she looked at the old photo"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "WIST-ful — WIShing Things were different, full of gentle longing."
+  },
+  {
+    "id": "jnl-177",
+    "word": "wonderstruck",
+    "definition": "filled with amazement",
+    "synonyms": [
+      "awestruck",
+      "amazed"
+    ],
+    "exampleSentences": [
+      "the children were wonderstruck by the northern lights"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "WONDER-STRUCK — STRUCK by WONDER like a bolt from the sky."
+  },
+  {
+    "id": "jnl-178",
+    "word": "worried",
+    "definition": "anxious about problems",
+    "synonyms": [
+      "anxious",
+      "troubled"
+    ],
+    "exampleSentences": [
+      "he was worried about his mother's health"
+    ],
+    "difficulty": "beginner",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "WORR-ied — WORRYing away like a dog with a bone."
+  },
+  {
+    "id": "jnl-179",
+    "word": "yearning",
+    "definition": "deep longing",
+    "synonyms": [
+      "longing",
+      "craving"
+    ],
+    "exampleSentences": [
+      "she felt a deep yearning for her childhood home"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "noun",
+    "tip": "YEAR-ning — longing that has lasted a YEAR or more."
+  },
+  {
+    "id": "jnl-180",
+    "word": "zealous",
+    "definition": "fervently enthusiastic",
+    "synonyms": [
+      "fervent",
+      "passionate"
+    ],
+    "exampleSentences": [
+      "he was zealous in his pursuit of justice"
+    ],
+    "difficulty": "advanced",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "ZEAL-ous — full of ZEAL, burning bright like a zealous flame."
+  },
+  {
+    "id": "jnl-181",
+    "word": "yearning",
+    "definition": "deep longing",
+    "synonyms": [
+      "longing",
+      "craving"
+    ],
+    "exampleSentences": [
+      "she felt a deep yearning for her childhood home"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "noun",
+    "tip": "YEAR-ning — longing that has lasted a YEAR or more."
+  },
+  {
+    "id": "jnl-182",
+    "word": "zestful",
+    "definition": "full of live energy",
+    "synonyms": [
+      "energetic",
+      "enthusiastic"
+    ],
+    "exampleSentences": [
+      "she approached every challenge with a zestful spirit"
+    ],
+    "difficulty": "advanced",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "ZEST-ful — full of ZEST, the spark of an orange peel."
+  },
+  {
+    "id": "jnl-183",
+    "word": "abased",
+    "definition": "embarrassed or ashamed",
+    "synonyms": [
+      "humiliated",
+      "degraded"
+    ],
+    "exampleSentences": [
+      "he felt abased after being publicly reprimanded"
+    ],
+    "difficulty": "advanced",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "A-BASED — your foundation (BASE) has been knocked away."
+  },
+  {
+    "id": "jnl-184",
+    "word": "acrimonious",
+    "definition": "bitter and spiteful",
+    "synonyms": [
+      "bitter",
+      "hostile"
+    ],
+    "exampleSentences": [
+      "the discussion grew acrimonious as the hours passed"
+    ],
+    "difficulty": "advanced",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "ACRI-monious — ACRID (sharp/bitter) — sharp and biting in tone."
+  },
+  {
+    "id": "jnl-185",
+    "word": "affronted",
+    "definition": "insulted or offended",
+    "synonyms": [
+      "insulted",
+      "offended"
+    ],
+    "exampleSentences": [
+      "she was affronted by his dismissive tone"
+    ],
+    "difficulty": "advanced",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "AF-FRONT-ed — insulted right to your FRONT, face to face."
+  },
+  {
+    "id": "jnl-186",
+    "word": "agitated",
+    "definition": "troubled and restless",
+    "synonyms": [
+      "restless",
+      "perturbed"
+    ],
+    "exampleSentences": [
+      "he paced the room clearly agitated"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": ""
+  },
+  {
+    "id": "jnl-187",
+    "word": "Ambivalent",
+    "definition": "having mixed feelings",
+    "synonyms": [
+      "conflicted",
+      "undecided"
+    ],
+    "exampleSentences": [
+      "she was ambivalent about moving to a new city"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "AMBI-valent — AMBI means both, valuing TWO opposite things."
+  },
+  {
+    "id": "jnl-188",
+    "word": "apathy",
+    "definition": "lack of interest or emotion",
+    "synonyms": [
+      "indifferent",
+      "unresponsive"
+    ],
+    "exampleSentences": [
+      "he stared at the screen with complete apathy"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "noun",
+    "tip": "A-PATHY — without PATHOS (feeling), nothing moves you."
+  },
+  {
+    "id": "jnl-189",
+    "word": "averted",
+    "definition": "turned away in disgust",
+    "synonyms": [
+      "repelled",
+      "disgusted"
+    ],
+    "exampleSentences": [
+      "she looked away averted by the disturbing scene"
+    ],
+    "difficulty": "advanced",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "A-VERTED — turned AWAY from, unable to face it."
+  },
+  {
+    "id": "jnl-190",
+    "word": "baffled",
+    "definition": "totally perplexed",
+    "synonyms": [
+      "perplexed",
+      "mystified"
+    ],
+    "exampleSentences": [
+      "he was baffled by the sudden change in her attitude"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "BAFF-led — hit so hard by confusion you cannot think."
+  },
+  {
+    "id": "jnl-191",
+    "word": "betrayed",
+    "definition": "hurt by disloyalty",
+    "synonyms": [
+      "deceived",
+      "backstabbed"
+    ],
+    "exampleSentences": [
+      "she felt betrayed when she learned what he had done"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "BE-TRAYED — led into a TRAP by someone you trusted."
+  },
+  {
+    "id": "jnl-192",
+    "word": "hollow",
+    "definition": "feeling empty inside",
+    "synonyms": [
+      "empty",
+      "vacant"
+    ],
+    "exampleSentences": [
+      "after the argument he was left feeling hollow inside"
+    ],
+    "difficulty": "intermediate",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "HOLLOW — like a hollow tree — alive outside, empty within."
+  },
+  {
+    "id": "jnl-193",
+    "word": "jaded",
+    "definition": "cynical and weary from overindulgence or boredom",
+    "synonyms": [
+      "cynical",
+      "weary"
+    ],
+    "exampleSentences": [
+      "years of disappointment had left her jaded"
+    ],
+    "difficulty": "advanced",
+    "categories": [
+      "emotions"
+    ],
+    "partOfSpeech": "adjective",
+    "tip": "JADED — like JADE worn dull from overuse, lost its shine."
+  }
+]

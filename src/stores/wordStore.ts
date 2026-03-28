@@ -69,15 +69,16 @@ export const useWordStore = create<WordState>()((set, get) => ({
 
   loadWords: async () => {
     try {
-      const [beginner, intermediate, advanced, informative, narrative, persuasive] = await Promise.all([
+      const [beginner, intermediate, advanced, informative, narrative, persuasive, journal] = await Promise.all([
         fetchWordFile('words-beginner.json'),
         fetchWordFile('words-intermediate.json'),
         fetchWordFile('words-advanced.json'),
         fetchWordFile('words-informative.json'),
         fetchWordFile('words-narrative.json'),
         fetchWordFile('words-persuasive.json'),
+        fetchWordFile('journal-words.json'),
       ])
-      const allWords = [...beginner, ...intermediate, ...advanced, ...informative, ...narrative, ...persuasive]
+      const allWords = [...beginner, ...intermediate, ...advanced, ...informative, ...narrative, ...persuasive, ...journal]
       set({ words: allWords, isLoaded: true, error: null })
     } catch (e) {
       set({ error: 'Failed to load words', isLoaded: true })
