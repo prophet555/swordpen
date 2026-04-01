@@ -2,7 +2,6 @@ import { Link } from 'react-router-dom'
 import { useProfileStore } from '../stores/profileStore'
 import { useGamificationStore } from '../stores/gamificationStore'
 import { getLevelForXP, getXPToNextLevel } from '../lib/levels'
-import { AVATAR_CONFIG } from '../components/profile/AvatarPicker'
 
 export default function HomePage() {
   const profile       = useProfileStore((s) => s.getActiveProfile())
