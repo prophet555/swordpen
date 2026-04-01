@@ -2,6 +2,15 @@
 
 const audioContext = typeof window !== 'undefined' ? new (window.AudioContext || (window as any).webkitAudioContext)() : null
 
+// Resume audio context on iOS Safari
+export function resumeAudioContext() {
+  if (audioContext && audioContext.state === 'suspended') {
+    audioContext.resume().catch(() => {
+      // Silently handle if resume fails
+    })
+  }
+}
+
 export function playDingSound() {
   if (!audioContext) return
 

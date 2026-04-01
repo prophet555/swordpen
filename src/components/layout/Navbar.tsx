@@ -45,7 +45,7 @@ const TABS = [
     to: '/settings',
     label: 'Profile',
     icon: (active: boolean) => (
-      <svg width="22" height="22" viewBox="0 0 24 24" fill={active ? 'currentColor' : 'none'}
+      <svg width="26" height="26" viewBox="0 0 24 24" fill={active ? 'currentColor' : 'none'}
         stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
         <circle cx="12" cy="8" r="4" />
         <path d="M4 20c0-4 3.6-7 8-7s8 3 8 7" />
@@ -71,15 +71,15 @@ export default function Navbar() {
       {/* ── Desktop / tablet top bar ── */}
       <header className="hidden sm:flex sticky top-0 z-40 items-center justify-between
         bg-white/80 backdrop-blur-md border-b border-[#D1D1D6]
-        px-6 h-14 shrink-0">
+        px-6 h-[90px] shrink-0">
 
         {/* Brand */}
         <Link to="/home" className="flex items-center gap-2 shrink-0">
           <img
             src="/logo.svg"
             alt="SwordPen"
-            width="20"
-            height="20"
+            width="40"
+            height="40"
           />
           <span className="text-lg font-bold tracking-tight text-[#1C1C1E]">
             SwordPen
@@ -142,7 +142,7 @@ export default function Navbar() {
             <Link
               key={to}
               to={to}
-              className={`flex flex-col items-center justify-center gap-1 py-3 px-4 min-w-0 flex-1
+              className={`flex flex-col items-center justify-center gap-1 py-[17px] px-4 min-w-0 flex-1
                 rounded-xl transition-all duration-200
                 ${active
                   ? 'text-[#5E5CE6] bg-[#5E5CE6]/10'

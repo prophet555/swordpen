@@ -99,24 +99,24 @@ export default function HomePage() {
         <span className="text-xs font-semibold text-[#AEAEB2] uppercase tracking-wider">
           Playing on
         </span>
-        <div className="relative inline-block">
+        <div className="relative inline-block w-48">
           <select
             value={profile.difficulty}
             onChange={(e) => {
               updateProfile(profile.id, { difficulty: e.target.value as any })
             }}
-            className="appearance-none px-4 py-2.5 pr-9 rounded-xl
-              bg-white border-2 border-[#E5E5EA] text-sm font-semibold text-[#1C1C1E] capitalize
+            className="appearance-none w-full px-6 py-3 pr-12 rounded-xl
+              bg-white border-2 border-[#5E5CE6] text-base font-bold text-[#1C1C1E] capitalize
               cursor-pointer transition-all duration-200
-              hover:border-[#5E5CE6] hover:shadow-md
-              focus:outline-none focus:border-[#5E5CE6] focus:ring-4 focus:ring-[#5E5CE6]/20"
+              hover:border-[#4A48CC] hover:shadow-lg hover:bg-[#F8F7FF]
+              focus:outline-none focus:border-[#4A48CC] focus:ring-4 focus:ring-[#5E5CE6]/30"
           >
-            <option value="beginner">Beginner</option>
-            <option value="intermediate">Intermediate</option>
-            <option value="advanced">Advanced</option>
+            <option value="beginner">BEGINNER</option>
+            <option value="intermediate">INTERMEDIATE</option>
+            <option value="advanced">ADVANCED</option>
           </select>
           <svg
-            className="absolute right-3 top-1/2 -translate-y-1/2 w-4 h-4 pointer-events-none text-[#6B6B6B]"
+            className="absolute right-4 top-1/2 -translate-y-1/2 w-5 h-5 pointer-events-none text-[#5E5CE6]"
             fill="none" stroke="currentColor" viewBox="0 0 24 24"
           >
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
@@ -129,27 +129,27 @@ export default function HomePage() {
         <span className="text-xs font-semibold text-[#AEAEB2] uppercase tracking-wider">
           Word Type
         </span>
-        <div className="relative inline-block">
+        <div className="relative inline-block w-48">
           <select
             value={profile.preferredCategory}
             onChange={(e) => {
               updateProfile(profile.id, { preferredCategory: e.target.value as any })
             }}
-            className="appearance-none px-4 py-2.5 pr-9 rounded-xl
-              bg-white border-2 border-[#E5E5EA] text-sm font-semibold text-[#1C1C1E] capitalize
+            className="appearance-none w-full px-6 py-3 pr-12 rounded-xl
+              bg-white border-2 border-[#5E5CE6] text-base font-bold text-[#1C1C1E] capitalize
               cursor-pointer transition-all duration-200
-              hover:border-[#5E5CE6] hover:shadow-md
-              focus:outline-none focus:border-[#5E5CE6] focus:ring-4 focus:ring-[#5E5CE6]/20"
+              hover:border-[#4A48CC] hover:shadow-lg hover:bg-[#F8F7FF]
+              focus:outline-none focus:border-[#4A48CC] focus:ring-4 focus:ring-[#5E5CE6]/30"
           >
-            <option value="all">All Types</option>
-            <option value="essay">Essay</option>
-            <option value="journal">Journal</option>
-            <option value="report">Report</option>
-            <option value="speech">Speech</option>
-            <option value="general">General</option>
+            <option value="all">ALL TYPES</option>
+            <option value="essay">ESSAY</option>
+            <option value="journal">JOURNAL</option>
+            <option value="report">REPORT</option>
+            <option value="speech">SPEECH</option>
+            <option value="general">GENERAL</option>
           </select>
           <svg
-            className="absolute right-3 top-1/2 -translate-y-1/2 w-4 h-4 pointer-events-none text-[#6B6B6B]"
+            className="absolute right-4 top-1/2 -translate-y-1/2 w-5 h-5 pointer-events-none text-[#5E5CE6]"
             fill="none" stroke="currentColor" viewBox="0 0 24 24"
           >
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M19 14l-7 7m0 0l-7-7m7 7V3" />

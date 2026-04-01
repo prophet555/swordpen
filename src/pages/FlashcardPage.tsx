@@ -20,10 +20,11 @@ function shuffleArray<T>(arr: T[]): T[] {
 }
 
 const SELECT_BASE =
-  'px-2 py-1 rounded-lg border border-[#D1D1D6] bg-white ' +
-  'text-xs font-medium text-[#3A3A3C] ' +
-  'focus:border-[#5E5CE6] focus:outline-none focus:ring-1 focus:ring-[#5E5CE6]/20 ' +
-  'transition-colors duration-150 cursor-pointer'
+  'px-4 py-2.5 rounded-xl border-2 border-[#5E5CE6] bg-white ' +
+  'text-sm font-bold text-[#1C1C1E] capitalize ' +
+  'hover:border-[#4A48CC] hover:shadow-lg hover:bg-[#F8F7FF] ' +
+  'focus:border-[#4A48CC] focus:outline-none focus:ring-4 focus:ring-[#5E5CE6]/30 ' +
+  'transition-all duration-200 cursor-pointer'
 
 export default function FlashcardPage() {
   const navigate = useNavigate()
@@ -149,7 +150,7 @@ export default function FlashcardPage() {
       <div className="flex items-center gap-3">
         <button
           onClick={() => navigate('/home')}
-          className="flex items-center justify-center w-7 h-7 rounded-lg
+          className="flex items-center justify-center w-12 h-12 rounded-lg
             hover:bg-[#F2F2F7] active:scale-90 transition-all duration-150
             cursor-pointer shrink-0"
           aria-label="Back to home"
@@ -157,8 +158,8 @@ export default function FlashcardPage() {
           <img
             src="/logo.svg"
             alt="SwordPen"
-            width="20"
-            height="20"
+            width="32"
+            height="32"
             style={{ opacity: 0.7 }}
           />
         </button>
@@ -169,11 +170,11 @@ export default function FlashcardPage() {
           onChange={handleCategoryChange}
           className={SELECT_BASE}
         >
-          <option value="all">All types</option>
-          <option value="essay">Essay</option>
-          <option value="journal">Journal</option>
-          <option value="report">Report</option>
-          <option value="speech">Speech</option>
+          <option value="all">ALL TYPES</option>
+          <option value="essay">ESSAY</option>
+          <option value="journal">JOURNAL</option>
+          <option value="report">REPORT</option>
+          <option value="speech">SPEECH</option>
         </select>
 
         <button

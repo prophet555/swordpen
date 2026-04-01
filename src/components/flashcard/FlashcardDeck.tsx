@@ -4,7 +4,7 @@ import type { Word } from '../../types/word'
 import { useGamificationStore } from '../../stores/gamificationStore'
 import { useProfileStore } from '../../stores/profileStore'
 import { XP_VALUES } from '../../lib/xp'
-import { playDingSound, playSwipeSound, playCheckmarkSound } from '../../lib/sounds'
+import { playDingSound, playSwipeSound, playCheckmarkSound, resumeAudioContext } from '../../lib/sounds'
 import FlashcardCard from './FlashcardCard'
 import FlashcardProgress from './FlashcardProgress'
 
@@ -160,39 +160,6 @@ export default function FlashcardDeck({ words, onComplete, initialIndex = 0, onI
     setTimeout(() => setSwipeLabel(null), 650)
   }
 
-  const handleTouchStart = useCallback((e: React.TouchEvent) => {
-    const t = e.touches[0]
-    touchStartRef.current = { x: t.clientX, y: t.clientY }
-    didSwipeRef.current = false
-  }, [])
-
-  const handleTouchEnd = useCallback((e: React.TouchEvent) => {
-    if (!touchStartRef.current) return
-    const t = e.changedTouches[0]
-    const dx = t.clientX - touchStartRef.current.x
-    const dy = t.clientY - touchStartRef.current.y
-    const adx = Math.abs(dx)
-    const ady = Math.abs(dy)
-    const THRESHOLD = 50
-    touchStartRef.current = null
-
-    if (adx > THRESHOLD && adx > ady * 1.2) {
-      // Horizontal swipe → navigate
-      didSwipeRef.current = true
-      if (dx > 0) handlePrevious()
-      else handleNext()
-    } else if (!isFlipped && ady > THRESHOLD && ady > adx * 1.2) {
-      // Vertical swipe (only on front face to avoid conflict with back-face scrolling)
-      didSwipeRef.current = true
-      if (dy < 0) {
-        triggerConfirmation('know')
-        handleKnow()
-      } else {
-        triggerConfirmation('learning')
-        handleStillLearning()
-      }
-    }
-  }, [isFlipped, handlePrevious, handleNext, handleKnow, handleStillLearning])
 
   // ── Milestone tracking ──────────────────────────────────────────────
   useEffect(() => {
@@ -207,6 +174,53 @@ export default function FlashcardDeck({ words, onComplete, initialIndex = 0, onI
       }
     })
   }, [learnedIds.size, milestoneShown])
+
+  // ── Touch / swipe handling (page-wide) ────────────────────────────────
+  useEffect(() => {
+    if (isComplete) return
+
+    const onTouchStart = (e: TouchEvent) => {
+      resumeAudioContext()
+      const t = e.touches[0]
+      touchStartRef.current = { x: t.clientX, y: t.clientY }
+      didSwipeRef.current = false
+    }
+
+    const onTouchEnd = (e: TouchEvent) => {
+      if (!touchStartRef.current) return
+      const t = e.changedTouches[0]
+      const dx = t.clientX - touchStartRef.current.x
+      const dy = t.clientY - touchStartRef.current.y
+      const adx = Math.abs(dx)
+      const ady = Math.abs(dy)
+      const THRESHOLD = 50
+      touchStartRef.current = null
+
+      if (adx > THRESHOLD && adx > ady * 1.2) {
+        // Horizontal swipe → navigate
+        didSwipeRef.current = true
+        if (dx > 0) handlePrevious()
+        else handleNext()
+      } else if (!isFlipped && ady > THRESHOLD && ady > adx * 1.2) {
+        // Vertical swipe (only on front face to avoid conflict with back-face scrolling)
+        didSwipeRef.current = true
+        if (dy < 0) {
+          triggerConfirmation('know')
+          handleKnow()
+        } else {
+          triggerConfirmation('learning')
+          handleStillLearning()
+        }
+      }
+    }
+
+    document.addEventListener('touchstart', onTouchStart)
+    document.addEventListener('touchend', onTouchEnd)
+    return () => {
+      document.removeEventListener('touchstart', onTouchStart)
+      document.removeEventListener('touchend', onTouchEnd)
+    }
+  }, [isComplete, isFlipped, handlePrevious, handleNext, handleKnow, handleStillLearning])
 
   // ── Keyboard shortcuts ────────────────────────────────────────────────
   useEffect(() => {
@@ -268,13 +282,11 @@ export default function FlashcardDeck({ words, onComplete, initialIndex = 0, onI
         <FlashcardProgress current={currentIndex + 1} total={activeWords.length} />
       </div>
 
+      <div className="h-[15vh]" />
+
       <div className="flex flex-col items-center w-full max-w-lg gap-2 sm:gap-3">
         {/* Card + swipe overlay */}
-        <div
-          className="w-full relative"
-          onTouchStart={handleTouchStart}
-          onTouchEnd={handleTouchEnd}
-        >
+        <div className="w-full relative">
         <AnimatePresence>
           {swipeLabel && (
             <motion.div
