@@ -1,0 +1,21 @@
+<svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <!-- Left sword -->
+  <g transform="translate(64 64) rotate(-45) translate(-64 -64)">
+    <!-- Blade with pointed tip -->
+    <polygon points="54,15 64,5 74,15 74,80 54,80" fill="#5E5CE6" stroke="#1C1C1E" stroke-width="3" stroke-linejoin="round"/>
+    <!-- Cross-guard -->
+    <rect x="44" y="80" width="40" height="14" rx="3" fill="#1C1C1E" stroke="#1C1C1E" stroke-width="2"/>
+    <!-- Handle -->
+    <rect x="56" y="94" width="16" height="20" rx="3" fill="#5E5CE6" stroke="#1C1C1E" stroke-width="2"/>
+  </g>
+
+  <!-- Right sword -->
+  <g transform="translate(64 64) rotate(45) translate(-64 -64)">
+    <!-- Blade with pointed tip -->
+    <polygon points="54,15 64,5 74,15 74,80 54,80" fill="#5E5CE6" stroke="#1C1C1E" stroke-width="3" stroke-linejoin="round"/>
+    <!-- Cross-guard -->
+    <rect x="44" y="80" width="40" height="14" rx="3" fill="#1C1C1E" stroke="#1C1C1E" stroke-width="2"/>
+    <!-- Handle -->
+    <rect x="56" y="94" width="16" height="20" rx="3" fill="#5E5CE6" stroke="#1C1C1E" stroke-width="2"/>
+  </g>
+</svg>

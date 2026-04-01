@@ -29,7 +29,7 @@ const DIFFICULTIES: { tier: DifficultyTier; label: string; description: string; 
 export default function ProfileCreator() {
   const [name, setName] = useState('')
   const [avatar, setAvatar] = useState<AvatarId>('knight')
-  const [difficulty, setDifficulty] = useState<DifficultyTier>('beginner')
+  const [difficulty, setDifficulty] = useState<DifficultyTier>('intermediate')
   const createProfile = useProfileStore((s) => s.createProfile)
 
   const handleSubmit = (e: React.FormEvent) => {

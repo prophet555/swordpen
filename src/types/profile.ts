@@ -1,4 +1,4 @@
-import type { DifficultyTier } from './word'
+import type { DifficultyTier, WordCategory } from './word'
 
 export type AvatarId = 'knight' | 'wizard' | 'dragon' | 'phoenix' | 'unicorn' | 'shield'
 
@@ -7,6 +7,7 @@ export interface Profile {
   name: string
   avatar: AvatarId
   difficulty: DifficultyTier
+  preferredCategory: WordCategory | 'all'
   createdAt: string
   lastActiveAt: string
 }

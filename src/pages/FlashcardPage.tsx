@@ -1,8 +1,11 @@
 import { useEffect, useState, useMemo, useCallback } from 'react'
+import { useNavigate } from 'react-router-dom'
 import { useWordStore } from '../stores/wordStore'
+import { useProfileStore } from '../stores/profileStore'
 import type { Word, DifficultyTier, WordCategory } from '../types/word'
 import FlashcardDeck from '../components/flashcard/FlashcardDeck'
 import AddWordModal from '../components/flashcard/AddWordModal'
+import Celebration from '../components/ui/Celebration'
 
 const INDEX_STORAGE_KEY = 'flashcard-resume-index'
 const LEARNED_IDS_KEY = 'flashcard-learned-ids'
@@ -23,9 +26,14 @@ const SELECT_BASE =
   'transition-colors duration-150 cursor-pointer'
 
 export default function FlashcardPage() {
+  const navigate = useNavigate()
+  const profile = useProfileStore((s) => s.getActiveProfile())
   const { words, customWords, isLoaded, loadWords, filters, setFilters, getFilteredWords, addCustomWord } = useWordStore()
   const [showAddModal, setShowAddModal] = useState(false)
   const [toastWord, setToastWord] = useState<string | null>(null)
+  const [categoryInitialized, setCategoryInitialized] = useState(false)
+  const [showCelebration, setShowCelebration] = useState(false)
+  const [hasShownCelebration, setHasShownCelebration] = useState(false)
 
   const [shuffleSeed, setShuffleSeed] = useState(0)
   const [sessionKey,  setSessionKey]  = useState(0)
@@ -45,10 +53,24 @@ export default function FlashcardPage() {
   }, [isLoaded, loadWords])
 
   useEffect(() => {
+    if (profile && !categoryInitialized && isLoaded) {
+      setFilters({ category: profile.preferredCategory as WordCategory | 'all' })
+      setCategoryInitialized(true)
+    }
+  }, [profile, categoryInitialized, isLoaded, setFilters])
+
+  useEffect(() => {
     if (!isLoaded || initialLearnedIds.length === 0) return
     const idSet = new Set(initialLearnedIds)
     setLearnedWords(displayWords.filter(w => idSet.has(w.id)))
   }, [isLoaded])
+
+  useEffect(() => {
+    if (learnedWords.length === 10 && !hasShownCelebration) {
+      setShowCelebration(true)
+      setHasShownCelebration(true)
+    }
+  }, [learnedWords.length, hasShownCelebration])
 
   const filteredWords = useMemo(() => getFilteredWords(), [words, customWords, filters])
 
@@ -129,27 +151,25 @@ export default function FlashcardPage() {
   }
 
   return (
-    <div className="max-w-sm mx-auto lg:max-w-4xl px-4 pt-4 pb-4 space-y-4">
+    <div className="max-w-sm mx-auto lg:max-w-4xl px-4 pt-4 pb-4 space-y-1 sm:space-y-4">
 
-      {/* Compact toolbar — title · filters · count · shuffle all on one line */}
-      <div className="flex items-center gap-2">
-        <h1 className="text-sm font-semibold text-[#1C1C1E] tracking-tight shrink-0">
-          Flashcards
-        </h1>
-
-        <div className="w-px h-3 bg-[#D1D1D6] shrink-0" />
-
-        <select
-          id="difficulty"
-          value={filters.difficulty}
-          onChange={handleDifficultyChange}
-          className={SELECT_BASE}
+      {/* Compact toolbar — logo · types · shuffle */}
+      <div className="flex items-center gap-3">
+        <button
+          onClick={() => navigate('/home')}
+          className="flex items-center justify-center w-7 h-7 rounded-lg
+            hover:bg-[#F2F2F7] active:scale-90 transition-all duration-150
+            cursor-pointer shrink-0"
+          aria-label="Back to home"
         >
-          <option value="all">All levels</option>
-          <option value="beginner">Beginner</option>
-          <option value="intermediate">Intermediate</option>
-          <option value="advanced">Advanced</option>
-        </select>
+          <img
+            src="/logo.svg"
+            alt="SwordPen"
+            width="20"
+            height="20"
+            style={{ opacity: 0.7 }}
+          />
+        </button>
 
         <select
           id="category"
@@ -164,16 +184,12 @@ export default function FlashcardPage() {
           <option value="speech">Speech</option>
         </select>
 
-        <span className="text-xs text-[#AEAEB2] shrink-0 ml-auto">
-          {displayWords.length} cards
-        </span>
-
         <button
           onClick={handleShuffle}
           title="Shuffle"
           className="flex items-center justify-center w-6 h-6 rounded-md
             text-[#AEAEB2] hover:text-[#3A3A3C] hover:bg-[#F2F2F7]
-            active:scale-90 transition-all duration-150 cursor-pointer shrink-0"
+            active:scale-90 transition-all duration-150 cursor-pointer shrink-0 ml-auto"
         >
           <svg width="12" height="12" viewBox="0 0 24 24" fill="none"
             stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
@@ -181,20 +197,6 @@ export default function FlashcardPage() {
             <line x1="4" y1="20" x2="21" y2="3" />
             <polyline points="21 16 21 21 16 21" />
             <line x1="15" y1="15" x2="21" y2="21" />
-          </svg>
-        </button>
-
-        <button
-          onClick={() => setShowAddModal(true)}
-          title="Add word"
-          className="flex items-center justify-center w-6 h-6 rounded-md
-            text-[#5E5CE6] hover:bg-[#5E5CE6]/10
-            active:scale-90 transition-all duration-150 cursor-pointer shrink-0"
-        >
-          <svg width="13" height="13" viewBox="0 0 24 24" fill="none"
-            stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-            <line x1="12" y1="5" x2="12" y2="19" />
-            <line x1="5" y1="12" x2="19" y2="12" />
           </svg>
         </button>
       </div>
@@ -237,7 +239,7 @@ export default function FlashcardPage() {
 
       {/* Learned words panel */}
       {learnedWords.length > 0 && (
-        <div className="border border-[#E5E5EA] rounded-2xl overflow-hidden">
+        <div className="border border-[#E5E5EA] rounded-2xl overflow-hidden max-w-lg mx-auto">
           <button
             onClick={() => setShowLearned(p => !p)}
             className="w-full flex items-center justify-between px-4 py-3
@@ -290,6 +292,28 @@ export default function FlashcardPage() {
           <span className="text-[#34C759]">&ldquo;{toastWord}&rdquo;</span> added to your deck
         </span>
       </div>
+
+      {/* 10 Words Celebration */}
+      <Celebration
+        active={showCelebration}
+        onComplete={() => setShowCelebration(false)}
+      />
+      {showCelebration && (
+        <div className="fixed inset-0 flex items-center justify-center z-40 pointer-events-none">
+          <div className="bg-white rounded-3xl shadow-2xl px-8 py-12 text-center max-w-sm mx-4 pointer-events-auto">
+            <div className="text-5xl mb-4">🎉</div>
+            <h2 className="text-3xl font-bold text-[#1C1C1E] mb-2">
+              Amazing!
+            </h2>
+            <p className="text-lg text-[#6B6B6B] mb-6">
+              You've learned <span className="font-bold text-[#5E5CE6]">10 words</span> today!
+            </p>
+            <p className="text-sm text-[#AEAEB2]">
+              Keep up the momentum! 🚀
+            </p>
+          </div>
+        </div>
+      )}
     </div>
   )
 }

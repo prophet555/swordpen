@@ -68,7 +68,25 @@ export default function SettingsPage() {
 
   return (
     <div className="max-w-2xl mx-auto py-8 px-4">
-      <h1 className="text-4xl font-bold text-center mb-8">Settings ⚙️</h1>
+      {/* Header with back button */}
+      <div className="flex items-center gap-3 mb-8">
+        <button
+          onClick={() => navigate('/home')}
+          className="flex items-center justify-center w-7 h-7 rounded-lg
+            hover:bg-[#F2F2F7] active:scale-90 transition-all duration-150
+            cursor-pointer shrink-0"
+          aria-label="Back to home"
+        >
+          <img
+            src="/logo.svg"
+            alt="SwordPen"
+            width="20"
+            height="20"
+            style={{ opacity: 0.7 }}
+          />
+        </button>
+        <h1 className="text-4xl font-bold">Settings ⚙️</h1>
+      </div>
 
       {/* Name */}
       <div className="bg-white rounded-2xl p-6 shadow-md mb-6">

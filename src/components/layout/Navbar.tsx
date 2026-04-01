@@ -17,11 +17,17 @@ const TABS = [
     to: '/home',
     label: 'Home',
     icon: (active: boolean) => (
-      <svg width="22" height="22" viewBox="0 0 24 24" fill={active ? 'currentColor' : 'none'}
-        stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
-        <path d="M3 9.5L12 3l9 6.5V20a1 1 0 01-1 1H4a1 1 0 01-1-1V9.5z" />
-        <path d="M9 21V12h6v9" />
-      </svg>
+      <img
+        src="/logo.svg"
+        alt="SwordPen"
+        width="24"
+        height="24"
+        style={{
+          opacity: active ? 1 : 0.5,
+          filter: active ? 'drop-shadow(0 0 8px rgba(94, 92, 230, 0.4))' : 'none',
+          transition: 'all 0.15s ease',
+        }}
+      />
     ),
   },
   {
@@ -69,12 +75,14 @@ export default function Navbar() {
 
         {/* Brand */}
         <Link to="/home" className="flex items-center gap-2 shrink-0">
+          <img
+            src="/logo.svg"
+            alt="SwordPen"
+            width="20"
+            height="20"
+          />
           <span className="text-lg font-bold tracking-tight text-[#1C1C1E]">
             SwordPen
-          </span>
-          <span className="text-xs font-medium px-1.5 py-0.5 rounded-full
-            bg-[#EDEDFF] text-[#5E5CE6]">
-            vocab
           </span>
         </Link>
 
@@ -125,8 +133,8 @@ export default function Navbar() {
 
       {/* ── Mobile bottom tab bar ── */}
       <nav className="sm:hidden fixed bottom-0 inset-x-0 z-40
-        bg-white/90 backdrop-blur-md border-t border-[#D1D1D6]
-        flex items-center justify-around
+        bg-white/95 backdrop-blur-lg border-t border-[#E5E5EA]
+        flex items-center justify-around gap-1 px-2
         pb-[env(safe-area-inset-bottom,0px)]">
         {TABS.map(({ to, label, icon }) => {
           const active = location.pathname === to
@@ -134,9 +142,12 @@ export default function Navbar() {
             <Link
               key={to}
               to={to}
-              className={`flex flex-col items-center gap-0.5 py-2 px-6 min-w-0
-                transition-colors duration-150
-                ${active ? 'text-[#5E5CE6]' : 'text-[#AEAEB2]'}`}
+              className={`flex flex-col items-center justify-center gap-1 py-3 px-4 min-w-0 flex-1
+                rounded-xl transition-all duration-200
+                ${active
+                  ? 'text-[#5E5CE6] bg-[#5E5CE6]/10'
+                  : 'text-[#AEAEB2] hover:text-[#6B6B6B] hover:bg-[#F2F2F7]'
+                }`}
             >
               {icon(active)}
               <span className="text-[10px] font-semibold tracking-wide">{label}</span>

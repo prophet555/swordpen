@@ -5,8 +5,9 @@ import { getLevelForXP, getXPToNextLevel } from '../lib/levels'
 import { AVATAR_CONFIG } from '../components/profile/AvatarPicker'
 
 export default function HomePage() {
-  const profile     = useProfileStore((s) => s.getActiveProfile())
-  const getProgress = useGamificationStore((s) => s.getProgress)
+  const profile       = useProfileStore((s) => s.getActiveProfile())
+  const updateProfile = useProfileStore((s) => s.updateProfile)
+  const getProgress   = useGamificationStore((s) => s.getProgress)
 
   if (!profile) return null
 
@@ -20,17 +21,20 @@ export default function HomePage() {
   return (
     <div className="max-w-lg mx-auto px-4 pt-8 pb-4 space-y-6">
 
-      {/* Greeting */}
-      <div className="flex items-center justify-between">
-        <div>
-          <p className="text-sm font-medium text-[#6B6B6B]">Good to see you,</p>
-          <h1 className="text-2xl font-bold text-[#1C1C1E] tracking-tight">
+      {/* Logo and Greeting */}
+      <div className="flex flex-col items-center gap-4">
+        <img
+          src="/logo.svg"
+          alt="SwordPen"
+          width="48"
+          height="48"
+        />
+        <div className="text-center space-y-1">
+          <p className="text-lg font-medium text-[#6B6B6B]">Time to Lock In,</p>
+          <h1 className="text-5xl font-bold text-[#1C1C1E] tracking-tight">
             {profile.name}
           </h1>
         </div>
-        <span className="text-4xl" role="img" aria-label="avatar">
-          {avatarInfo.emoji}
-        </span>
       </div>
 
       {/* Level + XP card */}
@@ -92,16 +96,67 @@ export default function HomePage() {
         </svg>
       </Link>
 
-      {/* Difficulty badge */}
-      <div className="flex items-center gap-2 px-1">
-        <span className="text-xs font-medium text-[#AEAEB2]">Playing on</span>
-        <span className="text-xs font-semibold px-2 py-0.5 rounded-full
-          bg-[#F2F2F7] text-[#1C1C1E] capitalize">
-          {profile.difficulty}
+      {/* Difficulty selector */}
+      <div className="flex items-center gap-3">
+        <span className="text-xs font-semibold text-[#AEAEB2] uppercase tracking-wider">
+          Playing on
         </span>
-        <Link to="/settings" className="text-xs text-[#5E5CE6] hover:underline ml-auto">
-          Change
-        </Link>
+        <div className="relative inline-block">
+          <select
+            value={profile.difficulty}
+            onChange={(e) => {
+              updateProfile(profile.id, { difficulty: e.target.value as any })
+            }}
+            className="appearance-none px-4 py-2.5 pr-9 rounded-xl
+              bg-white border-2 border-[#E5E5EA] text-sm font-semibold text-[#1C1C1E] capitalize
+              cursor-pointer transition-all duration-200
+              hover:border-[#5E5CE6] hover:shadow-md
+              focus:outline-none focus:border-[#5E5CE6] focus:ring-4 focus:ring-[#5E5CE6]/20"
+          >
+            <option value="beginner">Beginner</option>
+            <option value="intermediate">Intermediate</option>
+            <option value="advanced">Advanced</option>
+          </select>
+          <svg
+            className="absolute right-3 top-1/2 -translate-y-1/2 w-4 h-4 pointer-events-none text-[#6B6B6B]"
+            fill="none" stroke="currentColor" viewBox="0 0 24 24"
+          >
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+          </svg>
+        </div>
+      </div>
+
+      {/* Word Type selector */}
+      <div className="flex items-center gap-3">
+        <span className="text-xs font-semibold text-[#AEAEB2] uppercase tracking-wider">
+          Word Type
+        </span>
+        <div className="relative inline-block">
+          <select
+            value={profile.preferredCategory}
+            onChange={(e) => {
+              updateProfile(profile.id, { preferredCategory: e.target.value as any })
+            }}
+            className="appearance-none px-4 py-2.5 pr-9 rounded-xl
+              bg-white border-2 border-[#E5E5EA] text-sm font-semibold text-[#1C1C1E] capitalize
+              cursor-pointer transition-all duration-200
+              hover:border-[#5E5CE6] hover:shadow-md
+              focus:outline-none focus:border-[#5E5CE6] focus:ring-4 focus:ring-[#5E5CE6]/20"
+          >
+            <option value="all">All Types</option>
+            <option value="essay">Essay</option>
+            <option value="journal">Journal</option>
+            <option value="report">Report</option>
+            <option value="speech">Speech</option>
+            <option value="general">General</option>
+          </select>
+          <svg
+            className="absolute right-3 top-1/2 -translate-y-1/2 w-4 h-4 pointer-events-none text-[#6B6B6B]"
+            fill="none" stroke="currentColor" viewBox="0 0 24 24"
+          >
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+          </svg>
+        </div>
       </div>
     </div>
   )

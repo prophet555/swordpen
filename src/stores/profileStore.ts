@@ -8,7 +8,7 @@ interface ProfileState {
   activeProfileId: string | null
   createProfile: (name: string, avatar: AvatarId, difficulty: DifficultyTier) => string
   selectProfile: (id: string) => void
-  updateProfile: (id: string, updates: Partial<Pick<Profile, 'name' | 'avatar' | 'difficulty'>>) => void
+  updateProfile: (id: string, updates: Partial<Pick<Profile, 'name' | 'avatar' | 'difficulty' | 'preferredCategory'>>) => void
   deleteProfile: (id: string) => void
   getActiveProfile: () => Profile | null
   logout: () => void
@@ -28,6 +28,7 @@ export const useProfileStore = create<ProfileState>()(
           name,
           avatar,
           difficulty,
+          preferredCategory: 'essay',
           createdAt: now,
           lastActiveAt: now,
         }
@@ -68,6 +69,17 @@ export const useProfileStore = create<ProfileState>()(
 
       logout: () => set({ activeProfileId: null }),
     }),
-    { name: 'swordpen-profiles' }
+    {
+      name: 'swordpen-profiles',
+      onRehydrateStorage: () => (state) => {
+        if (state) {
+          state.profiles = state.profiles.map(p => ({
+            ...p,
+            preferredCategory: (p as any).preferredCategory || 'essay',
+            difficulty: p.difficulty || 'intermediate',
+          }))
+        }
+      },
+    }
   )
 )
