@@ -16,7 +16,6 @@ export default function HomePage() {
   const xpInfo     = getXPToNextLevel(progress.xp)
   const xpPct      = Math.round(xpInfo.progress * 100)
   const xpRemaining = xpInfo.needed - xpInfo.current
-  const avatarInfo = AVATAR_CONFIG[profile.avatar]
 
   return (
     <div className="max-w-lg mx-auto px-4 pt-8 pb-4 space-y-6">

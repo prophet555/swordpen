@@ -2,7 +2,7 @@ import { useEffect, useState, useMemo, useCallback } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { useWordStore } from '../stores/wordStore'
 import { useProfileStore } from '../stores/profileStore'
-import type { Word, DifficultyTier, WordCategory } from '../types/word'
+import type { Word, WordCategory } from '../types/word'
 import FlashcardDeck from '../components/flashcard/FlashcardDeck'
 import AddWordModal from '../components/flashcard/AddWordModal'
 import Celebration from '../components/ui/Celebration'
@@ -96,14 +96,6 @@ export default function FlashcardPage() {
     setShuffleSeed(p => p + 1)
     resetSession()
   }, [resetSession])
-
-  const handleDifficultyChange = useCallback(
-    (e: React.ChangeEvent<HTMLSelectElement>) => {
-      setFilters({ difficulty: e.target.value as DifficultyTier | 'all' })
-      resetSession()
-    },
-    [setFilters, resetSession]
-  )
 
   const handleCategoryChange = useCallback(
     (e: React.ChangeEvent<HTMLSelectElement>) => {
