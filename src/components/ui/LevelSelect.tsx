@@ -11,7 +11,7 @@ export default function LevelSelect({ value, onChange, minLevel, maxLevel }: Lev
   const [isOpen, setIsOpen] = useState(false)
   const containerRef = useRef<HTMLDivElement>(null)
 
-  const levels = ['all', ...Array.from({ length: maxLevel - minLevel + 1 }, (_, i) => minLevel + i)]
+  const levels: (string | number)[] = ['all', ...Array.from({ length: maxLevel - minLevel + 1 }, (_, i) => minLevel + i)]
   const currentLabel = value === 'all' ? '📊 ALL LEVELS' : `📊 LEVEL ${value}`
 
   useEffect(() => {
@@ -56,7 +56,7 @@ export default function LevelSelect({ value, onChange, minLevel, maxLevel }: Lev
             <button
               key={level}
               onClick={() => {
-                onChange(level === 'all' ? 'all' : level)
+                onChange(level === 'all' ? 'all' : (level as number))
                 setIsOpen(false)
               }}
               className={`w-full px-6 py-2 text-left text-sm font-medium capitalize transition-all ${
