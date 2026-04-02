@@ -14,4 +14,5 @@ export interface Word {
   partOfSpeech: string
   tip?: string
   imageUrl?: string
+  level?: number
 }

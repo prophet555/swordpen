@@ -7,6 +7,7 @@ import FlashcardDeck from '../components/flashcard/FlashcardDeck'
 import AddWordModal from '../components/flashcard/AddWordModal'
 import Celebration from '../components/ui/Celebration'
 import CategorySelect from '../components/ui/CategorySelect'
+import LevelSelect from '../components/ui/LevelSelect'
 
 const INDEX_STORAGE_KEY = 'flashcard-resume-index'
 const LEARNED_IDS_KEY = 'flashcard-learned-ids'
@@ -94,11 +95,27 @@ export default function FlashcardPage() {
 
   const handleCategoryChange = useCallback(
     (category: WordCategory | 'all') => {
-      setFilters({ category })
+      setFilters({ category, level: 'all' })
       resetSession()
     },
     [setFilters, resetSession]
   )
+
+  const handleLevelChange = useCallback(
+    (level: number | 'all') => {
+      setFilters({ level })
+      resetSession()
+    },
+    [setFilters, resetSession]
+  )
+
+  const getLevelRange = () => {
+    if (filters.category === 'spellingSenior') return { min: 2, max: 5 }
+    if (filters.category === 'spellingJunior') return { min: 1, max: 5 }
+    return { min: 1, max: 5 }
+  }
+
+  const shouldShowLevelSelect = filters.category === 'spellingSenior' || filters.category === 'spellingJunior'
 
   const handleComplete = useCallback(
     (results: { correct: string[]; incorrect: string[] }) => {
@@ -162,6 +179,15 @@ export default function FlashcardPage() {
           value={filters.category}
           onChange={handleCategoryChange}
         />
+
+        {shouldShowLevelSelect && (
+          <LevelSelect
+            value={filters.level}
+            onChange={handleLevelChange}
+            minLevel={getLevelRange().min}
+            maxLevel={getLevelRange().max}
+          />
+        )}
 
         <button
           onClick={handleShuffle}

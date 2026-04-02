@@ -11,6 +11,7 @@ interface WordState {
   filters: {
     difficulty: DifficultyTier | 'all'
     category: WordCategory | 'all'
+    level: number | 'all'
   }
   loadWords: () => Promise<void>
   setFilters: (filters: Partial<WordState['filters']>) => void
@@ -47,6 +48,7 @@ async function fetchSpellingFile(filename: string, category: 'spellingSenior' | 
       difficulty: mapLevelToDifficulty(item.level),
       categories: [category],
       partOfSpeech: item.partOfSpeech,
+      level: item.level,
     })).filter(validateWord)
   } catch {
     console.warn(`Failed to load ${filename}`)
@@ -93,7 +95,7 @@ export const useWordStore = create<WordState>()((set, get) => ({
   customWords: loadCustomWordsFromStorage(),
   isLoaded: false,
   error: null,
-  filters: { difficulty: 'all', category: 'all' },
+  filters: { difficulty: 'all', category: 'all', level: 'all' },
 
   loadWords: async () => {
     try {
@@ -126,6 +128,7 @@ export const useWordStore = create<WordState>()((set, get) => ({
     return all.filter(w => {
       if (filters.difficulty !== 'all' && w.difficulty !== filters.difficulty) return false
       if (filters.category !== 'all' && !w.categories.includes(filters.category)) return false
+      if (filters.level !== 'all' && w.level !== filters.level) return false
       return true
     })
   },
