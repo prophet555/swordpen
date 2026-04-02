@@ -32,6 +32,34 @@ async function fetchWordFile(filename: string): Promise<Word[]> {
   }
 }
 
+async function fetchSpellingFile(filename: string, category: 'spellingSenior' | 'spellingJunior'): Promise<Word[]> {
+  try {
+    const res = await fetch(`/data/${filename}`)
+    if (!res.ok) return []
+    const data = await res.json()
+    if (!Array.isArray(data)) return []
+    return data.map(item => ({
+      id: String(item.id),
+      word: item.word,
+      definition: item.definition,
+      synonyms: [],
+      exampleSentences: [],
+      difficulty: mapLevelToDifficulty(item.level),
+      categories: [category],
+      partOfSpeech: item.partOfSpeech,
+    })).filter(validateWord)
+  } catch {
+    console.warn(`Failed to load ${filename}`)
+    return []
+  }
+}
+
+function mapLevelToDifficulty(level: number): DifficultyTier {
+  if (level === 1) return 'beginner'
+  if (level === 2) return 'intermediate'
+  return 'advanced'
+}
+
 function validateWord(w: unknown): w is Word {
   if (!w || typeof w !== 'object') return false
   const obj = w as Record<string, unknown>
@@ -69,7 +97,7 @@ export const useWordStore = create<WordState>()((set, get) => ({
 
   loadWords: async () => {
     try {
-      const [beginner, intermediate, advanced, informative, narrative, persuasive, journal] = await Promise.all([
+      const [beginner, intermediate, advanced, informative, narrative, persuasive, journal, spellingSenior, spellingJunior] = await Promise.all([
         fetchWordFile('words-beginner.json'),
         fetchWordFile('words-intermediate.json'),
         fetchWordFile('words-advanced.json'),
@@ -77,8 +105,10 @@ export const useWordStore = create<WordState>()((set, get) => ({
         fetchWordFile('words-narrative.json'),
         fetchWordFile('words-persuasive.json'),
         fetchWordFile('journal-words.json'),
+        fetchSpellingFile('spellingSenior.json', 'spellingSenior'),
+        fetchSpellingFile('spellingJunior.json', 'spellingJunior'),
       ])
-      const allWords = [...beginner, ...intermediate, ...advanced, ...informative, ...narrative, ...persuasive, ...journal]
+      const allWords = [...beginner, ...intermediate, ...advanced, ...informative, ...narrative, ...persuasive, ...journal, ...spellingSenior, ...spellingJunior]
       set({ words: allWords, isLoaded: true, error: null })
     } catch (e) {
       set({ error: 'Failed to load words', isLoaded: true })

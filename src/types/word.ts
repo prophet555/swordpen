@@ -1,6 +1,6 @@
 export type DifficultyTier = 'beginner' | 'intermediate' | 'advanced'
 
-export type WordCategory = 'essay' | 'journal' | 'report' | 'speech' | 'general'
+export type WordCategory = 'essay' | 'journal' | 'report' | 'speech' | 'general' | 'spellingSenior' | 'spellingJunior'
 
 export interface Word {
   id: string

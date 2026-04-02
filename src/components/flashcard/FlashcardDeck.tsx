@@ -86,6 +86,7 @@ export default function FlashcardDeck({ words, onComplete, initialIndex = 0, onI
     const word = activeWords[currentIndex]
     if (!word) return
 
+    triggerConfirmation('know')
     playDingSound()
     setCorrect(prev => [...prev, word.id])
     setIsFlipped(false)
@@ -124,6 +125,7 @@ export default function FlashcardDeck({ words, onComplete, initialIndex = 0, onI
   const handleStillLearning = useCallback(() => {
     const word = activeWords[currentIndex]
     if (!word) return
+    triggerConfirmation('learning')
     playCheckmarkSound()
     setIncorrect(prev => [...prev, word.id])
     if (profileId) {
@@ -282,7 +284,7 @@ export default function FlashcardDeck({ words, onComplete, initialIndex = 0, onI
         <FlashcardProgress current={currentIndex + 1} total={activeWords.length} />
       </div>
 
-      <div className="h-[15vh]" />
+      <div className="h-[10vh]" />
 
       <div className="flex flex-col items-center w-full max-w-lg gap-2 sm:gap-3">
         {/* Card + swipe overlay */}

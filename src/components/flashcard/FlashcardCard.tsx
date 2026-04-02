@@ -19,12 +19,12 @@ const synonymColors = [
 export default function FlashcardCard({ word, isFlipped, onFlip }: FlashcardCardProps) {
   return (
     <div
-      className="w-full min-h-[220px] lg:min-h-[520px] cursor-pointer"
+      className="w-full min-h-[340px] lg:min-h-[640px] cursor-pointer"
       style={{ perspective: 1400 }}
       onClick={onFlip}
     >
       <motion.div
-        className="relative w-full min-h-[220px] lg:min-h-[520px]"
+        className="relative w-full min-h-[340px] lg:min-h-[640px]"
         style={{ transformStyle: 'preserve-3d' }}
         animate={{ rotateY: isFlipped ? 180 : 0 }}
         transition={{ duration: 0.5, ease: 'easeInOut' }}
@@ -38,12 +38,15 @@ export default function FlashcardCard({ word, isFlipped, onFlip }: FlashcardCard
           style={{ backfaceVisibility: 'hidden' }}
         >
           <span
-            className="font-extrabold tracking-wide drop-shadow-md text-center leading-tight whitespace-nowrap"
-            style={{ fontSize: `clamp(1.5rem, ${70 / word.word.length}vw, 9rem)` }}
+            className="font-extrabold tracking-wide drop-shadow-md text-center leading-tight whitespace-nowrap mb-6 lg:mb-12"
+            style={{
+              fontSize: `clamp(1.5rem, ${35 / word.word.length}vw, 3.5rem)`,
+              overflow: 'visible'
+            }}
           >
             {word.word}
           </span>
-          <span className="mt-3 lg:mt-6 text-base lg:text-3xl font-medium italic opacity-90
+          <span className="text-base lg:text-3xl font-medium italic opacity-90
             bg-white/20 px-3 lg:px-6 py-1 lg:py-2 rounded-full">
             {word.partOfSpeech}
           </span>

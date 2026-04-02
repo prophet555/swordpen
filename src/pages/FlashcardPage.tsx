@@ -6,6 +6,7 @@ import type { Word, WordCategory } from '../types/word'
 import FlashcardDeck from '../components/flashcard/FlashcardDeck'
 import AddWordModal from '../components/flashcard/AddWordModal'
 import Celebration from '../components/ui/Celebration'
+import CategorySelect from '../components/ui/CategorySelect'
 
 const INDEX_STORAGE_KEY = 'flashcard-resume-index'
 const LEARNED_IDS_KEY = 'flashcard-learned-ids'
@@ -18,13 +19,6 @@ function shuffleArray<T>(arr: T[]): T[] {
   }
   return copy
 }
-
-const SELECT_BASE =
-  'px-4 py-2.5 rounded-xl border-2 border-[#5E5CE6] bg-white ' +
-  'text-sm font-bold text-[#1C1C1E] capitalize ' +
-  'hover:border-[#4A48CC] hover:shadow-lg hover:bg-[#F8F7FF] ' +
-  'focus:border-[#4A48CC] focus:outline-none focus:ring-4 focus:ring-[#5E5CE6]/30 ' +
-  'transition-all duration-200 cursor-pointer'
 
 export default function FlashcardPage() {
   const navigate = useNavigate()
@@ -99,8 +93,8 @@ export default function FlashcardPage() {
   }, [resetSession])
 
   const handleCategoryChange = useCallback(
-    (e: React.ChangeEvent<HTMLSelectElement>) => {
-      setFilters({ category: e.target.value as WordCategory | 'all' })
+    (category: WordCategory | 'all') => {
+      setFilters({ category })
       resetSession()
     },
     [setFilters, resetSession]
@@ -164,18 +158,10 @@ export default function FlashcardPage() {
           />
         </button>
 
-        <select
-          id="category"
+        <CategorySelect
           value={filters.category}
           onChange={handleCategoryChange}
-          className={SELECT_BASE}
-        >
-          <option value="all">ALL TYPES</option>
-          <option value="essay">ESSAY</option>
-          <option value="journal">JOURNAL</option>
-          <option value="report">REPORT</option>
-          <option value="speech">SPEECH</option>
-        </select>
+        />
 
         <button
           onClick={handleShuffle}
