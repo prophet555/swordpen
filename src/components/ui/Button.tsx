@@ -41,7 +41,7 @@ export default function Button({
         transition-all duration-150 ease-in-out
         focus:outline-none focus:ring-4
         disabled:opacity-50 disabled:cursor-not-allowed
-        cursor-pointer select-none
+        cursor-pointer select-none touch-manipulation
         ${variantClasses[variant]}
         ${sizeClasses[size]}
         ${className}

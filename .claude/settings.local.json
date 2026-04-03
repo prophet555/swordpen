@@ -27,7 +27,9 @@
       "Bash(cmd /c start \"\" \"C:\\\\Users\\\\mrbig\\\\AppData\\\\Roaming\\\\Zed\\\\settings.json\")",
       "Bash(wc -l /c/Users/mrbig/dev/SwordPen/dist/data/*.json)",
       "Bash(find C:/Users/mrbig/dev/SwordPen/public/data -name \"*.json\" -exec wc -l {} +)",
-      "Bash(wc -l C:/Users/mrbig/dev/SwordPen/public/data/words-*.json)"
+      "Bash(wc -l C:/Users/mrbig/dev/SwordPen/public/data/words-*.json)",
+      "Bash(npx --yes sharp-cli --version)",
+      "Bash(npx sharp-cli:*)"
     ]
   }
 }

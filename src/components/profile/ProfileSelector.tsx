@@ -12,14 +12,16 @@ export default function ProfileSelector() {
   /* ── No profiles yet: go straight to creation ── */
   if (profiles.length === 0) {
     return (
-      <div className="min-h-dvh bg-[#F5F5F7] flex items-center justify-center p-6">
-        <ProfileCreator />
+      <div className="min-h-dvh bg-[#F5F5F7] flex flex-col items-center overflow-y-auto p-6">
+        <div className="my-auto">
+          <ProfileCreator />
+        </div>
       </div>
     )
   }
 
   return (
-    <div className="min-h-dvh bg-[#F5F5F7] flex flex-col items-center justify-center p-6">
+    <div className="min-h-dvh bg-[#F5F5F7] flex flex-col items-center overflow-y-auto p-6">
       <div className="w-full max-w-md space-y-6">
 
         {/* Header */}
