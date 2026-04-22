@@ -110,7 +110,7 @@ export default function FlashcardPage() {
   )
 
   const getLevelRange = () => {
-    if (filters.category === 'spellingSenior') return { min: 2, max: 5 }
+    if (filters.category === 'spellingSenior') return { min: 2, max: 6 }
     if (filters.category === 'spellingJunior') return { min: 1, max: 5 }
     return { min: 1, max: 5 }
   }
